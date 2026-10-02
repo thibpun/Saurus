@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arhitektonski studio Saurus - Za unapređenje prostora za život običnih ljudi</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="\src\style.css">
+  </head>
+  <body>
+    <header class="navbar" style="box-shadow: none;">
+      <a href="../index.html" id="logo-container">
+        <img src="/studio-saurus-logo.png" alt="logo" srcset="" class="logo">
+      </a>
+      <button class="mobile-nav-toggle" aria-controls="nav-menu" aria-expanded="false">
+        <iconify-icon icon="ri:menu-line" id="menu-icon"></iconify-icon>
+        <span class="sr-only">Menu</span>
+      </button>
+      <nav>
+        <ul id="nav-menu" data-visible="false">
+          <li><a href="#">Vesti</a></li>
+          <li><a href="/projekti/">Projekti</a></li>
+          <li><a href="/studio/">Studio</a></li>
+          <li><a href="#">LANG</a></li>
+        </ul>
+      </nav>
+    </header>
+    <h1 style="display: none;">Projekti</h1>
+    <!-- parent div bicause of position sticky on filter -->
+    <div> 
+      <div id="filter-container">
+        <h2 style="display: none;">Filteri</h2>
+        <div class="filter-subcontainer" id="type-filter">
+          <button type="button" aria-haspopup="listbox" aria-expanded="false">
+            Tip
+            <iconify-icon icon="ri:arrow-down-s-line"></iconify-icon>
+            <iconify-icon icon="ri:arrow-up-s-line"></iconify-icon>
+          </button> 
+          <ul role="listbox" aria-multiselectable="true"  class="filter-group">
+            <li><button type="button" aria-pressed="true" class="active">
+              <iconify-icon icon="ri:checkbox-fill"></iconify-icon>Sve
+            </button></li>
+            <li><button type="button" aria-pressed="false">
+              <iconify-icon icon="ri:checkbox-blank-line"></iconify-icon>Poslovni
+            </button></li>
+            <li><button type="button" aria-pressed="false">
+              <iconify-icon icon="ri:checkbox-blank-line"></iconify-icon>Urbanizam
+            </button></li>
+            <li><button type="button" aria-pressed="false">
+              <iconify-icon icon="ri:checkbox-blank-line"></iconify-icon>Stambeni
+            </button></li>
+            <li><button type="button" aria-pressed="false">
+              <iconify-icon icon="ri:checkbox-blank-line"></iconify-icon>Kuća
+            </button></li>
+            <li><button type="button" aria-pressed="false">
+              <iconify-icon icon="ri:checkbox-blank-line"></iconify-icon>Javni
+            </button></li>
+          </ul>
+        </div>
+        <div class="filter-subcontainer" id="phase-filter">
+          <button type="button" aria-haspopup="listbox" aria-expanded="false">
+            Faza
+            <iconify-icon icon="ri:arrow-down-s-line"></iconify-icon>
+            <iconify-icon icon="ri:arrow-up-s-line"></iconify-icon>
+          </button>
+          <ul role="listbox" aria-multiselectable="true" class="filter-group">
+            <li><button type="button" aria-pressed="true" class="active">
+              <iconify-icon icon="ri:checkbox-fill"></iconify-icon>Sve
+            </button></li>
+            <li><button type="button" aria-pressed="false">
+              <iconify-icon icon="ri:checkbox-blank-line"></iconify-icon>Idejni
+            </button></li>
+            <li><button type="button" aria-pressed="false">
+              <iconify-icon icon="ri:checkbox-blank-line"></iconify-icon>Glavni
+            </button></li>
+            <li><button type="button" aria-pressed="false">
+              <iconify-icon icon="ri:checkbox-blank-line"></iconify-icon>Enterijer
+            </button></li>
+          </ul>
+        </div>
+        <div class="filter-subcontainer" id="status-filter">
+          <button type="button" aria-haspopup="listbox" aria-expanded="false">
+            Status
+            <iconify-icon icon="ri:arrow-down-s-line"></iconify-icon>
+            <iconify-icon icon="ri:arrow-up-s-line"></iconify-icon>
+          </button>
+          <ul role="listbox" aria-multiselectable="true" class="filter-group">
+            <li><button type="button" aria-pressed="true" class="active">
+              <iconify-icon icon="ri:checkbox-fill"></iconify-icon>Sve
+            </button></li>
+            <li><button type="button" aria-pressed="false">
+              <iconify-icon icon="ri:checkbox-blank-line"></iconify-icon>Konkurs
+            </button></li>
+            <li><button type="button" aria-pressed="false">
+              <iconify-icon icon="ri:checkbox-blank-line"></iconify-icon>Nagrađen
+            </button></li>
+            <li><button type="button" aria-pressed="false">
+              <iconify-icon icon="ri:checkbox-blank-line"></iconify-icon>Izveden
+            </button></li>
+          </ul>
+        </div>
+        <div id="year-filter">
+          <button type="button" aria-haspopup="listbox" aria-expanded="false">
+            Godina
+            <iconify-icon icon="ri:arrow-down-s-line"></iconify-icon>
+            <iconify-icon icon="ri:arrow-up-s-line"></iconify-icon>
+          </button>
+          <ul role="listbox" aria-multiselectable="true">
+            <li><button type="button" role="option" aria-selected="true" class="active">
+              <iconify-icon icon="ri:checkbox-fill"></iconify-icon>Sve
+            </button></li>
+            <li><button type="button" role="option" aria-selected="false">
+              <iconify-icon icon="ri:checkbox-blank-line"></iconify-icon>2019
+            </button></li>
+            <li><button type="button" role="option" aria-selected="false">
+              <iconify-icon icon="ri:checkbox-blank-line"></iconify-icon>2018
+            </button></li>
+          </ul>
+        </div>
+      </div>
+      <div id="project-container">
+        <div id="projects">
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="link-container">
+        <a href="https://www.linkedin.com/company/studio-saurus/"><iconify-icon icon="ri:linkedin-fill" class="link-icon"></iconify-icon></a>
+        <a href="https://www.facebook.com/StudioSaurus/"><iconify-icon icon="ri:facebook-fill" class="link-icon"></iconify-icon> </a>
+        <a href="https://www.instagram.com/studio_saurus/"><iconify-icon icon="ri:instagram-line" class="link-icon"></iconify-icon></a>
+      </div>
+    </footer>
+
+    <script type="module" src="/src/filterUI.js"></script>
+    <script type="module" src="/src/filters.js"></script>
+    <script type="module" src="/src/loadProjects.js"></script>
+    <script type="module" src="/src/nav.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+  </body>
+</html>

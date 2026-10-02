@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arhitektonski studio Saurus - Za unapređenje prostora za život običnih ljudi</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="\src\style.css">
+  </head>
+  <body>
+    <header class="navbar" style="box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);">
+      <a href="../index.html" id="logo-container">
+        <img src="/studio-saurus-logo.png" alt="logo" srcset="" class="logo">
+      </a>
+      <button class="mobile-nav-toggle" aria-controls="nav-menu" aria-expanded="false">
+        <iconify-icon icon="ri:menu-line" id="menu-icon"></iconify-icon>
+        <span class="sr-only">Menu</span>
+      </button>
+      <nav>
+        <ul id="nav-menu" data-visible="false">
+          <li><a href="#">Vesti</a></li>
+          <li><a href="/projekti/">Projekti</a></li>
+          <li><a href="/studio/">Studio</a></li>
+          <li><a href="#">LANG</a></li>
+        </ul>
+      </nav>
+    </header>
+    <h1 style="display: none;">O studiju</h1>
+    <div id="about-container">
+        <img src="/src/assets/about.jpg" alt="" srcset="">
+        <div class="about-text">
+            <div class="about-text-column">
+              <p>Osnovan 2007. godine, Saurus je arhitektonski studio za unapređenje prostora za život običnih ljudi sa težnjom da se uključi što širi krug uticaja bez izuzetaka i time postigne maksimalan broj rešenih problema ugrađenih u harmoničnu celinu. Arhitekturu ne shvatamo kao modni trend. Svako rešenje zasnivamo na kontekstu i na klasičnim, neprolaznim vrednostima, utemeljenim na prirodi stvari.</p>
+              <p>Potvrdu da smo krenuli pravim putem, i podstrek da tako nastavimo, dobili smo na samom početku od cenjenih profesora Arhitektonskog fakulteta u Beogradu koji su nas kao predsednici žirija nagradili na tri domaća anonimna konkursa.</p>
+              <p>Imamo iza sebe veliki broj objekata, uglavnom izvedenih. Projekti variraju od dogradnji, rekonstrukcija, enterijera, projekata porodičnih kuća, stambeno–poslovnih objekata, do većih stambenih kompleksa, trgovačkih i turističkih objekata, javnih površina i trgova. Pritom nam cilj nikada nije bio kvantitet, već kvalitet.</p>
+              <p>Arhitektonski studio Saurus pruža usluge projektovanja celokupne tehničke dokumentacije potrebne za gradnju, ozakonjenja – legalizacije postojećih objekata, pomoći u odabiru i urbanističkoj analizi lokacije, parcele i pripremi dokumentacije, zajednički rad sa krajnjim korisnicima, nadzor i savetodavnu podršku tokom celog procesa koji vodi useljenom objektu.</p>
+            </div>
+            <div class="about-text-column">
+              <p>Svaki objekat prvo „izgradimo“ u virtuelnoj stvarnosti prostornog informacionog modela, što svodi broj grešaka u sinhronizaciji delova projekta na minimum i znatno doprinosi jasnijoj komunikaciji, kako sa investitorom, tako i sa krajnjim korisnicima kroz vizuelizacije i prezentacije, kataloge stanova, enterijerska rešenja i slično.</p>
+              <p>Naš cilj je da se podigne kvalitet izvedenih objekata prosečne cene izgradnje za svakodnevni život običnog čoveka – od porodičnih kuća preko stambenih višeporodičnih objekata do poslovnih i drugih objekata.</p>
+              <p>Naš princip je bliska saradnja sa investitorima u čijoj smo ulozi i sami bili na nekoliko građevinskih poduhvata, i odlično se upoznali sa interesima i problemima ovog posla.</p>
+              <p>Studio Saurus čine arhitekti Jelena i Srđan Tomić uz podršku partnera i honorarno angažovanih kolega koji pokrivaju različite specijalističke oblasti. Težimo usklađivanju svih delova projektne dokumentacije u skladnu celinu sa minimumom grešaka čime smanjujemo nepotrebne troškove investitora, ali uvek uz maksimalni mogući kvalitet u datim uslovima.</p>
+            </div>
+        </div>
+        <div id="map"></div>
+        <div class="contact-info">
+          <div class="contact-grid-container">
+            <h2 style="grid-area: box-1;">Kontakt</h2>
+            <address class="contact-column" style="grid-area: box-2;">
+              <p>Đevđelijska 14, Beograd</p>
+              <p>Tel. +381 65 47 43 024</p>
+              <p>E-mail:<a href="mailto:studio@saurus.rs">studio@saurus.rs</a></p>
+            </address>
+            <address class="contact-column" style="grid-area: box-3;">
+              <p>Bul. Kralja Aleksandra 274</p>
+              <p>Tel. +381 65 47 43 024</p>
+              <p>E-mail:<a href="mailto:studio@saurus.rs">studio@saurus.rs</a></p>
+            </address>
+          </div>
+          <div class="contact-grid-container">
+            <H2 style="grid-area: box-1;">Podaci</H2>
+            <div class="contact-column" style="grid-area: box-2;">
+              <p>Srđan Tomić pr Arhitektonski studio Saurus duo</p>
+              <p>Tekući račun: 265-1740310001205-24</p>
+              <p>Matični broj: 61640894   PIB:106107446</p>
+            </div>
+            <div class="contact-column" style="grid-area: box-3; justify-self: end;"> 
+              <p>Saveznička 8 Aranđelovac</p>
+              <p>Tel. +381 65 47 43 024</p>
+              <p>E-mail: <a href="mailto:studio@saurus.rs">studio@saurus.rs</a></p>
+            </div>
+          </div>
+        </div>
+        <img src="/src/assets/Saurusi.jpg" alt="" srcset="" id="saurusi-img">
+        <div class="personnel-grid">
+          <address class="person">
+            <img src="/src/assets/personnel/Srdjan-Tomic-crno-bela.jpg" alt="" srcset="">
+            <h2>Srđan Tomić</h2>
+            <p>Arhitekta</p>
+            <p>+381 65 474 30 24</p>
+            <a href="mailto:srdjan@saurus.rs">srdjan@saurus.rs</a>
+          </address>
+          <address class="person">
+            <img src="/src/assets/personnel/Jelena-Tomic-crno-bela.jpg" alt="" srcset="">
+            <h2>Jelena Tomić</h2>
+            <p>Arhitekta urbanista</p>
+            <p>+381 65 558 23 61</p>
+            <a href="mailto:jelena@saurus.rs">jelena@saurus.rs</a>
+          </address>
+          <address class="person">
+            <img src="/src/assets/personnel/Marko-Randjelovic-crno-bela-veca.jpg" alt="" srcset="">
+            <h2>Marko Ranđelović</h2>
+            <p>Arhitekta</p>
+            <p>+265 888 071 615</p>
+            <a href="mailto:marko@saurus.rs">marko@saurus.rs</a>
+          </address>
+          <address class="person">
+            <img src="/src/assets/personnel/Miroslav-Kocmaruk-crno-bela.jpg" alt="" srcset="">
+            <h2>Miroslav Kočmaruk</h2>
+            <p>D.I. Elektrotehnike</p>
+            <a href="mailto:kosmik@saurus.rs">kosmik@saurus.rs</a>
+          </address>
+        </div>
+        <div class="awards-container">
+          <h2>Nagrade</h2>
+          <div class="awards">
+            <div class="award">
+              <a href=""><img src="/src/assets/awards/01-NASLOVNA-2009-Saurus-Lafarge-Konkurs-I-nagrada-Gradski-Trg-Beocin-Novi-Sad-2.jpg" alt=""></a>
+              <h3>Prva nagrada i glavni projekat</h3>
+              <p>Konkursno rešenje trga u Beočinu u organizaciji Lafarge BFC d.o.o. 2009. Članovi žirija bili su predsednik žirija Bogdan Cvejić, „Lafaržov“ arhitekta iz Pariza Leopold Lombard, profesor Arhitektonskog fakulteta u Beogradu Zoran Lazović.</p>
+            </div>
+            <div class="award">
+              <a href=""><img src="/src/assets/awards/01-NASLOVNA-2010-Konkurs-GSP-Japanska-cesma-III-nagrada-Beograd-Montaza.jpg" alt=""></a>
+              <h3>Treća nagrada</h3>
+              <p>Konkursno rešenje na temu Japanska česma na Kalemegdanu u organizaciji GSP Beograd 2010. Predsednik žirija konkursa Branislav Mitrović, ,redovni profesor Arhitektonskog fakulteta.</p>
+            </div>
+            <div class="award">
+              <a href=""><img src="/src/assets/awards/04-NASLOVNA-2010-Saurus-Konkurs-III-nagrada-Milunovic-Pijace-Senjak-Beograd-1.jpg" alt=""></a>
+              <h3>Treća povišena nagrada</h3>
+              <p>Konkursno rešenje objekta pijace Senjak sa podzemnom garažom i javnih površina 2010. Predsednik žirija konkursa Vasilije Milunović, redovni profesor Arhitektonskog fakulteta.</p>
+            </div>
+          </div>
+        </div>
+    </div>
+    <footer>
+      <div class="link-container">
+        <a href="https://www.linkedin.com/company/studio-saurus/"><iconify-icon icon="ri:linkedin-fill" class="link-icon"></iconify-icon></a>
+        <a href="https://www.facebook.com/StudioSaurus/"><iconify-icon icon="ri:facebook-fill" class="link-icon"></iconify-icon> </a>
+        <a href="https://www.instagram.com/studio_saurus/"><iconify-icon icon="ri:instagram-line" class="link-icon"></iconify-icon></a>
+      </div>
+    </footer>
+    
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script type="module" src="/src/map.js"></script>
+    <script type="module" src="/src/nav.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+  </body>
+</html>

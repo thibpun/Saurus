@@ -1,0 +1,68 @@
+[
+    {
+        "id":1,
+        "title": "Adaptacija u viseporodicnu stambeno-poslovnu urbanu vilu",
+        "img":"temp.jpg",
+        "description":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam quisquam, nisi aliquam ratione exercitationem natus veritatis dolor corporis voluptates nulla sit facilis eius iure ea!",
+        "year":["2019"],
+        "type":["Stambeni","Poslovni"],
+        "phase":["glavni"],
+        "status":[],
+        "link":"/index.html"
+    },
+    {
+        "id":2,
+        "title": "Adaptacija u viseporodicnu stambeno-poslovnu urbanu vilu",
+        "img":"temp.jpg",
+        "description":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam quisquam, nisi aliquam ratione exercitationem natus veritatis dolor corporis voluptates nulla sit facilis eius iure ea!",
+        "year":["2019"],
+        "type":["Stambeni","Poslovni"],
+        "phase":["idejni"],
+        "status":[],
+        "link":"/index.html"
+    },
+    {
+        "id":3,
+        "title": "Random ass kuca",
+        "img":"temp.jpg",
+        "description":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam quisquam, nisi aliquam ratione exercitationem natus veritatis dolor corporis voluptates nulla sit facilis eius iure ea!",
+        "year":["2019"],
+        "type":["Stambeni"],
+        "phase":["glavni"],
+        "status":[],
+        "link":"/index.html"
+    },
+    {
+        "id":4,
+        "title": "Adaptacija u viseporodicnu stambeno-poslovnu urbanu vilu",
+        "img":"temp.jpg",
+        "description":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam quisquam, nisi aliquam ratione exercitationem natus veritatis dolor corporis voluptates nulla sit facilis eius iure ea!",
+        "year":["2019"],
+        "type":["Stambeni","Poslovni"],
+        "phase":["glavni"],
+        "status":[],
+        "link":"/index.html"
+    },
+    {
+        "id":5,
+        "title": "Adaptacija u viseporodicnu stambeno-poslovnu urbanu vilu",
+        "img":"temp.jpg",
+        "description":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam quisquam, nisi aliquam ratione exercitationem natus veritatis dolor corporis voluptates nulla sit facilis eius iure ea!",
+        "year":["2019"],
+        "type":["Stambeni","Poslovni"],
+        "phase":["glavni"],
+        "status":["izveden"],
+        "link":"/index.html"
+    },
+    {
+        "id":6,
+        "title": "Adaptacija u viseporodicnu stambeno-poslovnu urbanu vilu",
+        "img":"temp.jpg",
+        "description":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam quisquam, nisi aliquam ratione exercitationem natus veritatis dolor corporis voluptates nulla sit facilis eius iure ea!",
+        "year":["2018","2017"],
+        "type":["Stambeni","Poslovni"],
+        "phase":["glavni"],
+        "status":["izveden"],
+        "link":"/index.html"
+    }
+]

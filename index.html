@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arhitektonski studio Saurus - Za unapređenje prostora za život običnih ljudi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="\src\style.css">
+  </head>
+  <body>
+    
+    <header class="navbar" style="background-color: rgba(200, 200, 200, 0.1);">
+      <a href="../index.html" id="logo-container">
+        <img src="/studio-saurus-logo.png" alt="logo" srcset="" class="logo">
+      </a>
+      <button class="mobile-nav-toggle" aria-controls="nav-menu" aria-expanded="false">
+        <iconify-icon icon="ri:menu-line" id="menu-icon"></iconify-icon>
+        <span class="sr-only">Menu</span>
+      </button>
+      <nav>
+        <ul id="nav-menu" data-visible="false">
+          <li><a href="#">Vesti</a></li>
+          <li><a href="/projekti/">Projekti</a></li>
+          <li><a href="/studio/">Studio</a></li>
+          <li><a href="#">LANG</a></li>
+        </ul>
+      </nav>
+    </header>
+      <section class="hero">
+      </section>
+    <section class="highlight-container">
+      <h1>Istaknuti projekti</h1>
+      <div class="carousel-container" aria-label="Architecture Projects Gallery">
+  
+        <div class="carousel-track" id="track">
+          <!-- Slide 1 -->
+          <div class="slide active">
+            <div class="slide-image">
+              <img src="/src/assets/carousel1.jpg" alt="Modern Minimalist Villa" />
+            </div>
+            <div class="slide-content">
+              <div class="slide-category">Residential — California, USA</div>
+              <h2 class="slide-title">The Glass Horizon Residence</h2>
+              <div class="slide-description">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum in tempora veritatis autem error delectus sequi rerum, sint quaerat ut molestias facilis id, fuga dolor exercitationem fugit dolore, ducimus aperiam?</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem quos nostrum, maiores dolore labore velit dolorem laborum error sapiente hic?</p>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Slide 2 -->
+          <div class="slide">
+            <div class="slide-image">
+              <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80" alt="Futuristic High-Rise" />
+            </div>
+            <div class="slide-content">
+              <div class="slide-category">Commercial — Tokyo, Japan</div>
+              <h2 class="slide-title">Apex Tower</h2>
+              <div class="slide-description">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eum nobis ducimus sint illo! A, nulla odit ea, quasi expedita at veniam et, corrupti aliquam ab laborum sed asperiores rerum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi exercitationem dolorum necessitatibus sit laboriosam facilis harum libero, sunt ipsum nobis?</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="slide">
+            <div class="slide-image">
+              <img src="/src/assets/carousel3.jpg" alt="Futuristic High-Rise" />
+            </div>
+            <div class="slide-content">
+              <div class="slide-category">Commercial — Tokyo, Japan</div>
+              <h2 class="slide-title">Apex Tower</h2>
+              <div class="slide-description">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eum nobis ducimus sint illo! A, nulla odit ea, quasi expedita at veniam et, corrupti aliquam ab laborum sed asperiores rerum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi exercitationem dolorum necessitatibus sit laboriosam facilis harum libero, sunt ipsum nobis?</p>
+              </div>
+            </div>
+          </div>  
+
+          <!-- Slide 4 -->
+          <div class="slide">
+            <div class="slide-image">
+              <img src="/src/assets/carousel4.jpg" alt="Futuristic High-Rise" />
+            </div>
+            <div class="slide-content">
+              <div class="slide-category">Commercial — Tokyo, Japan</div>
+              <h2 class="slide-title">Apex Tower</h2>
+              <div class="slide-description">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eum nobis ducimus sint illo! A, nulla odit ea, quasi expedita at veniam et, corrupti aliquam ab laborum sed asperiores rerum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi exercitationem dolorum necessitatibus sit laboriosam facilis harum libero, sunt ipsum nobis?</p>
+              </div>
+            </div>
+          </div>  
+
+        </div>
+      
+        <!-- Navigation Elements -->
+        <div class="carousel-controls">
+          <button class="nav-btn prev-btn" id="prevBtn" aria-label="Previous Slide">&#10094;</button>
+          <div class="carousel-dots" id="dotsContainer"></div>
+          <button class="nav-btn next-btn" id="nextBtn" aria-label="Next Slide">&#10095;</button>
+        </div>
+      </div>
+    </section>  
+
+    <footer>
+      <div class="link-container">
+        <a href="https://www.linkedin.com/company/studio-saurus/"><iconify-icon icon="ri:linkedin-fill" class="link-icon"></iconify-icon></a>
+        <a href="https://www.facebook.com/StudioSaurus/"><iconify-icon icon="ri:facebook-fill" class="link-icon"></iconify-icon> </a>
+        <a href="https://www.instagram.com/studio_saurus/"><iconify-icon icon="ri:instagram-line" class="link-icon"></iconify-icon></a>
+      </div>
+    </footer>
+    <script type="module" src="/src/nav.js"></script>
+    <script type="module" src="/src/carousel.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+  </body>
+</html>

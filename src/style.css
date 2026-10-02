@@ -1,0 +1,858 @@
+:root {
+  --clr-accent: rgb(105, 105, 105);
+
+  --font-family: "Mulish", sans-serif;
+
+  --ff-body: var(--font-family);
+  --ff-heading: var(--font-family);
+
+  --fw-regular: 400;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+
+  --fs-400: 1rem;
+  --fs-500: 1.25rem;
+  --fs-600: 1.5rem;
+  --fs-700: 1.875rem;
+  --fs-800: 2.5rem;
+  --fs-900: 3.5rem;
+}
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+.sr-only:not(:focus):not(:active) {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+/* Prevent font size inflation */
+html {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
+/* Remove default margin in favour of better control in authored CSS */
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+}
+ul,
+ol {
+  list-style: none;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: whitesmoke;
+}
+/* Set core body defaults */
+body {
+  font-family: var(--ff-body);
+  font-optical-sizing: auto;
+  font-style: normal;
+  min-height: 100vh;
+  line-height: 1.5;
+  overflow-x: hidden;
+}
+
+/* Set shorter line heights on headings and interactive elements */
+h1,
+h2,
+h3,
+h4,
+button,
+input,
+label {
+  line-height: 1.1;
+}
+
+/* Balance text wrapping on headings */
+h1,
+h2,
+h3,
+h4 {
+  text-wrap: balance;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration: none;
+  text-decoration-skip-ink: auto;
+  color: currentColor;
+}
+
+/* Make images easier to work with */
+img,
+picture,
+svg {
+  max-width: 100%;
+  display: block;
+}
+
+/* Make sure textareas without a rows attribute are not tiny */
+textarea:not([rows]) {
+  min-height: 10em;
+}
+
+/* Anything that has been anchored to should have extra scroll margin */
+:target {
+  scroll-margin-block: 5ex;
+}
+.mobile-nav-toggle {
+  display: none;
+}
+.navbar {
+  z-index: 9999;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: rgba(200, 200, 200, 0.1); */
+  background-color: whitesmoke;
+  backdrop-filter: blur(1rem);
+  transition: 0.2s ease-in-out;
+  /* box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2); */
+}
+.navbar ul {
+  padding-right: 3rem;
+  display: flex;
+  gap: 2rem;
+  font-size: var(--fs-500);
+  font-weight: var(--fw-semibold);
+  color: black;
+}
+
+.navbar ul li a {
+  transition: 0.2s ease;
+}
+.navbar ul li a:hover {
+  color: var(--clr-accent);
+}
+#logo-container {
+  display: block;
+  margin: 1rem 3rem;
+}
+.navbar a img {
+  display: inline-block;
+  width: 450px;
+  height: auto;
+}
+@media (max-width: 65rem) {
+  .navbar ul {
+    height: 100dvh;
+    position: fixed;
+    inset: 0 0 0 0%;
+    gap: 1rem;
+    flex-direction: column;
+    padding: min(15dvh, 6rem);
+    font-size: var(--fs-700);
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(1rem);
+    transform: translateX(100%);
+    transition: 350ms ease;
+  }
+  .navbar ul[data-visible="true"] {
+    transform: translateX(0%);
+  }
+  #logo-container {
+    margin: 1rem 2rem; /* Update mobile margin on the link */
+  }
+  .navbar a img {
+    width: 60vw;
+    max-width: 450px;
+    /* margin: 1rem 2rem; */
+  }
+  .mobile-nav-toggle {
+    display: block;
+    position: absolute;
+    z-index: 9999;
+    width: 2.5rem;
+    border: 0;
+    aspect-ratio: 1;
+    top: 0.8em;
+    right: 2rem;
+    background-color: transparent;
+  }
+  #menu-icon {
+    color: black;
+    font-size: 2rem;
+  }
+}
+.hero {
+  height: 100dvh;
+  background-image: url("assets/HERO.jpg");
+  background-size: cover;
+}
+
+.highlight-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.highlight-container h1 {
+  margin-top: 2rem;
+  font-size: var(--fs-700);
+  font-weight: var(--fw-bold);
+  color: black;
+}
+
+.carousel-container {
+  position: relative;
+  width: 100%;
+  max-width: 1100px;
+  background-color: #181a20; /* Dark card background */
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+  margin: 2rem auto;
+  color: white;
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.slide {
+  min-width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+/* Image now takes up 60% of the container for a grander look */
+.slide-image {
+  flex: 0 0 60%;
+  position: relative;
+  min-height: 500px;
+}
+
+.slide-image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Text takes up the remaining 40% */
+.slide-content {
+  flex: 0 0 40%;
+  /* Padding-bottom is larger (7rem) to make room for the floating controls */
+  padding: 4rem 3rem 7rem 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.slide-category {
+  color: var(--clr-accent);
+  font-size: var(--fs-400);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: var(--fw-bold);
+  margin-bottom: 0.75rem;
+}
+
+.slide-title {
+  font-size: var(--fs-700);
+  font-weight: var(--fw-bold);
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+/* Handle multiple paragraphs */
+.slide-description p {
+  font-size: var(--fs-400);
+  color: #d1d5db;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+.slide-description p:last-child {
+  margin-bottom: 0;
+}
+
+/* Controls - Floating inside the bottom of the text container */
+.carousel-controls {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 40%; /* Matches the exact width of the text column */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 3rem;
+  z-index: 10;
+  /* Removed the background and border so it blends perfectly */
+}
+
+/* Navigation Arrows */
+.nav-btn {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.nav-btn:hover {
+  background-color: var(--clr-accent);
+  border-color: var(--clr-accent);
+  color: white;
+}
+
+/* Indicator Dots */
+.carousel-dots {
+  display: flex;
+  gap: 10px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.dot.active {
+  background-color: var(--clr-accent);
+  transform: scale(1.3);
+}
+
+/* Responsive Design for Mobile / Tablets */
+@media (max-width: 65rem) {
+  .slide {
+    flex-direction: column; /* Stack image on top, text on bottom */
+  }
+
+  .slide-image {
+    flex: 0 0 auto;
+    width: 100%;
+    min-height: 350px;
+  }
+
+  .slide-content {
+    flex: 0 0 auto;
+    width: 100%;
+    padding: 2.5rem;
+    padding-bottom: 6rem; /* Ensure space for absolute controls */
+  }
+
+  .carousel-controls {
+    width: 100%; /* Spans the whole bottom on mobile */
+    padding: 1.5rem 2.5rem;
+  }
+
+  .slide-title {
+    font-size: var(--fs-500);
+  }
+}
+.link-container {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem auto;
+  padding: 1rem 0;
+  justify-content: center;
+  width: 60%;
+  max-width: 1100px;
+  border-top: solid black;
+}
+.link-icon {
+  color: black;
+  font-size: 2rem;
+  transition: 0.2s ease;
+}
+.link-icon:hover {
+  color: var(--clr-accent);
+}
+
+/* Studio */
+#about-container {
+  width: 95%;
+  max-width: 1300px;
+  display: flex;
+  flex-direction: column;
+  margin: 5rem auto 2.5rem auto;
+}
+.about-text {
+  margin: 1rem auto;
+  display: flex;
+  gap: 2rem;
+}
+.about-text-column {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.map-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-bottom: 56.25%; /* Keeps a 16:9 aspect ratio */
+  height: 0;
+}
+
+#map {
+  width: 100%;
+  height: 500px;
+}
+
+.black-pin {
+  width: 25px;
+  height: 25px;
+  position: relative;
+}
+
+.black-pin::before {
+  content: "";
+  position: absolute;
+
+  width: 22px;
+  height: 22px;
+
+  background: #000;
+
+  border-radius: 50% 50% 50% 0;
+
+  transform: rotate(-45deg);
+
+  left: 1px;
+  top: 1px;
+}
+
+/*
+  White center of the pin
+*/
+.black-pin::after {
+  content: "";
+
+  position: absolute;
+
+  width: 7px;
+  height: 7px;
+
+  background: #fff;
+
+  border-radius: 50%;
+
+  left: 9px;
+  top: 9px;
+}
+
+/*
+  Make the attribution subtle,
+  similar to the screenshot.
+*/
+.leaflet-control-attribution {
+  font-size: 9px !important;
+}
+
+/*
+  Slightly smaller zoom buttons,
+  matching the screenshot better.
+*/
+.leaflet-control-zoom a {
+  width: 30px !important;
+  height: 30px !important;
+  line-height: 30px !important;
+  font-size: 20px !important;
+}
+
+/*
+  Remove Leaflet's default shadow from our custom marker.
+*/
+.leaflet-marker-icon.black-pin {
+  background: transparent;
+  border: none;
+}
+
+.contact-info {
+  margin: 1rem auto;
+  display: flex;
+  width: 100%;
+}
+.contact-info h2 {
+  font-size: var(--fs-600);
+  font-weight: var(--fw-semibold);
+}
+.contact-grid-container {
+  display: grid;
+  width: 50%;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 2.5rem 10rem;
+  grid-template-areas:
+    "box-1 box-1"
+    "box-2 box-3";
+}
+.personnel-grid {
+  margin: 1rem auto;
+  display: grid;
+  width: 100%;
+  /* grid-template-columns: repeat(4, 1fr); */
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+
+  gap: 1rem;
+}
+.person > h2 {
+  font-size: var(--fs-500);
+  font-weight: var(--fw-semibold);
+  margin: 0.5rem 0;
+}
+.awards-container {
+  display: flex;
+  gap: 1.5rem;
+  flex-direction: column;
+  align-items: center;
+}
+.awards-container > h2 {
+  font-size: var(--fs-900);
+  font-weight: var(--fw-bold);
+  width: 100%;
+  text-align: center;
+  padding: 1rem 0;
+  background-color: var(--clr-accent);
+  color: white;
+}
+.awards {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+}
+.award img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  transition: 0.3s ease-in-out;
+}
+.award img:hover {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+.award h3 {
+  font-size: var(--fs-500);
+  font-weight: var(--fw-semibold);
+  margin: 0.5rem 0;
+}
+
+@media (max-width: 65rem) {
+  .contact-column:last-child {
+    justify-self: end;
+  }
+  .about-text {
+    flex-direction: column;
+  }
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact-grid-container {
+    width: 100%;
+    gap: 0.5rem;
+  }
+  #saurusi-img {
+    height: 16rem;
+    width: 100%;
+    object-fit: cover; /* Zooms to fill the height/width without distorting */
+  }
+}
+
+/* PROJECTS */
+#project-container {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  margin: 6rem auto 2.5rem auto;
+}
+
+#projects {
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 24rem), 29rem));
+}
+.project {
+  text-decoration: none;
+  position: relative;
+  aspect-ratio: 16/9;
+  max-width: 30rem;
+}
+.project img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+  transition: filter 0.3s ease-in-out;
+}
+.project:hover img {
+  filter: brightness(40%);
+}
+.card-content {
+  position: relative;
+  height: 100%;
+  padding: 0.5rem;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: transparent;
+  transition: filter 0.3s ease-in-out;
+}
+.card-content h2 {
+  font-size: var(--fs-500);
+  font-weight: var(--fw-bold);
+}
+.project:hover .card-content {
+  color: white;
+}
+
+#filter-container {
+  position: sticky;
+  top: 5rem;
+  padding: 1rem 2rem 1rem 0;
+  background-color: whitesmoke;
+  z-index: 10;
+  width: 100dvw;
+  display: flex;
+  justify-content: right;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+#filter-container button {
+  border: none;
+  cursor: pointer;
+  color: var(--clr-accent);
+  font-weight: var(--fw-semibold);
+  background-color: transparent;
+  transition: 0.1s ease-in-out;
+}
+#filter-container button.active {
+  color: black;
+}
+.filter-subcontainer > button,
+.filter-subcontainer iconify-icon {
+  display: none;
+}
+.filter-group {
+  border-right: solid 1.5px var(--clr-accent);
+  padding: 0 1rem;
+  display: flex;
+  gap: 0.5rem;
+  height: fit-content;
+}
+.filter-group > button {
+  display: none;
+}
+#year-filter {
+  position: relative;
+  margin-left: 1rem;
+  max-width: fit-content;
+}
+#year-filter > button {
+  color: black;
+  border-radius: 5px;
+  height: 1.5rem;
+  width: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  border: solid var(--clr-accent) 1px;
+  padding: 0 0.25rem;
+  box-shadow: 0px 4px 12px -1px rgba(0, 0, 0, 0.15);
+}
+#year-filter ul {
+  display: none;
+  position: absolute;
+  margin-top: 0.25rem;
+  background-color: whitesmoke;
+  width: 125%;
+  /* max-width: 30dvw; */
+  border: solid 1px black;
+  padding: 0.5rem;
+  border-radius: 5px;
+  box-shadow: 0px 4px 12px -1px rgba(0, 0, 0, 0.15);
+}
+#year-filter ul::before {
+  content: "";
+  position: absolute;
+  top: -0.4rem;
+  left: 0;
+  width: 100%;
+  height: 0.5rem;
+  background: transparent;
+}
+#year-filter ul button {
+  color: black;
+  display: flex;
+  gap: 0.25rem;
+  height: 1.5rem;
+  justify-content: center;
+  align-items: center;
+}
+#year-filter > button > iconify-icon:last-child {
+  display: none;
+}
+@media (hover: hover) {
+  #year-filter:hover ul {
+    display: block;
+  }
+  #year-filter:hover > button > iconify-icon:last-child {
+    display: block;
+  }
+  #year-filter:hover > button > iconify-icon:first-child {
+    display: none;
+  }
+}
+
+@media (max-width: 65rem) {
+  #filter-container {
+    padding: 1rem 0.25rem;
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(6rem, max-content));
+    justify-content: center;
+    justify-items: start;
+  }
+  #filter-container .filter-subcontainer,
+  #filter-container #year-filter {
+    margin: 0;
+  }
+  .filter-group {
+    border-right: none;
+    /* border-bottom: solid 1.5px var(--clr-accent); */
+  }
+  .card-content {
+    color: white;
+    text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.7);
+  }
+  .card-content > P {
+    display: none;
+    background-color: none;
+    text-shadow: none;
+  }
+  .project::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.7) 0%,
+      transparent 25%,
+      transparent 75%,
+      rgba(0, 0, 0, 0.7) 100%
+    );
+    pointer-events: none;
+  }
+  .project:hover img {
+    filter: none;
+  }
+  .filter-subcontainer iconify-icon {
+    display: block;
+  }
+  .filter-subcontainer {
+    position: relative;
+    margin-left: 1rem;
+    max-width: fit-content;
+    z-index: 3;
+  }
+  #filter-container .filter-subcontainer > button {
+    color: black;
+    border-radius: 5px;
+    height: 1.5rem;
+    width: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    border: solid var(--clr-accent) 1px;
+    padding: 0 0.25rem;
+    box-shadow: 0px 4px 12px -1px rgba(0, 0, 0, 0.15);
+  }
+  .filter-subcontainer ul {
+    display: none;
+    position: absolute;
+    top: calc(100% + 0.25rem);
+    left: 0;
+    background-color: whitesmoke;
+    width: 125%;
+    /* max-width: 30dvw; */
+    border: solid 1px black;
+    padding: 0.5rem;
+    border-radius: 5px;
+    box-shadow: 0px 4px 12px -1px rgba(0, 0, 0, 0.15);
+  }
+  .filter-subcontainer ul::before {
+    content: "";
+    position: absolute;
+    top: -0.4rem;
+    left: 0;
+    width: 100%;
+    height: 0.5rem;
+    background: transparent;
+  }
+  .filter-subcontainer ul button {
+    color: black;
+    display: flex;
+    gap: 0.25rem;
+    height: 1.5rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .filter-subcontainer > button > iconify-icon:last-child {
+    display: none;
+  }
+  .filter-subcontainer button[aria-expanded="true"] + ul {
+    display: block;
+  }
+  .filter-subcontainer button[aria-expanded="true"] iconify-icon:last-child {
+    display: block;
+  }
+  .filter-subcontainer button[aria-expanded="true"] iconify-icon:first-child {
+    display: none;
+  }
+  #year-filter button[aria-expanded="true"] + ul {
+    display: block;
+  }
+  #year-filter button[aria-expanded="true"] iconify-icon:last-child {
+    display: block;
+  }
+  #year-filter button[aria-expanded="true"] iconify-icon:first-child {
+    display: none;
+  }
+}
