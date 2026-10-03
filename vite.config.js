@@ -13,7 +13,7 @@ import { resolve } from 'node:path'
 import { defineConfig } from 'vite'
 
 export default defineConfig(({ command }) => ({
-  base: command === 'build' ? '/Saurus' : '/',
+  base: command === 'build' ? '/Saurus/' : '/',
 
   input: {
     main: resolve(import.meta.dirname, 'index.html'),
