@@ -13,7 +13,7 @@
     {
         "id":2,
         "title": "Adaptacija u viseporodicnu stambeno-poslovnu urbanu vilu",
-        "img":"temp.jpg",
+        "img":"temp2.jpg",
         "description":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam quisquam, nisi aliquam ratione exercitationem natus veritatis dolor corporis voluptates nulla sit facilis eius iure ea!",
         "year":["2019"],
         "type":["Stambeni","Poslovni"],
@@ -24,7 +24,7 @@
     {
         "id":3,
         "title": "Kuca drugo ime",
-        "img":"temp.jpg",
+        "img":"temp3.jpg",
         "description":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam quisquam, nisi aliquam ratione exercitationem natus veritatis dolor corporis voluptates nulla sit facilis eius iure ea!",
         "year":["2019"],
         "type":["Stambeni"],
@@ -35,7 +35,7 @@
     {
         "id":4,
         "title": "Adaptacija u viseporodicnu stambeno-poslovnu urbanu vilu",
-        "img":"temp.jpg",
+        "img":"temp4.jpg",
         "description":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam quisquam, nisi aliquam ratione exercitationem natus veritatis dolor corporis voluptates nulla sit facilis eius iure ea!",
         "year":["2019"],
         "type":["Stambeni","Poslovni"],
@@ -46,7 +46,7 @@
     {
         "id":5,
         "title": "Adaptacija u viseporodicnu stambeno-poslovnu urbanu vilu",
-        "img":"temp.jpg",
+        "img":"temp5.jpg",
         "description":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam quisquam, nisi aliquam ratione exercitationem natus veritatis dolor corporis voluptates nulla sit facilis eius iure ea!",
         "year":["2019"],
         "type":["Stambeni","Poslovni"],
@@ -57,7 +57,7 @@
     {
         "id":6,
         "title": "Adaptacija u viseporodicnu stambeno-poslovnu urbanu vilu",
-        "img":"temp.jpg",
+        "img":"temp6.jpg",
         "description":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam quisquam, nisi aliquam ratione exercitationem natus veritatis dolor corporis voluptates nulla sit facilis eius iure ea!",
         "year":["2018","2017"],
         "type":["Stambeni","Poslovni"],
