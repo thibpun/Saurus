@@ -115,6 +115,9 @@ textarea:not([rows]) {
 :target {
   scroll-margin-block: 5ex;
 }
+body.no-scroll {
+  overflow: hidden;
+}
 .mobile-nav-toggle {
   display: none;
 }
@@ -128,9 +131,9 @@ textarea:not([rows]) {
   justify-content: space-between;
   align-items: center;
   /* background-color: rgba(200, 200, 200, 0.1); */
+  /* backdrop-filter: blur(1rem); */
   background-color: whitesmoke;
-  backdrop-filter: blur(1rem);
-  transition: 0.2s ease-in-out;
+  transition: 0.3s ease-in-out;
   /* box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2); */
 }
 .navbar ul {
@@ -157,6 +160,7 @@ textarea:not([rows]) {
   width: 450px;
   height: auto;
 }
+
 @media (max-width: 65rem) {
   .navbar ul {
     height: 100dvh;
@@ -167,9 +171,10 @@ textarea:not([rows]) {
     padding: min(15dvh, 6rem);
     font-size: var(--fs-700);
     align-items: center;
-    background-color: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(1rem);
-    transform: translateX(100%);
+    /* background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(1rem); */
+    background-color: whitesmoke;
+    transform: translateY(-100%);
     transition: 350ms ease;
   }
   .navbar ul[data-visible="true"] {
@@ -198,6 +203,9 @@ textarea:not([rows]) {
     color: black;
     font-size: 2rem;
   }
+}
+.scrolled {
+  background: whitesmoke;
 }
 .hero {
   height: 100dvh;
