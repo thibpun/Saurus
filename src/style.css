@@ -218,6 +218,8 @@ body.no-scroll {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  max-width: 95dvw;
+  margin: 0 auto;
 }
 .highlight-container h1 {
   margin-top: 2rem;
