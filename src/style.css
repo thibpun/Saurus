@@ -133,7 +133,7 @@ body.no-scroll {
   /* background-color: rgba(200, 200, 200, 0.1); */
   /* backdrop-filter: blur(1rem); */
   background-color: whitesmoke;
-  transition: 0.3s ease-in-out;
+  transition: 0.2s ease-in;
   /* box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2); */
 }
 .navbar ul {

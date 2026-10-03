@@ -21,7 +21,7 @@ navToggle.addEventListener('click',()=>{
         document.body.classList.remove('no-scroll');
     }
 })
-if(window.location.pathname==="/index.html"){
+if(navbar.classList.contains("home")){
     console.log("na indexu");
     window.addEventListener("scroll",()=>{
         if (window.scrollY > 0) {
