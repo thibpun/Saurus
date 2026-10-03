@@ -1,4 +1,4 @@
-import"./nav-C9_JTvRe.js";var e=`/Saurus/assets/temp-BV3s8qpN.jpg`,t=document.getElementById(`projects`);function n(e){t.innerHTML=e.map(e=>`<a href="${e.link}" class="project">
+import"./nav-B9ExKgKg.js";var e=`/Saurus/assets/temp-BV3s8qpN.jpg`,t=document.getElementById(`projects`);function n(e){t.innerHTML=e.map(e=>`<a href="${e.link}" class="project">
     <img src="${r(e.img)}" alt="" loading="lazy">
     <div class="card-content">
     <h2>${e.title}</h2>
