@@ -6,7 +6,11 @@ export default async function getProjects(){
     if(projectsCache) return projectsCache;
 
     try{
-        const res=await fetch(`${import.meta.env.BASE_URL}projects.json`);
+        const cacheBuster = `?v=${Date.now()}`;
+        const res = await fetch(`${import.meta.env.BASE_URL}projects.json${cacheBuster}`, {
+            cache: "no-store" // Requests fresh response without caching it
+        });
+        // const res=await fetch(`${import.meta.env.BASE_URL}projects.json`);
         
         if(!res.ok)throw new Error(`HTTP error! status:${res.status}`);
 
