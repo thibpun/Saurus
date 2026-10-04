@@ -51,9 +51,10 @@
             "Poslovni"
         ],
         "phase": [
-            "idejni"
+            "glavni"
         ],
         "status": [
+            "izveden"
         ],
         "link": "/index.html"
     },
@@ -71,9 +72,7 @@
         "phase": [
             "glavni"
         ],
-        "status": [
-            "izveden"
-        ],
+        "status": [],
         "link": "/index.html"
     },
     {
@@ -88,7 +87,7 @@
             "Kuća"
         ],
         "phase": [
-            "idejni"
+            "glavni"
         ],
         "status": [],
         "link": "/index.html"
@@ -107,9 +106,7 @@
         "phase": [
             "glavni"
         ],
-        "status": [
-            "izveden"
-        ],
+        "status": [],
         "link": "/index.html"
     },
     {
@@ -183,9 +180,10 @@
             "Poslovni"
         ],
         "phase": [
-            "idejni"
+            "glavni"
         ],
         "status": [
+            "izveden"
         ],
         "link": "/index.html"
     },
@@ -222,9 +220,10 @@
             "Poslovni"
         ],
         "phase": [
-            "idejni"
+            "glavni"
         ],
         "status": [
+            "izveden"
         ],
         "link": "/index.html"
     },
@@ -243,6 +242,7 @@
             "glavni"
         ],
         "status": [
+            "izveden"
         ],
         "link": "/index.html"
     },
@@ -260,9 +260,7 @@
         "phase": [
             "glavni"
         ],
-        "status": [
-            "izveden"
-        ],
+        "status": [],
         "link": "/index.html"
     },
     {
@@ -315,12 +313,14 @@
         "year": [
             "2010"
         ],
-        "type": [],
+        "type": [
+            "Javni"
+        ],
         "phase": [
             "enterijer"
         ],
         "status": [
-            "konkurs"
+            "izveden"
         ],
         "link": "/index.html"
     },
@@ -338,13 +338,11 @@
             "Javni"
         ],
         "phase": [
-            "idejni",
-            "glavni"
+            "idejni"
         ],
         "status": [
             "konkurs",
-            "nagrađen",
-            "izveden"
+            "nagrađen"
         ],
         "link": "/index.html"
     },
@@ -417,9 +415,10 @@
             "Poslovni"
         ],
         "phase": [
-            "idejni"
+            "enterijer"
         ],
         "status": [
+            "izveden"
         ],
         "link": "/index.html"
     },
@@ -478,6 +477,7 @@
             "glavni"
         ],
         "status": [
+            "izveden"
         ],
         "link": "/index.html"
     },
@@ -496,10 +496,10 @@
             "Javni"
         ],
         "phase": [
-            "glavni"
+            "idejni"
         ],
         "status": [
-            "izveden"
+            "konkurs"
         ],
         "link": "/index.html"
     },
@@ -512,7 +512,6 @@
             "2011"
         ],
         "type": [
-            "Urbanizam",
             "Kuća"
         ],
         "phase": [
@@ -573,7 +572,7 @@
             "Kuća"
         ],
         "phase": [
-            "enterijer"
+            "glavni"
         ],
         "status": [
             "izveden"
@@ -627,8 +626,7 @@
             "2012"
         ],
         "type": [
-            "Stambeni",
-            "Urbanizam"
+            "Stambeni"
         ],
         "phase": [
             "idejni"
@@ -650,7 +648,7 @@
             "Kuća"
         ],
         "phase": [
-            "enterijer"
+            "glavni"
         ],
         "status": [
             "izveden"
@@ -708,9 +706,10 @@
             "Poslovni"
         ],
         "phase": [
-            "idejni"
+            "glavni"
         ],
         "status": [
+            "izveden"
         ],
         "link": "/index.html"
     },
@@ -747,9 +746,10 @@
             "Stambeni"
         ],
         "phase": [
-            "idejni"
+            "glavni"
         ],
         "status": [
+            "izveden"
         ],
         "link": "/index.html"
     },
@@ -761,12 +761,14 @@
         "year": [
             "2016"
         ],
-        "type": [],
+        "type": [
+            "Poslovni"
+        ],
         "phase": [
             "enterijer"
         ],
         "status": [
-            "konkurs"
+            "izveden"
         ],
         "link": "/index.html"
     },
@@ -785,6 +787,7 @@
             "glavni"
         ],
         "status": [
+            "izveden"
         ],
         "link": "/index.html"
     },
@@ -819,9 +822,10 @@
             "Kuća"
         ],
         "phase": [
-            "idejni"
+            "glavni"
         ],
         "status": [
+            "izveden"
         ],
         "link": "/index.html"
     },
@@ -837,7 +841,7 @@
             "Poslovni"
         ],
         "phase": [
-            "enterijer"
+            "glavni"
         ],
         "status": [
             "izveden"
@@ -858,11 +862,9 @@
             "Javni"
         ],
         "phase": [
-            "idejni"
+            "glavni"
         ],
-        "status": [
-            "konkurs"
-        ],
+        "status": [],
         "link": "/index.html"
     },
     {
@@ -881,6 +883,7 @@
             "glavni"
         ],
         "status": [
+            "izveden"
         ],
         "link": "/index.html"
     },
@@ -896,9 +899,10 @@
             "Poslovni"
         ],
         "phase": [
-            "enterijer"
+            "glavni"
         ],
         "status": [
+            "izveden"
         ],
         "link": "/index.html"
     },
@@ -939,6 +943,7 @@
             "enterijer"
         ],
         "status": [
+            "izveden"
         ],
         "link": "/index.html"
     },
@@ -977,6 +982,7 @@
             "glavni"
         ],
         "status": [
+            "izveden"
         ],
         "link": "/index.html"
     },
@@ -993,7 +999,7 @@
             "Poslovni"
         ],
         "phase": [
-            "enterijer"
+            "glavni"
         ],
         "status": [],
         "link": "/index.html"
@@ -1051,13 +1057,13 @@
         ],
         "type": [
             "Urbanizam",
-            "Stambeni",
-            "Poslovni"
+            "Stambeni"
         ],
         "phase": [
-            "idejni"
+            "glavni"
         ],
         "status": [
+            "izveden"
         ],
         "link": "/index.html"
     },
@@ -1074,9 +1080,10 @@
             "Kuća"
         ],
         "phase": [
-            "idejni"
+            "glavni"
         ],
         "status": [
+            "izveden"
         ],
         "link": "/index.html"
     },
@@ -1093,10 +1100,10 @@
             "Kuća"
         ],
         "phase": [
-            "idejni",
             "glavni"
         ],
         "status": [
+            "izveden"
         ],
         "link": "/index.html"
     },
@@ -1113,10 +1120,10 @@
             "Kuća"
         ],
         "phase": [
-            "idejni",
             "enterijer"
         ],
         "status": [
+            "izveden"
         ],
         "link": "/index.html"
     },
@@ -1133,10 +1140,10 @@
             "Kuća"
         ],
         "phase": [
-            "idejni",
             "enterijer"
         ],
         "status": [
+            "izveden"
         ],
         "link": "/index.html"
     },
@@ -1154,7 +1161,7 @@
             "Javni"
         ],
         "phase": [
-            
+            "idejni"
         ],
         "status": [
             "konkurs"
@@ -1175,7 +1182,7 @@
             "Kuća"
         ],
         "phase": [
-            "glavni"
+            "idejni"
         ],
         "status": [],
         "link": "/index.html"
@@ -1194,7 +1201,7 @@
             "Kuća"
         ],
         "phase": [
-            "glavni"
+            "idejni"
         ],
         "status": [],
         "link": "/index.html"
@@ -1211,7 +1218,7 @@
             "Kuća"
         ],
         "phase": [
-            "idejni"
+            "glavni"
         ],
         "status": [],
         "link": "/index.html"
@@ -1228,7 +1235,7 @@
             "Kuća"
         ],
         "phase": [
-            "idejni"
+            "glavni"
         ],
         "status": [],
         "link": "/index.html"
@@ -1242,11 +1249,10 @@
             "2019"
         ],
         "type": [
-            "Urbanizam",
             "Poslovni"
         ],
         "phase": [
-            "idejni"
+            "glavni"
         ],
         "status": [
             "izveden"
@@ -1265,7 +1271,6 @@
             "Poslovni"
         ],
         "phase": [
-            "idejni",
             "enterijer"
         ],
         "status": [
@@ -1299,7 +1304,9 @@
         "year": [
             "2019"
         ],
-        "type": [],
+        "type": [
+            "Poslovni"
+        ],
         "phase": [
             "glavni"
         ],

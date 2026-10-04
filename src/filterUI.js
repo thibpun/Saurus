@@ -1,4 +1,5 @@
 import applyFilters from "./filters";
+import getProjects from "./loadProjects";
 
 const isMobile = window.matchMedia("(max-width: 65rem)");
 
@@ -109,3 +110,34 @@ if(isMobile.matches){
         }
     })
 }
+
+// loadYearFilter(projects);
+async function loadYearFilter(){
+    const yearsUL = document.querySelector('#year-filter ul');
+    const projects=await getProjects();
+    const years = [];
+
+    projects.forEach((project)=>{
+        project.year.forEach((year)=>{
+            if (!years.includes(year)) {
+                years.push(year);
+              }
+            console.log(year);
+        })
+        
+    })
+    years.reverse();
+    console.log(years);
+    let innerHtml=`<li><button type="button" role="option" aria-selected="true" class="active">
+    <iconify-icon icon="ri:checkbox-fill"></iconify-icon>Sve
+  </button></li>`;
+    years.forEach((year)=>{
+        console.log(year);
+        innerHtml+=`<li><button type="button" role="option" aria-selected="false">
+        <iconify-icon icon="ri:checkbox-blank-line"></iconify-icon>${year}
+      </button></li>`;
+    })
+    yearsUL.innerHTML=innerHtml;
+
+}
+loadYearFilter();

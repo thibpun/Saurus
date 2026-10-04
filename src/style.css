@@ -775,6 +775,13 @@ body.no-scroll {
     background-color: none;
     text-shadow: none;
   }
+  .card-content h2 {
+    font-size: var(--fs-400);
+    font-weight: var(--fw-bold);
+  }
+  .card-content > div > P {
+    font-size: var(--fs-400);
+  }
   .project::after {
     content: "";
     position: absolute;

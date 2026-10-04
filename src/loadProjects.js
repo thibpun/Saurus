@@ -6,7 +6,6 @@ export default async function getProjects(){
     if(projectsCache) return projectsCache;
 
     try{
-        // const res=await fetch('/projects.json');
         const res=await fetch(`${import.meta.env.BASE_URL}projects.json`);
         
         if(!res.ok)throw new Error(`HTTP error! status:${res.status}`);

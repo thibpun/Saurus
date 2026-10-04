@@ -1,7 +1,9 @@
 const projectsContainer = document.getElementById('projects');
 
 export default function renderProjects(projects){
-  projectsContainer.innerHTML=projects.map((project)=>
+  // console.log(typeof projects);
+  // console.log(projects);
+  projectsContainer.innerHTML=projects.toReversed().map((project)=>
     `<a href="${project.link}" class="project">
     <img src="${getImageUrl(project.img)}" alt="" loading="lazy">
     <div class="card-content">
@@ -15,7 +17,6 @@ export default function renderProjects(projects){
     </a>`).join("");
 }
 
-    // <img src="/src/assets/projects/${project.img}" alt="" loading="lazy">
 function getImageUrl(imgName) {
   return new URL(`./assets/projects/${imgName}`, import.meta.url).href;
 }
