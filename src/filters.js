@@ -1,18 +1,18 @@
 import renderProjects from "./renderProjects";
 import getProjects from "./loadProjects";
-
-
+import i18next from "./i18n.js";
 
 export default async function applyFilters(){
     const projects=await getProjects();
-
+    const currentLang = i18next.language || "sr";
+    const All= currentLang==="en"?"All":"Sve";
     const getActiveFilters=(filterId)=>{
         const list=document.getElementById(filterId);
 
         const targetUL=list.tagName==="UL" ? list:list.querySelector('ul');
         const desiredFilters=Array.from(targetUL.querySelectorAll("button.active"));
         
-        if(desiredFilters.some(filter=>filter.textContent.trim().includes("Sve"))) return [];
+        if(desiredFilters.some(filter=>filter.textContent.trim().includes(`${All}`))) return [];
         return desiredFilters.map(button=>button.textContent.trim());
     }
 
@@ -24,9 +24,6 @@ export default async function applyFilters(){
     }
     const filters=Object.entries(currentFilters);
 
-    filters.forEach(filter=>{
-        console.log(filter);
-    })
     const projectsFiltered=projects.filter(project=>filters.every(filter=>checkFilter(project,filter)));
     renderProjects(projectsFiltered);
 }

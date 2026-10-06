@@ -1,5 +1,6 @@
 import applyFilters from "./filters";
 import getProjects from "./loadProjects";
+import i18next from "./i18n.js";
 
 const isMobile = window.matchMedia("(max-width: 65rem)");
 
@@ -111,7 +112,7 @@ if(isMobile.matches){
     })
 }
 
-// loadYearFilter(projects);
+
 async function loadYearFilter(){
     const yearsUL = document.querySelector('#year-filter ul');
     const projects=await getProjects();
@@ -122,17 +123,17 @@ async function loadYearFilter(){
             if (!years.includes(year)) {
                 years.push(year);
               }
-            console.log(year);
         })
         
     })
     years.reverse();
-    console.log(years);
+
+    const currentLang = i18next.language || "sr";
+    const All= currentLang==="en"?"All":"Sve";
     let innerHtml=`<li><button type="button" role="option" aria-selected="true" class="active">
-    <iconify-icon icon="ri:checkbox-fill"></iconify-icon>Sve
+    <iconify-icon icon="ri:checkbox-fill"></iconify-icon>${All}
   </button></li>`;
     years.forEach((year)=>{
-        console.log(year);
         innerHtml+=`<li><button type="button" role="option" aria-selected="false">
         <iconify-icon icon="ri:checkbox-blank-line"></iconify-icon>${year}
       </button></li>`;
@@ -141,3 +142,7 @@ async function loadYearFilter(){
 
 }
 loadYearFilter();
+
+i18next.on('languageChanged', async () => {
+    loadYearFilter();
+  });

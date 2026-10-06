@@ -1,4 +1,22 @@
+import getProjects from "./loadProjects";
+import i18next from "./i18n.js";
+
 const projectsContainer = document.getElementById('projects');
+
+async function init() {
+  const projects = await getProjects();
+  renderProjects(projects);
+}
+
+init();
+
+i18next.on('languageChanged', async () => {
+  const projects = await getProjects(); // This will skip cache and fetch the new JSON
+  
+  // (Optional) If you have an active filter, you might want to re-apply 
+  // the filter here instead of rendering all projects.
+  renderProjects(projects); 
+});
 
 export default function renderProjects(projects){
   // console.log(typeof projects);

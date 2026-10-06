@@ -161,6 +161,11 @@ body.no-scroll {
   width: 450px;
   height: auto;
 }
+#language-toggle {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
 
 @media (max-width: 65rem) {
   .navbar ul {
@@ -566,7 +571,7 @@ body.no-scroll {
 .award img {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
-  transition: 0.3s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 .award img:hover {
   -webkit-filter: grayscale(0%);

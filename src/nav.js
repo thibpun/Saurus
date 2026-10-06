@@ -10,19 +10,18 @@ navToggle.addEventListener('click',()=>{
         navMenu.setAttribute('data-visible',"true");
         navToggle.setAttribute('aria-expanded',true);
         icon.setAttribute('icon','ri:close-large-fill');
-        // navbar.style.backdropFilter='none';
         document.body.classList.add('no-scroll');
     }
     else{
         navMenu.setAttribute("data-visible","false");
         navToggle.setAttribute('aria-expanded',false);
         icon.setAttribute('icon','ri:menu-line');
-        // navbar.style.backdropFilter='blur(1rem)';
         document.body.classList.remove('no-scroll');
     }
 })
 if(navbar.classList.contains("home")){
     console.log("na indexu");
+    init();
     window.addEventListener("scroll",()=>{
         if (window.scrollY > 0) {
             navbar.style.backgroundColor = "whitesmoke";
@@ -30,4 +29,8 @@ if(navbar.classList.contains("home")){
             navbar.style.backgroundColor = "transparent";
         }
     })
+}
+function init(){
+    if (window.scrollY > 0)navbar.style.backgroundColor = "whitesmoke";
+    else navbar.style.backgroundColor = "transparent";
 }
