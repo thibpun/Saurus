@@ -11,16 +11,11 @@ async function init() {
 init();
 
 i18next.on('languageChanged', async () => {
-  const projects = await getProjects(); // This will skip cache and fetch the new JSON
-  
-  // (Optional) If you have an active filter, you might want to re-apply 
-  // the filter here instead of rendering all projects.
+  const projects = await getProjects();
   renderProjects(projects); 
 });
 
 export default function renderProjects(projects){
-  // console.log(typeof projects);
-  // console.log(projects);
   projectsContainer.innerHTML=projects.toReversed().map((project)=>
     `<a href="${project.link}" class="project">
     <img src="${getImageUrl(project.img)}" alt="" loading="lazy">
