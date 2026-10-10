@@ -31,5 +31,5 @@ export default function renderProjects(projects){
 }
 
 function getImageUrl(imgName) {
-  return new URL(`./assets/projects/${imgName}`, import.meta.url).href;
+  return new URL(`./assets/projects-thumbnails/${imgName}`, import.meta.url).href;
 }

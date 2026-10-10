@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       if (project) {
         // 4. Inject the data into your HTML
         document.querySelector('title').textContent = project.name;
-        document.getElementById('project-title').textContent = "skibidi";
+        document.getElementById('project-title').textContent = "Adaptacija u Hotel u Beogradu";
         // ... render images, descriptions, etc.
       } else {
         document.body.innerHTML = '<h1>Project not found</h1>';

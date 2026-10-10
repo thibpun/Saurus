@@ -7,46 +7,82 @@
     <title data-i18n="meta.homeTitle">Arhitektonski studio Saurus - Za unapređenje prostora za život običnih ljudi</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Pontano+Sans:wght@300..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/src/style.css" />
   </head>
 
   <body>
-    <header class="navbar home" style="background-color: transparent;">
-      <a href="" id="logo-container">
+    <header class="navbar" style="box-shadow: none;">
+      <a href="../" id="logo-container">
         <img
-          src="/studio-saurus-logo.png"
-          alt="Studio Saurus logo"
+          src="/studio-saurus-logo.png" 
+          alt="Studio Saurus logo" 
+          srcset="" 
           class="logo"
           data-i18n="images.logo"
           data-i18n-attr="images.logo"
           data-i18n-attribute="alt"
-        />
+          />
       </a>
-
       <button class="mobile-nav-toggle" aria-controls="nav-menu" aria-expanded="false">
         <iconify-icon icon="ri:menu-line" id="menu-icon"></iconify-icon>
-        <span class="sr-only" data-i18n="navigation.menu">Meni</span>
+        <span class="sr-only">Menu</span>
       </button>
-
       <nav>
         <ul id="nav-menu" data-visible="false">
           <li><button type="button" id="language-toggle">EN</button></li>
-          <li><a href="#" data-i18n="navigation.news">Vesti</a></li>
-          <li><a href="./projekti/" data-i18n="navigation.projects">Projekti</a></li>
-          <li><a href="./studio/" data-i18n="navigation.studio">Studio</a></li>
+          <li><a href="../vesti/" data-i18n="navigation.news">Vesti</a></li>
+          <li><a href="../projekti/" data-i18n="navigation.projects">Projekti</a></li>
+          <li><a href="../studio/" data-i18n="navigation.studio">Studio</a></li>
         </ul>
       </nav>
     </header>
-
-    <h1 id="project-title">AAAAA</h1>
+    <main id="project-container">
+      <div id="project-carousel">
+      </div>
+      <div id="project-info">
+        <h1 id="project-title">Project Name</h1>
+        <table>
+          <tbody>
+            <tr>
+              <th>Period Posla</th>
+              <td>2019</td>
+            </tr>
+            <tr>
+              <th>Klijent</th>
+              <td>Elegance doo</td>
+            </tr>
+            <tr>
+              <th>Lokacija</th>
+              <td>Beograd</td>
+            </tr>
+            <tr>
+              <th>Opis</th>
+              <td>Glavni projekat adaptacije postojećeg objekta u sivoj fazi u hotel sa 76 ležaja u 32 sobe i restoranom.</td>
+            </tr>
+            <tr>
+              <th>Bruto</th>
+              <td>2250m2</td>
+            </tr>
+            <tr>
+              <th>Status</th>
+              <td>U pripremi</td>
+            </tr>
+          </tbody>
+        </table>
+        <p id="project-description">
+          Glavni projekat adaptacije postojećeg objekta u sivoj fazi u hotel sa 76 ležaja u 32 sobe i restoranom. Sa veoma ograničenim sredstvima, uz unapred definisane proporcije i raspored otvora i krova formirana je harmonična celina podelom fasada na bazis u kamenu, telo u svetlom malteru i sprat – venac upotrebom plitke plastike i finih nijansi u završnoj obradi. Planiran je hotel opremljen modernim sistemom instalacija koje se projektom sinhronizuju kako međusobno, tako i sa nasleđenom betonskom konstrukcijom.
+        </p>
+      </div>
+    </main>
     <footer class="link-container">
-      <a href="https://www.linkedin.com/company/studio-saurus/" aria-label="LinkedIn"><iconify-icon icon="ri:linkedin-fill" class="link-icon"></iconify-icon></a>
       <a href="https://www.facebook.com/StudioSaurus/" aria-label="Facebook"><iconify-icon icon="ri:facebook-fill" class="link-icon"></iconify-icon></a>
       <a href="https://www.instagram.com/studio_saurus/" aria-label="Instagram"><iconify-icon icon="ri:instagram-line" class="link-icon"></iconify-icon></a>
+      <a href="https://www.linkedin.com/company/studio-saurus/" aria-label="LinkedIn"><iconify-icon icon="ri:linkedin-fill" class="link-icon"></iconify-icon></a>
     </footer>
 
     <script type="module" src="/src/i18n.js"></script>
+    <script type="module" src="/src/projectCarousel.js"></script>
     <script type="module" src="/src/projectDetail.js"></script>
     <script type="module" src="/src/nav.js"></script>
 

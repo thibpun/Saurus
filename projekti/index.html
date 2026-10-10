@@ -31,7 +31,7 @@
       <nav>
         <ul id="nav-menu" data-visible="false">
           <li><button type="button" id="language-toggle">EN</button></li>
-          <li><a href="#" data-i18n="navigation.news">Vesti</a></li>
+          <li><a href="../vesti/" data-i18n="navigation.news">Vesti</a></li>
           <li><a href="../projekti/" data-i18n="navigation.projects">Projekti</a></li>
           <li><a href="../studio/" data-i18n="navigation.studio">Studio</a></li>
         </ul>
@@ -39,7 +39,7 @@
     </header>
     <h1 style="display: none;" data-i18n="projectsPage.title">Projekti</h1>
     <!-- parent div bicause of position sticky on filter -->
-    <div> 
+    <main> 
       <div id="filter-container">
         <h2 style="display: none;" data-i18n="projectsPage.filtersTitle">Filteri</h2>
         <div class="filter-subcontainer" id="type-filter">
@@ -124,16 +124,16 @@
           </ul>
         </div>
       </div>
-      <div id="project-container">
+      <div id="projects-container">
         <div id="projects">
         </div>
       </div>
-    </div>
+    </main>
 
     <footer class="link-container">
-      <a href="https://www.linkedin.com/company/studio-saurus/" aria-label="LinkedIn"><iconify-icon icon="ri:linkedin-fill" class="link-icon"></iconify-icon></a>
       <a href="https://www.facebook.com/StudioSaurus/" aria-label="Facebook"><iconify-icon icon="ri:facebook-fill" class="link-icon"></iconify-icon></a>
       <a href="https://www.instagram.com/studio_saurus/" aria-label="Instagram"><iconify-icon icon="ri:instagram-line" class="link-icon"></iconify-icon></a>
+      <a href="https://www.linkedin.com/company/studio-saurus/" aria-label="LinkedIn"><iconify-icon icon="ri:linkedin-fill" class="link-icon"></iconify-icon></a>
     </footer>
 
     <script type="module" src="/src/i18n.js"></script>

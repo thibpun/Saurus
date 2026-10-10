@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arhitektonski projekti studija Saurus od enterijera do trgova</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Pontano+Sans:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/src/style.css">
+  </head>
+  <body>
+    <header class="navbar" style="box-shadow: none;">
+      <a href="../" id="logo-container">
+        <img
+          src="/studio-saurus-logo.png" 
+          alt="Studio Saurus logo" 
+          srcset="" 
+          class="logo"
+          data-i18n="images.logo"
+          data-i18n-attr="images.logo"
+          data-i18n-attribute="alt"
+          />
+      </a>
+      <button class="mobile-nav-toggle" aria-controls="nav-menu" aria-expanded="false">
+        <iconify-icon icon="ri:menu-line" id="menu-icon"></iconify-icon>
+        <span class="sr-only">Menu</span>
+      </button>
+      <nav>
+        <ul id="nav-menu" data-visible="false">
+          <li><button type="button" id="language-toggle">EN</button></li>
+          <li><a href="../vesti/" data-i18n="navigation.news">Vesti</a></li>
+          <li><a href="../projekti/" data-i18n="navigation.projects">Projekti</a></li>
+          <li><a href="../studio/" data-i18n="navigation.studio">Studio</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+      <div id="article-container">
+        <div class="article">
+          <div class="article-date">
+            <time>26</time>
+            <time>Jan 2010</time>
+          </div>
+          <div class="article-content">
+            <img src="https://www.saurus.rs/wp-content/uploads/2018/01/36-1.jpg" alt="">
+            <h2><a href="">Osvojena treća nagrada na konkursu za Japansku česmu</a></h2>
+            <p class="article-text">Japanska česma - 3. nagrada Period posla 2010 Klijent GSP Beograd Lokacija Kalemegdan, Beograd Opis Konkursno rešenje na temu Japanska česma na Kalemegdanu Bruto Status Arhitektonski studio Saurus je dobio treću nagradu na konkursu. Ideja je bila prezahtevna za investitora uzimajući u obzir rokove za realizaciju. Ovu česmu na Kalemegdanu posvećujemo japanskom narodu u znak zahvalnosti za pomoć koju su nam pružili u teškim trenucima. Japan je zemlja i duhovno i prostorno daleka. U vremenu kada se fizičke razdaljine brišu putem "world wide web"-a pokušali smo da se u ovom globalnom virtuelnom svetu približimo i svoj poklon podarimo svakom japancu. On će ga videti u Google map-u , Google Earth-u, internet aplikacijama koje omogućavaju lak pregled celokupne površine planete u vidu satelitskih snimaka putem interneta. Na ušću dveju reka, u…</p>
+          </div>
+        </div>
+        <div class="article">
+          <div class="article-date">
+            <time>26</time>
+            <time>Jan 2010</time>
+          </div>
+          <div class="article-content">
+            <img src="https://www.saurus.rs/wp-content/uploads/2018/01/36-1.jpg" alt="">
+            <h2><a href="">Osvojena treća nagrada na konkursu za Japansku česmu</a></h2>
+            <p class="article-text">Japanska česma - 3. nagrada Period posla 2010 Klijent GSP Beograd Lokacija Kalemegdan, Beograd Opis Konkursno rešenje na temu Japanska česma na Kalemegdanu Bruto Status Arhitektonski studio Saurus je dobio treću nagradu na konkursu. Ideja je bila prezahtevna za investitora uzimajući u obzir rokove za realizaciju. Ovu česmu na Kalemegdanu posvećujemo japanskom narodu u znak zahvalnosti za pomoć koju su nam pružili u teškim trenucima. Japan je zemlja i duhovno i prostorno daleka. U vremenu kada se fizičke razdaljine brišu putem "world wide web"-a pokušali smo da se u ovom globalnom virtuelnom svetu približimo i svoj poklon podarimo svakom japancu. On će ga videti u Google map-u , Google Earth-u, internet aplikacijama koje omogućavaju lak pregled celokupne površine planete u vidu satelitskih snimaka putem interneta. Na ušću dveju reka, u…</p>
+          </div>
+        </div>
+        <div class="article">
+          <div class="article-date">
+            <time>26</time>
+            <time>Jan 2010</time>
+          </div>
+          <div class="article-content">
+            <img src="https://www.saurus.rs/wp-content/uploads/2018/01/36-1.jpg" alt="">
+            <h2><a href="">Osvojena treća nagrada na konkursu za Japansku česmu</a></h2>
+            <p class="article-text">Japanska česma - 3. nagrada Period posla 2010 Klijent GSP Beograd Lokacija Kalemegdan, Beograd Opis Konkursno rešenje na temu Japanska česma na Kalemegdanu Bruto Status Arhitektonski studio Saurus je dobio treću nagradu na konkursu. Ideja je bila prezahtevna za investitora uzimajući u obzir rokove za realizaciju. Ovu česmu na Kalemegdanu posvećujemo japanskom narodu u znak zahvalnosti za pomoć koju su nam pružili u teškim trenucima. Japan je zemlja i duhovno i prostorno daleka. U vremenu kada se fizičke razdaljine brišu putem "world wide web"-a pokušali smo da se u ovom globalnom virtuelnom svetu približimo i svoj poklon podarimo svakom japancu. On će ga videti u Google map-u , Google Earth-u, internet aplikacijama koje omogućavaju lak pregled celokupne površine planete u vidu satelitskih snimaka putem interneta. Na ušću dveju reka, u…</p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="link-container">
+      <a href="https://www.facebook.com/StudioSaurus/" aria-label="Facebook"><iconify-icon icon="ri:facebook-fill" class="link-icon"></iconify-icon></a>
+      <a href="https://www.instagram.com/studio_saurus/" aria-label="Instagram"><iconify-icon icon="ri:instagram-line" class="link-icon"></iconify-icon></a>
+      <a href="https://www.linkedin.com/company/studio-saurus/" aria-label="LinkedIn"><iconify-icon icon="ri:linkedin-fill" class="link-icon"></iconify-icon></a>
+    </footer>
+
+    <script type="module" src="/src/i18n.js"></script>
+    <script type="module" src="/src/nav.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+  </body>
+</html>
