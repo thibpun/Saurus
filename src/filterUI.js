@@ -14,22 +14,15 @@ filterContainer.addEventListener('click',(e)=>{
     if(!filterGroup)return;
 
     const allButtonsInGroup=Array.from(filterGroup.querySelectorAll('button'));
-    const sveButton=allButtonsInGroup[0];
-    const isSveButton= btn===sveButton;
     
-    if(isSveButton){
-        allButtonsInGroup.forEach(button=>updateButtonState(button,sveButton===button));
-    }
-    else{
-        const isActive=btn.classList.contains('active');
-        updateButtonState(btn,!isActive);
-        if(!isActive) updateButtonState(sveButton,false);
-    }
-    const selectedCategories=allButtonsInGroup.slice(1);
-    const isAnyCategoryActive=selectedCategories.some(button=>button.classList.contains('active'));
-    if(!isAnyCategoryActive){
-        updateButtonState(sveButton,true);
-    }
+    allButtonsInGroup.forEach(button=>updateButtonState(button,btn===button));
+
+    // this is probably redundant 
+    // const selectedCategories=allButtonsInGroup.slice(1);
+    // const isAnyCategoryActive=selectedCategories.some(button=>button.classList.contains('active'));
+    // if(!isAnyCategoryActive){
+    //     updateButtonState(sveButton,true);
+    // }
     applyFilters();
 })
 

@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/src/style.css" />
   </head>
   <body>
-    <header class="navbar" style="box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);">
+    <header class="navbar">
       <a href="../" id="logo-container">
         <img src="/studio-saurus-logo.png" alt="Studio Saurus logo" class="logo" data-i18n="images.logo" data-i18n-attr="images.logo" data-i18n-attribute="alt">
       </a>
@@ -22,10 +22,10 @@
       </button>
       <nav>
         <ul id="nav-menu" data-visible="false">
+          <li><button type="button" id="language-toggle">EN</button></li>
           <li><a href="#" data-i18n="navigation.news">Vesti</a></li>
           <li><a href="../projekti/" data-i18n="navigation.projects">Projekti</a></li>
           <li><a href="../studio/" data-i18n="navigation.studio">Studio</a></li>
-          <li><button type="button" id="language-toggle">EN</button></li>
         </ul>
       </nav>
     </header>
@@ -102,15 +102,12 @@
           </p>
         </div>
       </div>
-
-      <div id="map"></div>
-
       <div class="contact-info">
         <div class="contact-grid-container">
           <h2 style="grid-area: box-1;" data-i18n="contact.heading">Kontakt</h2>
 
           <address class="contact-column" style="grid-area: box-2;">
-            <p>Đevđelijska 14, Beograd</p>
+            <p>Saveznička 8 Aranđelovac</p>
             <p>Tel. +381 65 47 43 024</p>
             <p>
               <span data-i18n="contact.email">E-mail:</span>
@@ -119,7 +116,7 @@
           </address>
 
           <address class="contact-column" style="grid-area: box-3;">
-            <p>Bul. Kralja Aleksandra 274</p>
+            <p>Milana Rakića 61 Beograd</p>
             <p>Tel. +381 65 47 43 024</p>
             <p>
               <span data-i18n="contact.email">E-mail:</span>
@@ -224,17 +221,14 @@
       </div>
     </div>
 
-    <footer>
-      <div class="link-container">
-        <a href="https://www.linkedin.com/company/studio-saurus/" aria-label="LinkedIn"><iconify-icon icon="ri:linkedin-fill" class="link-icon"></iconify-icon></a>
-        <a href="https://www.facebook.com/StudioSaurus/" aria-label="Facebook"><iconify-icon icon="ri:facebook-fill" class="link-icon"></iconify-icon></a>
-        <a href="https://www.instagram.com/studio_saurus/" aria-label="Instagram"><iconify-icon icon="ri:instagram-line" class="link-icon"></iconify-icon></a>
-      </div>
+    <footer class="link-container">
+      <a href="https://www.linkedin.com/company/studio-saurus/" aria-label="LinkedIn"><iconify-icon icon="ri:linkedin-fill" class="link-icon"></iconify-icon></a>
+      <a href="https://www.facebook.com/StudioSaurus/" aria-label="Facebook"><iconify-icon icon="ri:facebook-fill" class="link-icon"></iconify-icon></a>
+      <a href="https://www.instagram.com/studio_saurus/" aria-label="Instagram"><iconify-icon icon="ri:instagram-line" class="link-icon"></iconify-icon></a>
     </footer>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script type="module" src="/src/i18n.js"></script>
-    <script type="module" src="/src/map.js"></script>
     <script type="module" src="/src/nav.js"></script>
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
   </body>

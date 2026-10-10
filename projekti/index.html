@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/src/style.css">
   </head>
   <body>
@@ -30,10 +30,10 @@
       </button>
       <nav>
         <ul id="nav-menu" data-visible="false">
+          <li><button type="button" id="language-toggle">EN</button></li>
           <li><a href="#" data-i18n="navigation.news">Vesti</a></li>
           <li><a href="../projekti/" data-i18n="navigation.projects">Projekti</a></li>
           <li><a href="../studio/" data-i18n="navigation.studio">Studio</a></li>
-          <li><button type="button" id="language-toggle">EN</button></li>
         </ul>
       </nav>
     </header>
@@ -61,7 +61,7 @@
             <li><button type="button" aria-pressed="false" data-i18n="projectsPage.types.residential">
               <iconify-icon icon="ri:checkbox-blank-line"></iconify-icon>Stambeni
             </button></li>
-            <li><button type="button" aria-pressed="false" data-i18n="projectsPage.types.house">
+            <li><button type="button" aria-pressed="false" data-i18n="projectsPage.types.home">
               <iconify-icon icon="ri:checkbox-blank-line"></iconify-icon>Kuća
             </button></li>
             <li><button type="button" aria-pressed="false" data-i18n="projectsPage.types.public">
@@ -130,12 +130,10 @@
       </div>
     </div>
 
-    <footer>
-      <div class="link-container">
-        <a href="https://www.linkedin.com/company/studio-saurus/"><iconify-icon icon="ri:linkedin-fill" class="link-icon"></iconify-icon></a>
-        <a href="https://www.facebook.com/StudioSaurus/"><iconify-icon icon="ri:facebook-fill" class="link-icon"></iconify-icon> </a>
-        <a href="https://www.instagram.com/studio_saurus/"><iconify-icon icon="ri:instagram-line" class="link-icon"></iconify-icon></a>
-      </div>
+    <footer class="link-container">
+      <a href="https://www.linkedin.com/company/studio-saurus/" aria-label="LinkedIn"><iconify-icon icon="ri:linkedin-fill" class="link-icon"></iconify-icon></a>
+      <a href="https://www.facebook.com/StudioSaurus/" aria-label="Facebook"><iconify-icon icon="ri:facebook-fill" class="link-icon"></iconify-icon></a>
+      <a href="https://www.instagram.com/studio_saurus/" aria-label="Instagram"><iconify-icon icon="ri:instagram-line" class="link-icon"></iconify-icon></a>
     </footer>
 
     <script type="module" src="/src/i18n.js"></script>

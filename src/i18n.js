@@ -241,7 +241,7 @@ const resources = {
           commercial: "Commercial",
           urbanism: "Urbanism",
           residential: "Residential",
-          house: "House",
+          home: "Home",
           public: "Public",
         },
         phases: {
