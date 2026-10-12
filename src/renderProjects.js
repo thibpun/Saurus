@@ -18,7 +18,7 @@ i18next.on('languageChanged', async () => {
 export default function renderProjects(projects){
   projectsContainer.innerHTML=projects.toReversed().map((project)=>
     `<a href="${project.link}" class="project">
-    <img src="${getImageUrl(project.img)}" alt="" loading="lazy">
+    <img src="${getImageUrl(project.thumbnail)}" alt="" loading="lazy">
     <div class="card-content">
     <h2>${project.title}</h2>
     <p>${project.description}</p>

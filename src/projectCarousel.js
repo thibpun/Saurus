@@ -28,9 +28,9 @@ carousel.addEventListener("click",(event)=>{
     delete activeMarker.dataset.active; 
 })
 
-function init(){
-    const imageModules = import.meta.glob('/src/assets/projects/project1/*.{png,jpg,jpeg,webp}', { eager: true });
-    const imagesLinks = Object.values(imageModules).map(module => module.default);
+export default function createCarousel(folderPath){
+    const allImageModules = import.meta.glob('/src/assets/projects/**/*.{png,jpg,jpeg,webp}', { eager: true });
+    const imagesLinks = Object.entries(allImageModules).filter(([filePath, module]) => filePath.includes(folderPath)).map(([filePath, module]) => module.default);
     let innerHtml='';
     let rectangles='';
     for(let i=0;i<imagesLinks.length;i++){
@@ -52,4 +52,3 @@ function init(){
     images=document.querySelectorAll('#project-carousel>img');
     markers=document.querySelectorAll('#marker-container > div');
 }  
-init();

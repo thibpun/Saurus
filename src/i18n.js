@@ -163,6 +163,10 @@ const resources = {
         marko: "Marko Ranđelović",
         miroslav: "Miroslav Kočmaruk",
       },
+      newsPage: {
+        title: "Vesti",
+        
+      },
     },
   },
 
@@ -327,6 +331,11 @@ const resources = {
         jelena: "Jelena Tomić",
         marko: "Marko Ranđelović",
         miroslav: "Miroslav Kočmaruk",
+      },
+
+      newsPage: {
+        title: "News",
+        
       },
     },
   },
