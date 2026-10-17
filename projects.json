@@ -16,7 +16,7 @@
     "status": [
       "Izveden"
     ],
-    "link": "/projekat/?id=1",
+    "link": "../projekat/?id=1",
     "imagesFolderName": "/src/assets/projects/stambena-zgrada-u-aranđelovcu-1/",
     "client": "",
     "location": "",
@@ -41,7 +41,7 @@
     "status": [
       "Izveden"
     ],
-    "link": "/projekat/?id=2",
+    "link": "../projekat/?id=2",
     "imagesFolderName": "/src/assets/projects/stambena-zgrada-u-aranđelovcu-2/",
     "client": "",
     "location": "",
@@ -64,7 +64,7 @@
       "Idejni"
     ],
     "status": [],
-    "link": "/projekat/?id=3",
+    "link": "../projekat/?id=3",
     "imagesFolderName": "/src/assets/projects/termag-han-pijesak-hotel-gora-rekonstrukcija-i-dogradnja/",
     "client": "",
     "location": "",
@@ -88,7 +88,7 @@
     "status": [
       "Izveden"
     ],
-    "link": "/projekat/?id=4",
+    "link": "../projekat/?id=4",
     "imagesFolderName": "/src/assets/projects/dogradnja-kuće-u-aranđelovcu/",
     "client": "",
     "location": "",
@@ -110,7 +110,7 @@
       "Idejni"
     ],
     "status": [],
-    "link": "/projekat/?id=5",
+    "link": "../projekat/?id=5",
     "imagesFolderName": "/src/assets/projects/kuća-u-aranđelovcu-5/",
     "client": "",
     "location": "",
@@ -134,7 +134,7 @@
     "status": [
       "Izveden"
     ],
-    "link": "/projekat/?id=6",
+    "link": "../projekat/?id=6",
     "imagesFolderName": "/src/assets/projects/b-steel-mladenovac/",
     "client": "",
     "location": "",
@@ -160,7 +160,7 @@
     "status": [
       "Izveden"
     ],
-    "link": "/projekat/?id=7",
+    "link": "../projekat/?id=7",
     "imagesFolderName": "/src/assets/projects/tri-o-topola/",
     "client": "",
     "location": "",
@@ -184,7 +184,7 @@
     "status": [
       "Izveden"
     ],
-    "link": "/projekat/?id=8",
+    "link": "../projekat/?id=8",
     "imagesFolderName": "/src/assets/projects/tri-o-kragujevac-robna-kuća-rekonstrukcija-štamparije/",
     "client": "",
     "location": "",
@@ -208,7 +208,7 @@
     "status": [
       "Izveden"
     ],
-    "link": "/projekat/?id=9",
+    "link": "../projekat/?id=9",
     "imagesFolderName": "/src/assets/projects/stambena-zgrada-u-aranđelovcu-9/",
     "client": "",
     "location": "",
@@ -232,7 +232,7 @@
       "Idejni"
     ],
     "status": [],
-    "link": "/projekat/?id=10",
+    "link": "../projekat/?id=10",
     "imagesFolderName": "/src/assets/projects/stanković-bukulja-aranđelovac-naselje/",
     "client": "",
     "location": "",
@@ -254,7 +254,7 @@
       "Glavni"
     ],
     "status": [],
-    "link": "/projekat/?id=11",
+    "link": "../projekat/?id=11",
     "imagesFolderName": "/src/assets/projects/manes-aranđelovac/",
     "client": "",
     "location": "",
@@ -278,7 +278,7 @@
     "status": [
       "Izveden"
     ],
-    "link": "/projekat/?id=12",
+    "link": "../projekat/?id=12",
     "imagesFolderName": "/src/assets/projects/kuća-u-aranđelovcu-12/",
     "client": "",
     "location": "",
@@ -303,7 +303,7 @@
     "status": [
       "Konkurs"
     ],
-    "link": "/projekat/?id=13",
+    "link": "../projekat/?id=13",
     "imagesFolderName": "/src/assets/projects/grad-beograd,-makenzijeva-trg/",
     "client": "",
     "location": "",
@@ -330,7 +330,7 @@
       "Konkurs",
       "Nagrađen"
     ],
-    "link": "/projekat/?id=14",
+    "link": "../projekat/?id=14",
     "imagesFolderName": "/src/assets/projects/pijaca-senjak,-3.-nagrada/",
     "client": "Opština Savski venac i DAB",
     "location": "Senjak, Beograd",
@@ -352,7 +352,7 @@
     "status": [
       "Konkurs"
     ],
-    "link": "/projekat/?id=15",
+    "link": "../projekat/?id=15",
     "imagesFolderName": "/src/assets/projects/opština-pančevo/",
     "client": "",
     "location": "",
@@ -380,7 +380,7 @@
       "Nagrađen",
       "Izveden"
     ],
-    "link": "/projekat/?id=16",
+    "link": "../projekat/?id=16",
     "imagesFolderName": "/src/assets/projects/trg-u-beočinu,-novi-sad,-1.-nagrada/",
     "client": "Lafarge BFC d.o.o.",
     "location": "Beočin, Srbija",
@@ -403,7 +403,7 @@
       "Idejni"
     ],
     "status": [],
-    "link": "/projekat/?id=17",
+    "link": "../projekat/?id=17",
     "imagesFolderName": "/src/assets/projects/park-bukovička-banja-aranđelovac-talpara/",
     "client": "",
     "location": "",
@@ -428,7 +428,7 @@
       "Konkurs",
       "Nagrađen"
     ],
-    "link": "/projekat/?id=18",
+    "link": "../projekat/?id=18",
     "imagesFolderName": "/src/assets/projects/japanska-česma-3.-nagrada/",
     "client": "GSP Beograd",
     "location": "Kalemegdan, Beograd",
@@ -452,7 +452,7 @@
     "status": [
       "Konkurs"
     ],
-    "link": "/projekat/?id=19",
+    "link": "../projekat/?id=19",
     "imagesFolderName": "/src/assets/projects/he-na-drini-višegrad/",
     "client": "",
     "location": "",
@@ -474,7 +474,7 @@
       "Idejni"
     ],
     "status": [],
-    "link": "/projekat/?id=20",
+    "link": "../projekat/?id=20",
     "imagesFolderName": "/src/assets/projects/ethnicraft-gir-pariz-izložbeni-štand/",
     "client": "",
     "location": "",
@@ -499,7 +499,7 @@
     "status": [
       "Izveden"
     ],
-    "link": "/projekat/?id=21",
+    "link": "../projekat/?id=21",
     "imagesFolderName": "/src/assets/projects/vinarija/",
     "client": "",
     "location": "",
@@ -523,7 +523,7 @@
     "status": [
       "Izveden"
     ],
-    "link": "/projekat/?id=22",
+    "link": "../projekat/?id=22",
     "imagesFolderName": "/src/assets/projects/stambena-zgrada-aranđelovac/",
     "client": "",
     "location": "",
@@ -546,7 +546,7 @@
       "Glavni"
     ],
     "status": [],
-    "link": "/projekat/?id=23",
+    "link": "../projekat/?id=23",
     "imagesFolderName": "/src/assets/projects/park-bukovička-banja-aranđelovac-kiosk/",
     "client": "",
     "location": "",
@@ -573,7 +573,7 @@
     "status": [
       "Izveden"
     ],
-    "link": "/projekat/?id=24",
+    "link": "../projekat/?id=24",
     "imagesFolderName": "/src/assets/projects/opština-batočina-gradski-trg/",
     "client": "",
     "location": "",
@@ -598,7 +598,7 @@
     "status": [
       "Izveden"
     ],
-    "link": "/projekat/?id=25",
+    "link": "../projekat/?id=25",
     "imagesFolderName": "/src/assets/projects/kuća-u-vinči/",
     "client": "",
     "location": "",
@@ -622,7 +622,7 @@
     "status": [
       "Izveden"
     ],
-    "link": "/projekat/?id=26",
+    "link": "../projekat/?id=26",
     "imagesFolderName": "/src/assets/projects/kuća-u-aranđelovcu-26/",
     "client": "",
     "location": "",
@@ -646,7 +646,7 @@
     "status": [
       "Konkurs"
     ],
-    "link": "/projekat/?id=27",
+    "link": "../projekat/?id=27",
     "imagesFolderName": "/src/assets/projects/grad-novi-sad-biblioteka/",
     "client": "",
     "location": "",
@@ -670,7 +670,7 @@
     "status": [
       "Izveden"
     ],
-    "link": "/projekat/?id=28",
+    "link": "../projekat/?id=28",
     "imagesFolderName": "/src/assets/projects/kuća-u-aranđelovcu-28/",
     "client": "",
     "location": "",
@@ -694,7 +694,7 @@
       "Idejni"
     ],
     "status": [],
-    "link": "/projekat/?id=29",
+    "link": "../projekat/?id=29",
     "imagesFolderName": "/src/assets/projects/src-šumadija-aranđelovac/",
     "client": "",
     "location": "",
@@ -719,7 +719,7 @@
     "status": [
       "Konkurs"
     ],
-    "link": "/projekat/?id=30",
+    "link": "../projekat/?id=30",
     "imagesFolderName": "/src/assets/projects/grad-lazarevac-naselje-rasadnik/",
     "client": "",
     "location": "",
@@ -743,7 +743,7 @@
     "status": [
       "Izveden"
     ],
-    "link": "/projekat/?id=31",
+    "link": "../projekat/?id=31",
     "imagesFolderName": "/src/assets/projects/kuća-u-aranđelovcu-31/",
     "client": "",
     "location": "",
@@ -768,7 +768,7 @@
     "status": [
       "Izveden"
     ],
-    "link": "/projekat/?id=32",
+    "link": "../projekat/?id=32",
     "imagesFolderName": "/src/assets/projects/kuća-u-jajincima/",
     "client": "Alvasari doo",
     "location": "Beograd, Jajinci",
@@ -792,7 +792,7 @@
     "status": [
       "Izveden"
     ],
-    "link": "/projekat/?id=33",
+    "link": "../projekat/?id=33",
     "imagesFolderName": "/src/assets/projects/new-heaven-enterijer-kuće/",
     "client": "",
     "location": "",
@@ -814,7 +814,7 @@
       "Idejni"
     ],
     "status": [],
-    "link": "/projekat/?id=34",
+    "link": "../projekat/?id=34",
     "imagesFolderName": "/src/assets/projects/vanilica-aranđelovac/",
     "client": "",
     "location": "",
@@ -840,7 +840,7 @@
     "status": [
       "Izveden"
     ],
-    "link": "/projekat/?id=35",
+    "link": "../projekat/?id=35",
     "imagesFolderName": "/src/assets/projects/stambena-zgrada-u-aranđelovcu-35/",
     "client": "",
     "location": "",
@@ -862,7 +862,7 @@
       "Idejni"
     ],
     "status": [],
-    "link": "/projekat/?id=36",
+    "link": "../projekat/?id=36",
     "imagesFolderName": "/src/assets/projects/stambeni-objekat-u-aranđelovcu/",
     "client": "",
     "location": "",
@@ -886,7 +886,7 @@
     "status": [
       "Izveden"
     ],
-    "link": "/projekat/?id=37",
+    "link": "../projekat/?id=37",
     "imagesFolderName": "/src/assets/projects/enterijer-stana-u-beogradu/",
     "client": "",
     "location": "",
@@ -908,7 +908,7 @@
       "Idejni"
     ],
     "status": [],
-    "link": "/projekat/?id=38",
+    "link": "../projekat/?id=38",
     "imagesFolderName": "/src/assets/projects/dogradnja-kuće-u-sremskoj-mitrovici/",
     "client": "",
     "location": "",
@@ -934,7 +934,7 @@
     "status": [
       "Konkurs"
     ],
-    "link": "/projekat/?id=39",
+    "link": "../projekat/?id=39",
     "imagesFolderName": "/src/assets/projects/almeks-hotel-tamiš-pančevo/",
     "client": "Almex doo",
     "location": "Pančevo",
@@ -956,7 +956,7 @@
       "Enterijer"
     ],
     "status": [],
-    "link": "/projekat/?id=40",
+    "link": "../projekat/?id=40",
     "imagesFolderName": "/src/assets/projects/mirra-capital-beograd/",
     "client": "",
     "location": "",
@@ -982,7 +982,7 @@
     "status": [
       "Izveden"
     ],
-    "link": "/projekat/?id=41",
+    "link": "../projekat/?id=41",
     "imagesFolderName": "/src/assets/projects/kuća-u-sremskoj-mitrovici/",
     "client": "Fizičko lice",
     "location": "Sremska Mitrovica",
@@ -1005,7 +1005,7 @@
       "Enterijer"
     ],
     "status": [],
-    "link": "/projekat/?id=42",
+    "link": "../projekat/?id=42",
     "imagesFolderName": "/src/assets/projects/enterijer-kuće-u-jajincima/",
     "client": "",
     "location": "",
@@ -1030,7 +1030,7 @@
     "status": [
       "Izveden"
     ],
-    "link": "/projekat/?id=43",
+    "link": "../projekat/?id=43",
     "imagesFolderName": "/src/assets/projects/enterijer-kuće-u-sremskoj-mitrovici/",
     "client": "Fizičko lice",
     "location": "Sremska Mitrovica",
@@ -1052,7 +1052,7 @@
       "Glavni"
     ],
     "status": [],
-    "link": "/projekat/?id=44",
+    "link": "../projekat/?id=44",
     "imagesFolderName": "/src/assets/projects/kuća-u-aranđelovcu-44/",
     "client": "",
     "location": "",
@@ -1075,7 +1075,7 @@
       "Enterijer"
     ],
     "status": [],
-    "link": "/projekat/?id=45",
+    "link": "../projekat/?id=45",
     "imagesFolderName": "/src/assets/projects/caussade-semences-sremska-mitrovica/",
     "client": "",
     "location": "",
@@ -1099,7 +1099,7 @@
     "status": [
       "Konkurs"
     ],
-    "link": "/projekat/?id=46",
+    "link": "../projekat/?id=46",
     "imagesFolderName": "/src/assets/projects/bijenale-arhitekture-venecija-paviljon/",
     "client": "",
     "location": "",
@@ -1127,7 +1127,7 @@
     "status": [
       "Izveden"
     ],
-    "link": "/projekat/?id=47",
+    "link": "../projekat/?id=47",
     "imagesFolderName": "/src/assets/projects/mirra-capital-beograd-madridska-8/",
     "client": "Mirra Capital doo",
     "location": "Beograd, Bulevar kralja Madridska 8",
@@ -1152,7 +1152,7 @@
       "Idejni"
     ],
     "status": [],
-    "link": "/projekat/?id=48",
+    "link": "../projekat/?id=48",
     "imagesFolderName": "/src/assets/projects/mirra-capital-beograd-bulevar-414/",
     "client": "Mirra Capital doo",
     "location": "Beograd, Bulevar kralja Aleksandra 414",
@@ -1175,7 +1175,7 @@
       "Idejni"
     ],
     "status": [],
-    "link": "/projekat/?id=49",
+    "link": "../projekat/?id=49",
     "imagesFolderName": "/src/assets/projects/porodična-kuća-na-brdu-u-beogradu/",
     "client": "Fizičko lice",
     "location": "Kumodraž Beograd",
@@ -1199,7 +1199,7 @@
       "Glavni"
     ],
     "status": [],
-    "link": "/projekat/?id=50",
+    "link": "../projekat/?id=50",
     "imagesFolderName": "/src/assets/projects/šumadinka-kuća-u-banji-aranđelovac/",
     "client": "Fizičko lice",
     "location": "Banja Aranđelovac",
@@ -1223,7 +1223,7 @@
       "Enterijer"
     ],
     "status": [],
-    "link": "/projekat/?id=51",
+    "link": "../projekat/?id=51",
     "imagesFolderName": "/src/assets/projects/enterijer-porodične-kuće-u-beogradu/",
     "client": "Privatno lice",
     "location": "Beograd",
@@ -1247,7 +1247,7 @@
       "Enterijer"
     ],
     "status": [],
-    "link": "/projekat/?id=52",
+    "link": "../projekat/?id=52",
     "imagesFolderName": "/src/assets/projects/enterijer-kuće-šumadinka-u-banji-aranđelovac/",
     "client": "Privatno lice",
     "location": "Banja Aranđelovac",
@@ -1271,12 +1271,12 @@
     "status": [
       "Konkurs"
     ],
-    "link": "/projekat/?id=53",
+    "link": "../projekat/?id=53",
     "imagesFolderName": "/src/assets/projects/konkurs-savski-trg-beograd/",
     "client": "Grad Beograd",
     "location": "Beograd",
     "gross": "27000 m2",
-    "descriptionLong": "Do predviđenog roka predato je ukupno 25 konkursnih radova.<br>Žiri je radio u sastavu:<br>Predsednik Žirija: prof.Janez Koželj, arhitekta, predstavnik Udruženja arhitekata Srbije<br>Potpredsednik Žirija: Milutin Folić, arhitekta, Gradski urbanista Grada Beograda i članovi:<br>Osama Al Hassan, pejzažni arhitekta, predstavnik Naručioca<br>Jovan Mitrović, arhitekta, predstavnik Udruženja arhitekata Srbije<br>Dr Milena Kordić, arhitekta, predstavnik Udruženja arhitekata Srbije<br>Žiri je doneo sledeće odluke:<br>• Prva nagrada „Fenwick Iribarren Architects“, Madrid, Španija<br>• Druga nagrada „Medprostor“ d.o.o., Ljubljana, Slovenija<br>• Treća nagrada: „SWA Group (SWA)“, Kalifornija, SAD, saradnici: „CEP“ – Centar za planiranje urbanog razvoja, Beograd<br>• Otkup 1: „Arhitektura ARSA“, Novi Pazar, Republika Srbija ( Damir Rastoder, Admir Bibić, Emrah Bronja, Armin Redžepagić )<br>• Otkup 2: InSite, a division of KEO International Consultants“, Abu Dabi, UAE<br>• Otkup 3,4 i 5 nisu dodeljeni.\nSavski trg – Hrastko<br>Stefan Nemanja je u fokusu trga, ispred ulaza u Nacionalni muzej istorije Srbije, kao čuvar kapije, portala u budućnost. Nemanja je bio vladar, čovek od mača, imena izvedenog od „neman“. Jednom od sinova je dao ime Rastko, po rastu, ili hrastu, svetom srpskom drvetu.  Rastko je postao Sv. Sava, duhovnik srpskog naroda.   Upravo je iz ljubavi između oca i sina Srbija počela da raste kao hrast, u početku kao porodično stablo Nemanjića, da bi se dalje nastavalo granama koje sežu kroz vekove. Savski trg je organizovan kao Hrast koji raste iz centra formirajući organske fraktalne ćelije u svojoj krošnji.  Svaka ćelija je jedna otvorena soba, ostrvo za različite aktivnosti, koje se menjaju s vremena na vreme. One mogu biti u vezi sa Muzejom istorije Srbije, kao pomenuta tema porodičnog stabla Nemanjića, ili neke druge grane izabrane iz bogate i duge srpske istorije, ili nešto potpuno drugačije iz domena popularne umetnosti, kupovine, zabave…"
+    "descriptionLong": "Do predviđenog roka predato je ukupno 25 konkursnih radova.<br>Žiri je radio u sastavu:<br>Predsednik Žirija: prof.Janez Koželj, arhitekta, predstavnik Udruženja arhitekata Srbije<br>Potpredsednik Žirija: Milutin Folić, arhitekta, Gradski urbanista Grada Beograda i članovi:<br>Osama Al Hassan, pejzažni arhitekta, predstavnik Naručioca<br>Jovan Mitrović, arhitekta, predstavnik Udruženja arhitekata Srbije<br>Dr Milena Kordić, arhitekta, predstavnik Udruženja arhitekata Srbije<br>Žiri je doneo sledeće odluke:<br>• Prva nagrada „Fenwick Iribarren Architects“, Madrid, Španija<br>• Druga nagrada „Medprostor“ d.o.o., Ljubljana, Slovenija<br>• Treća nagrada: „SWA Group (SWA)“, Kalifornija, SAD, saradnici: „CEP“ – Centar za planiranje urbanog razvoja, Beograd<br>• Otkup 1: „Arhitektura ARSA“, Novi Pazar, Republika Srbija ( Damir Rastoder, Admir Bibić, Emrah Bronja, Armin Redžepagić )<br>• Otkup 2: InSite, a division of KEO International Consultants“, Abu Dabi, UAE<br>• Otkup 3,4 i 5 nisu dodeljeni.\nSavski trg – Hrastko<br>Stefan Nemanja je u fokusu trga, ispred ulaza u Nacionalni muzej istorije Srbije, kao čuvar kapije, portala u budućnost. Nemanja je bio vladar, čovek od mača, imena izvedenog od „neman“. Jednom od sinova je dao ime Rastko, po rastu, ili hrastu, svetom srpskom drvetu. Rastko je postao Sv. Sava, duhovnik srpskog naroda. Upravo je iz ljubavi između oca i sina Srbija počela da raste kao hrast, u početku kao porodično stablo Nemanjića, da bi se dalje nastavalo granama koje sežu kroz vekove. Savski trg je organizovan kao Hrast koji raste iz centra formirajući organske fraktalne ćelije u svojoj krošnji. Svaka ćelija je jedna otvorena soba, ostrvo za različite aktivnosti, koje se menjaju s vremena na vreme. One mogu biti u vezi sa Muzejom istorije Srbije, kao pomenuta tema porodičnog stabla Nemanjića, ili neke druge grane izabrane iz bogate i duge srpske istorije, ili nešto potpuno drugačije iz domena popularne umetnosti, kupovine, zabave…"
   },
   {
     "id": 54,
@@ -1295,7 +1295,7 @@
       "Glavni"
     ],
     "status": [],
-    "link": "/projekat/?id=54",
+    "link": "../projekat/?id=54",
     "imagesFolderName": "/src/assets/projects/naselje-kuća-u-malaviju-afrika/",
     "client": "Fizičko lice",
     "location": "Malavi Afrika",
@@ -1319,7 +1319,7 @@
       "Glavni"
     ],
     "status": [],
-    "link": "/projekat/?id=55",
+    "link": "../projekat/?id=55",
     "imagesFolderName": "/src/assets/projects/vila-sa-bazenom-u-malaviju-afrika/",
     "client": "Fizičko lice",
     "location": "Malavi Afrika",
@@ -1341,7 +1341,7 @@
       "Idejni"
     ],
     "status": [],
-    "link": "/projekat/?id=56",
+    "link": "../projekat/?id=56",
     "imagesFolderName": "/src/assets/projects/vila-na-brdu-tradicionalna/",
     "client": "",
     "location": "",
@@ -1363,7 +1363,7 @@
       "Idejni"
     ],
     "status": [],
-    "link": "/projekat/?id=57",
+    "link": "../projekat/?id=57",
     "imagesFolderName": "/src/assets/projects/vila-na-brdu-moderna/",
     "client": "",
     "location": "",
@@ -1388,7 +1388,7 @@
     "status": [
       "Izveden"
     ],
-    "link": "/projekat/?id=58",
+    "link": "../projekat/?id=58",
     "imagesFolderName": "/src/assets/projects/poslovni-kompleks-packom-beograd/",
     "client": "Packom doo",
     "location": "Beograd",
@@ -1413,7 +1413,7 @@
     "status": [
       "Izveden"
     ],
-    "link": "/projekat/?id=59",
+    "link": "../projekat/?id=59",
     "imagesFolderName": "/src/assets/projects/poslovni-enterijer-packom-beograd/",
     "client": "Packom doo",
     "location": "Beograd",
@@ -1436,7 +1436,7 @@
       "Glavni"
     ],
     "status": [],
-    "link": "/projekat/?id=60",
+    "link": "../projekat/?id=60",
     "imagesFolderName": "/src/assets/projects/adaptacija-u-višeporodičnu-stambeno-poslovnu-urbanu-vilu/",
     "client": "",
     "location": "",
@@ -1458,7 +1458,7 @@
     "status": [
       "U pripremi"
     ],
-    "link": "/projekat/?id=61",
+    "link": "../projekat/?id=61",
     "imagesFolderName": "/src/assets/projects/adaptacija-u-hotel-u-beogradu/",
     "client": "Elegance doo",
     "location": "Beograd",
