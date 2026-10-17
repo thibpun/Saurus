@@ -1,4 +1,3 @@
-import renderProjects from "./renderProjects";
 import i18next from "./i18n.js";
 
 let cache = {
@@ -17,7 +16,6 @@ export default async function getProjects(){
         const res = await fetch(`${import.meta.env.BASE_URL}${fileName}${cacheBuster}`, {
             cache: "no-store"
         });
-        // const res=await fetch(`${import.meta.env.BASE_URL}projects.json`);
         
         if(!res.ok)throw new Error(`HTTP error! status:${res.status}`);
 
@@ -26,7 +24,6 @@ export default async function getProjects(){
             lang:currentLang,
             data:data
         }
-        // renderProjects(data);
         return data;
     }
     catch(err){

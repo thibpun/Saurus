@@ -76,7 +76,7 @@ const resources = {
           commercial: "Poslovni",
           urbanism: "Urbanizam",
           residential: "Stambeni",
-          house: "Kuća",
+          home: "Kuća",
           public: "Javni",
         },
         phases: {

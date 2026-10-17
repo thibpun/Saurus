@@ -44,19 +44,6 @@ function updateButtonState(button,isActive){
     }
 }
 
-
-
-if(!isMobile.matches){
-    const yearFilterContainer=document.getElementById('year-filter');
-    const yearMainBtn=yearFilterContainer.querySelector('button[aria-haspopup]');
-    yearFilterContainer.addEventListener('mouseenter',()=>{
-        yearMainBtn.setAttribute('aria-expanded','true');
-    })
-    yearFilterContainer.addEventListener('mouseleave',()=>{
-        yearMainBtn.setAttribute('aria-expanded','false');
-    })
-}
-
 if(isMobile.matches){
     const typeFilterContainer=document.getElementById('type-filter');
     const typeBtns=typeFilterContainer.querySelectorAll('ul button');
@@ -102,6 +89,16 @@ if(isMobile.matches){
         if(!event.target.closest('.filter-subcontainer') && !event.target.closest('#year-filter') && !event.target.closest(`ul[role="listbox"]`)){
             dropdownToggles.forEach(button=>button.setAttribute('aria-expanded','false'));
         }
+    })
+}
+else{
+    const yearFilterContainer=document.getElementById('year-filter');
+    const yearMainBtn=yearFilterContainer.querySelector('button[aria-haspopup]');
+    yearFilterContainer.addEventListener('mouseenter',()=>{
+        yearMainBtn.setAttribute('aria-expanded','true');
+    })
+    yearFilterContainer.addEventListener('mouseleave',()=>{
+        yearMainBtn.setAttribute('aria-expanded','false');
     })
 }
 
