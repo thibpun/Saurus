@@ -31,176 +31,153 @@
 
       <nav>
         <ul id="nav-menu" data-visible="false">
-          <li><button type="button" id="language-toggle">EN</button></li>
-          <li><a href="../vesti/" data-i18n="navigation.news">Vesti</a></li>
-          <li><a href="./projekti/" data-i18n="navigation.projects">Projekti</a></li>
-          <li><a href="./studio/" data-i18n="navigation.studio">Studio</a></li>
+          <li><button type="button" id="language-toggle">en</button></li>
+          <li><a href="../vesti/" data-i18n="navigation.news">vesti</a></li>
+          <li><a href="./projekti/" data-i18n="navigation.projects">projekti</a></li>
+          <li><a href="./studio/" data-i18n="navigation.studio">studio</a></li>
         </ul>
       </nav>
     </header>
 
-    <section class="hero"></section>
+    <section id="hero">
+      <picture  data-active>
+        <source media="(min-width:65rem)" srcset="/src/assets/hero/hero1.jpg">
+        <img src="/src/assets/hero/hero-mobile1.jpg">
+      </picture>
 
-    <!-- <section class="highlight-container">
-      <h1 data-i18n="home.featuredProjects">Istaknuti projekti</h1>
+      <picture>
+        <source media="(min-width:65rem)" srcset="/src/assets/hero/hero2.jpg">
+        <img src="/src/assets/hero/hero-mobile2.jpg">
+      </picture>
 
-      <div
-        class="carousel-container"
-        aria-label="Architecture Projects Gallery"
-        data-i18n-attr="home.galleryLabel"
-        data-i18n-attribute="aria-label"
-      >
-        <div class="carousel-track" id="track">
-
-          <div class="slide active">
-            <div class="slide-image">
-              <img
-                src="/src/assets/carousel1.jpg"
-                alt="Modern Minimalist Villa"
-                data-i18n="home.slide1.imageAlt"
-                data-i18n-attr="home.slide1.imageAlt"
-                data-i18n-attribute="alt"
-              />
-            </div>
-
-            <div class="slide-content">
-              <div class="slide-category" data-i18n="home.slide1.category">urbanizam — Mesto, Godina</div>
-              <h2 class="slide-title" data-i18n="home.slide1.title">Naziv projekta 1</h2>
-
-              <div class="slide-description">
-                <p data-i18n="home.slide1.description1">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Harum in tempora veritatis autem error delectus sequi rerum,
-                  sint quaerat ut molestias facilis id, fuga dolor
-                  exercitationem fugit dolore, ducimus aperiam?
-                </p>
-
-                <p data-i18n="home.slide1.description2">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Quidem quos nostrum, maiores dolore labore velit dolorem
-                  laborum error sapiente hic?
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="slide">
-            <div class="slide-image">
-              <img
-                src="/src/assets/carousel2.jpg"
-                alt="Futuristic High-Rise"
-                data-i18n="home.slide2.imageAlt"
-                data-i18n-attr="home.slide2.imageAlt"
-                data-i18n-attribute="alt"
-              />
-            </div>
-
-            <div class="slide-content">
-              <div class="slide-category" data-i18n="home.slide2.category">stambeni — mesto, godina</div>
-
-              <h2 class="slide-title" data-i18n="home.slide2.title">Naziv projekta 2</h2>
-
-              <div class="slide-description">
-                <p data-i18n="home.slide2.description1">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Tempore eum nobis ducimus sint illo! A, nulla odit ea, quasi
-                  expedita at veniam et, corrupti aliquam ab laborum sed
-                  asperiores rerum.
-                </p>
-
-                <p data-i18n="home.slide2.description2">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Sequi exercitationem dolorum necessitatibus sit laboriosam
-                  facilis harum libero, sunt ipsum nobis?
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="slide">
-            <div class="slide-image">
-              <img
-                src="/src/assets/carousel3.jpg"
-                alt="Interior Architecture Project"
-                data-i18n="home.slide3.imageAlt"
-                data-i18n-attr="home.slide3.imageAlt"
-                data-i18n-attribute="alt"
-              />
-            </div>
-
-            <div class="slide-content">
-              <div class="slide-category" data-i18n="home.slide3.category">enterijer — mesto, godina</div>
-              <h2 class="slide-title" data-i18n="home.slide3.title">Naziv projekta 3</h2>
-
-              <div class="slide-description">
-                <p data-i18n="home.slide3.description1">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Tempore eum nobis ducimus sint illo! A, nulla odit ea, quasi
-                  expedita at veniam et, corrupti aliquam ab laborum sed
-                  asperiores rerum.
-                </p>
-
-                <p data-i18n="home.slide3.description2">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Sequi exercitationem dolorum necessitatibus sit laboriosam
-                  facilis harum libero, sunt ipsum nobis?
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="slide">
-            <div class="slide-image">
-              <img
-                src="/src/assets/carousel4.jpg"
-                alt="Commercial Architecture Project"
-                data-i18n="home.slide4.imageAlt"
-                data-i18n-attr="home.slide4.imageAlt"
-                data-i18n-attribute="alt"
-              />
-            </div>
-
-            <div class="slide-content">
-              <div class="slide-category" data-i18n="home.slide4.category">poslovni — mesto, godina</div>
-              <h2 class="slide-title" data-i18n="home.slide4.title">Naziv projekta 4</h2>
-
-              <div class="slide-description">
-                <p data-i18n="home.slide4.description1">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Tempore eum nobis ducimus sint illo! A, nulla odit ea, quasi
-                  expedita at veniam et, corrupti aliquam ab laborum sed
-                  asperiores rerum.
-                </p>
-
-                <p data-i18n="home.slide4.description2">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Sequi exercitationem dolorum necessitatibus sit laboriosam
-                  facilis harum libero, sunt ipsum nobis?
-                </p>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-        <div class="carousel-controls">
-          <button class="nav-btn prev-btn" id="prevBtn" aria-label="Previous Slide">&#10094;</button>
-          <div class="carousel-dots" id="dotsContainer"></div>
-          <button class="nav-btn next-btn" id="nextBtn" aria-label="Next Slide">&#10095;</button>
-        </div>
+      <picture>
+        <source media="(min-width:65rem)" srcset="/src/assets/hero/hero3.jpg">
+        <img src="/src/assets/hero/hero-mobile3.jpg">
+      </picture>
+      
+      <picture>
+        <source media="(min-width:65rem)" srcset="/src/assets/hero/hero4.jpg">
+        <img src="/src/assets/hero/hero-mobile4.jpg">
+      </picture>
+      
+      <picture>
+        <source media="(min-width:65rem)" srcset="/src/assets/hero/hero5.jpg">
+        <img src="/src/assets/hero/hero-mobile5.jpg">
+      </picture>
+      
+      <picture>
+        <source media="(min-width:65rem)" srcset="/src/assets/hero/hero6.jpg">
+        <img src="/src/assets/hero/hero-mobile6.jpg">
+      </picture>
+      
+      <picture>
+        <source media="(min-width:65rem)" srcset="/src/assets/hero/hero7.jpg">
+        <img src="/src/assets/hero/hero-mobile7.jpg">
+      </picture>
+      
+      <picture>
+        <source media="(min-width:65rem)" srcset="/src/assets/hero/hero8.jpg">
+        <img src="/src/assets/hero/hero-mobile8.jpg">
+      </picture>
+      
+      <picture>
+        <source media="(min-width:65rem)" srcset="/src/assets/hero/hero9.jpg">
+        <img src="/src/assets/hero/hero-mobile9.jpg">
+      </picture>
+      
+      <picture>
+        <source media="(min-width:65rem)" srcset="/src/assets/hero/hero10.jpg">
+        <img src="/src/assets/hero/hero-mobile10.jpg">
+      </picture>
+      
+      <picture>
+        <source media="(min-width:65rem)" srcset="/src/assets/hero/hero11.jpg">
+        <img src="/src/assets/hero/hero-mobile11.jpg">
+      </picture>
+      
+      <picture>
+        <source media="(min-width:65rem)" srcset="/src/assets/hero/hero12.jpg">
+        <img src="/src/assets/hero/hero-mobile12.jpg">
+      </picture>
+      
+      <picture>
+        <source media="(min-width:65rem)" srcset="/src/assets/hero/hero13.jpg">
+        <img src="/src/assets/hero/hero-mobile13.jpg">
+      </picture>
+      
+      <picture>
+        <source media="(min-width:65rem)" srcset="/src/assets/hero/hero14.jpg">
+        <img src="/src/assets/hero/hero-mobile14.jpg">
+      </picture>
+      
+      <picture>
+        <source media="(min-width:65rem)" srcset="/src/assets/hero/hero15.jpg">
+        <img src="/src/assets/hero/hero-mobile15.jpg">
+      </picture>
+      
+      <picture>
+        <source media="(min-width:65rem)" srcset="/src/assets/hero/hero16.jpg">
+        <img src="/src/assets/hero/hero-mobile16.jpg">
+      </picture>
+      
+      <picture>
+        <source media="(min-width:65rem)" srcset="/src/assets/hero/hero17.jpg">
+        <img src="/src/assets/hero/hero-mobile17.jpg">
+      </picture>
+      
+      <picture>
+        <source media="(min-width:65rem)" srcset="/src/assets/hero/hero18.jpg">
+        <img src="/src/assets/hero/hero-mobile18.jpg">
+      </picture>
+      
+      <picture>
+        <source media="(min-width:65rem)" srcset="/src/assets/hero/hero19.jpg">
+        <img src="/src/assets/hero/hero-mobile19.jpg">
+      </picture>
+      
+      <picture>
+        <source media="(min-width:65rem)" srcset="/src/assets/hero/hero20.jpg">
+        <img src="/src/assets/hero/hero-mobile20.jpg">
+      </picture>
+      
+      <picture>
+        <source media="(min-width:65rem)" srcset="/src/assets/hero/hero21.jpg">
+        <img src="/src/assets/hero/hero-mobile21.jpg">
+      </picture>
+      
+      <picture>
+        <source media="(min-width:65rem)" srcset="/src/assets/hero/hero22.jpg">
+        <img src="/src/assets/hero/hero-mobile22.jpg">
+      </picture>
+      
+      <div id="marker-container">
+        <button type="button" class="rectangular-marker" aria-label="show image 1" data-active></button>
+        <button type="button" class="rectangular-marker" aria-label="show image 2"></button>
+        <button type="button" class="rectangular-marker" aria-label="show image 3"></button>
+        <button type="button" class="rectangular-marker" aria-label="show image 4"></button>
+        <button type="button" class="rectangular-marker" aria-label="show image 5"></button>
+        <button type="button" class="rectangular-marker" aria-label="show image 6"></button>
+        <button type="button" class="rectangular-marker" aria-label="show image 7"></button>
+        <button type="button" class="rectangular-marker" aria-label="show image 8"></button>
+        <button type="button" class="rectangular-marker" aria-label="show image 9"></button>
+        <button type="button" class="rectangular-marker" aria-label="show image 10"></button>
+        <button type="button" class="rectangular-marker" aria-label="show image 11"></button>
+        <button type="button" class="rectangular-marker" aria-label="show image 12"></button>
+        <button type="button" class="rectangular-marker" aria-label="show image 13"></button>
+        <button type="button" class="rectangular-marker" aria-label="show image 14"></button>
+        <button type="button" class="rectangular-marker" aria-label="show image 15"></button>
+        <button type="button" class="rectangular-marker" aria-label="show image 16"></button>
+        <button type="button" class="rectangular-marker" aria-label="show image 17"></button>
+        <button type="button" class="rectangular-marker" aria-label="show image 18"></button>
+        <button type="button" class="rectangular-marker" aria-label="show image 19"></button>
+        <button type="button" class="rectangular-marker" aria-label="show image 20"></button>
+        <button type="button" class="rectangular-marker" aria-label="show image 21"></button>
+        <button type="button" class="rectangular-marker" aria-label="show image 22"></button>
       </div>
-    </section> -->
-
-    <!-- <footer class="link-container">
-      <a href="https://www.facebook.com/StudioSaurus/" aria-label="Facebook"><iconify-icon icon="ri:facebook-fill" class="link-icon"></iconify-icon></a>
-      <a href="https://www.instagram.com/studio_saurus/" aria-label="Instagram"><iconify-icon icon="ri:instagram-line" class="link-icon"></iconify-icon></a>
-      <a href="https://www.linkedin.com/company/studio-saurus/" aria-label="LinkedIn"><iconify-icon icon="ri:linkedin-fill" class="link-icon"></iconify-icon></a>
-    </footer> -->
-
+    </section>
     <script type="module" src="/src/i18n.js"></script>
+    <script type="module" src="/src/heroCarousel.js"></script>
     <script type="module" src="/src/nav.js"></script>
-    <script type="module" src="/src/removeGutter.js"></script>
-    <!-- <script type="module" src="/src/carousel.js"></script> -->
 
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
   </body>

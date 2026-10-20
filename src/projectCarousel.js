@@ -85,9 +85,11 @@ function createButtonEvents(markerContainer){
     markerContainer.addEventListener("click",(e)=>{
         e.stopPropagation();
         const marker=e.target.closest('button');
-        let newIndex=Array.from(markers).indexOf(marker);
-        const activeImage=document.querySelector("#project-carousel img[data-active]");
-        changeImage(newIndex,activeImage);
+        if(marker){
+            let newIndex=Array.from(markers).indexOf(marker);
+            const activeImage=document.querySelector("#project-carousel img[data-active]");
+            changeImage(newIndex,activeImage);
+        }
     })
 }
 function changeImage(newIndex, activeImage){

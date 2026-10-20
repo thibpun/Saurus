@@ -26,11 +26,11 @@ else initNotHome();
     
     
 function initHome(){
-    if (window.scrollY > 0)navbar.style.backgroundColor = "whitesmoke";
+    if (window.scrollY > 0)navbar.style.backgroundColor = "white";
     else navbar.style.backgroundColor = "transparent";
     window.addEventListener("scroll",()=>{
         if (window.scrollY > 0) {
-            navbar.style.backgroundColor = "whitesmoke";
+            navbar.style.backgroundColor = "white";
         } else {
             navbar.style.backgroundColor = "transparent";
         }
@@ -55,7 +55,7 @@ function initHome(){
 }
 function initNotHome(){
     const currentLang = i18next.language || "sr";
-    let currentPage=location.pathname.split("/")[1]
+    let currentPage=location.pathname.split("/").at(-2);
     if(currentLang==="en"){
         switch(currentPage){
             case "projekti":

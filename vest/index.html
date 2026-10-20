@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="sr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title data-i18n="meta.homeTitle">Arhitektonski studio Saurus - Za unapređenje prostora za život običnih ljudi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Pontano+Sans:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+
+  <body>
+    <header class="navbar" style="box-shadow: none;">
+      <a href="../" id="logo-container">
+        <img
+          src="/studio-saurus-logo.png" 
+          alt="Studio Saurus logo" 
+          srcset="" 
+          class="logo"
+          data-i18n="images.logo"
+          data-i18n-attr="images.logo"
+          data-i18n-attribute="alt"
+          />
+      </a>
+      <button class="mobile-nav-toggle" aria-controls="nav-menu" aria-expanded="false">
+        <iconify-icon icon="ri:menu-line" id="menu-icon"></iconify-icon>
+        <span class="sr-only">Menu</span>
+      </button>
+      <nav>
+        <ul id="nav-menu" data-visible="false">
+          <li><button type="button" id="language-toggle">en</button></li>
+          <li><a href="../vesti/" data-i18n="navigation.news">vesti</a></li>
+          <li><a href="../projekti/" data-i18n="navigation.projects">projekti</a></li>
+          <li><a href="../studio/" data-i18n="navigation.studio">studio</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="article-container">
+        <img src="" alt="" srcset="">
+        <div>
+            <h1>Saveti za 3D modelovanje u magazinu DaiBau</h1>
+            <p>Studio Saurus dao je nekoliko saveta čitaocima magazina DaiBau u vezi sa 3D modelovanjem i vizuelizacijom arhitektonskih projekata, o procesu 3D projektovanja kao simulaciji budućeg objekta. 3D modelovanje objekta se podrazumeva kao interni alat za projektovanje, pored standardnog 2D crteža. Ono što je nekada bila radna maketa, to je sada kompjuterski model, koji nam omogućava da iz prvog lica, empirijski proverimo svaku našu odluku, svaku igru svetlosti i senke koja iz toga proističe u svakom ćošku objekta, unutra i spolja. Ovde se ne radi samo o geometriji, već o fizički ispravnoj simulaciji svih vidljivih elemenata stvarnosti, materijala, tekstura, svetlosti, prirodne i veštačke. Pored toga, 3D model omogućava da se sa mnogo manje grešaka usaglase pojedini elementi projekta – statika konstrukcije i instalacije sa arhitekturom, čime se drastično smanjuju troškovi izmena na gradilištu. Simulacija je najpošteniji način rada na projektu koji onemogućava lažiranje. Tu postoji velika razlika između simulacije, i naknadne vizuelizacije čiji je cilj da svim sredstvima postprodukcije proda sliku, umesto objekta. Klijent delom učestvuje u ovom kreativnom procesu, realnim uvidom u svoj budući objekat.</p>
+        </div>
+    </main>
+    <footer class="link-container">
+      <a href="https://www.facebook.com/StudioSaurus/" aria-label="Facebook"><iconify-icon icon="ri:facebook-fill" class="link-icon"></iconify-icon></a>
+      <a href="https://www.instagram.com/studio_saurus/" aria-label="Instagram"><iconify-icon icon="ri:instagram-line" class="link-icon"></iconify-icon></a>
+      <a href="https://www.linkedin.com/company/studio-saurus/" aria-label="LinkedIn"><iconify-icon icon="ri:linkedin-fill" class="link-icon"></iconify-icon></a>
+    </footer>
+
+    <script type="module" src="/src/i18n.js"></script>
+    <script type="module" src="/src/articleDetail.js"></script>
+    <script type="module" src="/src/nav.js"></script>
+
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+  </body>
+</html>

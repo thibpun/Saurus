@@ -17,12 +17,6 @@ filterContainer.addEventListener('click',(e)=>{
     
     allButtonsInGroup.forEach(button=>updateButtonState(button,btn===button));
 
-    // this is probably redundant 
-    // const selectedCategories=allButtonsInGroup.slice(1);
-    // const isAnyCategoryActive=selectedCategories.some(button=>button.classList.contains('active'));
-    // if(!isAnyCategoryActive){
-    //     updateButtonState(sveButton,true);
-    // }
     applyFilters();
 })
 
@@ -63,11 +57,11 @@ if(isMobile.matches){
         button.setAttribute("aria-selected","false");
     });
 
-    const statusFilterContainer=document.getElementById('status-filter');
-    const statusBtns=statusFilterContainer.querySelectorAll('ul button');
-    statusBtns[0].removeAttribute("aria-pressed");
-    statusBtns[0].setAttribute("aria-selected","true");
-    Array.from(statusBtns).slice(1).forEach(button=>{
+    const contestFilterContainer=document.getElementById('contest-filter');
+    const contestBtns=contestFilterContainer.querySelectorAll('ul button');
+    contestBtns[0].removeAttribute("aria-pressed");
+    contestBtns[0].setAttribute("aria-selected","true");
+    Array.from(contestBtns).slice(1).forEach(button=>{
         button.removeAttribute("aria-pressed");
         button.setAttribute("aria-selected","false");
     });

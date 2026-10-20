@@ -20,7 +20,7 @@ export default async function applyFilters(){
         year:getActiveFilters('year-filter'),
         type:getActiveFilters('type-filter'),
         phase:getActiveFilters('phase-filter'),
-        status:getActiveFilters('status-filter')
+        contest:getActiveFilters('contest-filter')
     }
     const filters=Object.entries(currentFilters);
 

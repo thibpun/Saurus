@@ -56,12 +56,12 @@ const resources = {
       },
 
       navigation: {
-        news: "Vesti",
-        projects: "Projekti",
-        studio: "Studio",
-        english: "EN",
-        serbian: "SR",
-        menu: "Meni",
+        news: "vesti",
+        projects: "projekti",
+        studio: "studio",
+        english: "en",
+        serbian: "sr",
+        menu: "meni",
       },
 
       projectsPage: {
@@ -69,7 +69,7 @@ const resources = {
         filtersTitle: "Filteri",
         type: "Tip",
         phase: "Faza",
-        status: "Status",
+        contest: "Konkurs",
         year: "Godina",
         all: "Sve",
         types: {
@@ -84,8 +84,8 @@ const resources = {
           main: "Glavni",
           interior: "Enterijer",
         },
-        statuses: {
-          competition: "Konkurs",
+        contests: {
+          contest: "Konkurs",
           awarded: "Nagrađen",
           built: "Izveden",
         },
@@ -163,6 +163,15 @@ const resources = {
         marko: "Marko Ranđelović",
         miroslav: "Miroslav Kočmaruk",
       },
+
+      projectDetail:{
+        period:"Period posla",
+        client:"Klijent",
+        location:"Lokacija",
+        description:"Opis",
+        gross:"Bruto",
+      },
+
       newsPage: {
         title: "Vesti",
         
@@ -225,12 +234,12 @@ const resources = {
       },
 
       navigation: {
-        news: "News",
-        projects: "Projects",
-        studio: "Studio",
-        english: "EN",
-        serbian: "SR",
-        menu: "Menu",
+        news: "news",
+        projects: "projects",
+        studio: "studio",
+        english: "en",
+        serbian: "sr",
+        menu: "menu",
       },
 
       projectsPage: {
@@ -238,7 +247,7 @@ const resources = {
         filtersTitle: "Filters",
         type: "Type",
         phase: "Phase",
-        status: "Status",
+        contest: "Contest",
         year: "Year",
         all: "All",
         types: {
@@ -253,8 +262,8 @@ const resources = {
           main: "Main",
           interior: "Interior",
         },
-        statuses: {
-          competition: "Competition",
+        contests: {
+          contest: "Contest",
           awarded: "Awarded",
           built: "Built",
         },
@@ -331,6 +340,14 @@ const resources = {
         jelena: "Jelena Tomić",
         marko: "Marko Ranđelović",
         miroslav: "Miroslav Kočmaruk",
+      },
+
+      projectDetail:{
+        period:"Project period",
+        client:"Client",
+        location:"Location",
+        description:"description",
+        gross:"Gross",
       },
 
       newsPage: {

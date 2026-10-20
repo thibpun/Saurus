@@ -19,6 +19,7 @@ export default defineConfig(({ command }) => ({
     main: resolve(import.meta.dirname, 'index.html'),
     studio: resolve(import.meta.dirname, 'studio/index.html'),
     projekti: resolve(import.meta.dirname, 'projekti/index.html'),
-    projekat: resolve(import.meta.dirname, 'projekat/index.html')
+    projekat: resolve(import.meta.dirname, 'projekat/index.html'),
+    vesti: resolve(import.meta.dirname, 'vesti/index.html')
   },
 }))
