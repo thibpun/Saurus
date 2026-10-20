@@ -13,7 +13,7 @@
     "phase": [
       "Glavni"
     ],
-    "status": [
+    "contest": [
       "Izveden"
     ],
     "link": "../projekat/?id=1",
@@ -21,6 +21,7 @@
     "client": "",
     "location": "",
     "gross": "",
+    "status":"",
     "descriptionLong": ""
   },
   {
@@ -38,7 +39,7 @@
     "phase": [
       "Glavni"
     ],
-    "status": [
+    "contest": [
       "Izveden"
     ],
     "link": "../projekat/?id=2",
@@ -46,6 +47,7 @@
     "client": "",
     "location": "",
     "gross": "",
+    "status":"",
     "descriptionLong": ""
   },
   {
@@ -63,12 +65,13 @@
     "phase": [
       "Idejni"
     ],
-    "status": [],
+    "contest": [],
     "link": "../projekat/?id=3",
     "imagesFolderName": "/src/assets/projects/termag-han-pijesak-hotel-gora-rekonstrukcija-i-dogradnja/",
     "client": "",
     "location": "",
     "gross": "",
+    "status":"",
     "descriptionLong": ""
   },
   {
@@ -85,7 +88,7 @@
     "phase": [
       "Glavni"
     ],
-    "status": [
+    "contest": [
       "Izveden"
     ],
     "link": "../projekat/?id=4",
@@ -93,6 +96,7 @@
     "client": "",
     "location": "",
     "gross": "",
+    "status":"",
     "descriptionLong": ""
   },
   {
@@ -109,12 +113,13 @@
     "phase": [
       "Idejni"
     ],
-    "status": [],
+    "contest": [],
     "link": "../projekat/?id=5",
     "imagesFolderName": "/src/assets/projects/kuća-u-aranđelovcu-5/",
     "client": "",
     "location": "",
     "gross": "",
+    "status":"",
     "descriptionLong": ""
   },
   {
@@ -131,7 +136,7 @@
     "phase": [
       "Glavni"
     ],
-    "status": [
+    "contest": [
       "Izveden"
     ],
     "link": "../projekat/?id=6",
@@ -139,6 +144,7 @@
     "client": "",
     "location": "",
     "gross": "",
+    "status":"",
     "descriptionLong": ""
   },
   {
@@ -157,7 +163,7 @@
     "phase": [
       "Glavni"
     ],
-    "status": [
+    "contest": [
       "Izveden"
     ],
     "link": "../projekat/?id=7",
@@ -165,6 +171,7 @@
     "client": "",
     "location": "",
     "gross": "",
+    "status":"",
     "descriptionLong": ""
   },
   {
@@ -181,7 +188,7 @@
     "phase": [
       "Glavni"
     ],
-    "status": [
+    "contest": [
       "Izveden"
     ],
     "link": "../projekat/?id=8",
@@ -189,6 +196,7 @@
     "client": "",
     "location": "",
     "gross": "",
+    "status":"",
     "descriptionLong": ""
   },
   {
@@ -205,7 +213,7 @@
     "phase": [
       "Glavni"
     ],
-    "status": [
+    "contest": [
       "Izveden"
     ],
     "link": "../projekat/?id=9",
@@ -213,6 +221,7 @@
     "client": "",
     "location": "",
     "gross": "",
+    "status":"",
     "descriptionLong": ""
   },
   {
@@ -231,12 +240,13 @@
     "phase": [
       "Idejni"
     ],
-    "status": [],
+    "contest": [],
     "link": "../projekat/?id=10",
     "imagesFolderName": "/src/assets/projects/stanković-bukulja-aranđelovac-naselje/",
     "client": "",
     "location": "",
     "gross": "",
+    "status":"",
     "descriptionLong": ""
   },
   {
@@ -253,12 +263,13 @@
     "phase": [
       "Glavni"
     ],
-    "status": [],
+    "contest": [],
     "link": "../projekat/?id=11",
     "imagesFolderName": "/src/assets/projects/manes-aranđelovac/",
     "client": "",
     "location": "",
     "gross": "",
+    "status":"",
     "descriptionLong": ""
   },
   {
@@ -275,7 +286,7 @@
     "phase": [
       "Glavni"
     ],
-    "status": [
+    "contest": [
       "Izveden"
     ],
     "link": "../projekat/?id=12",
@@ -283,6 +294,7 @@
     "client": "",
     "location": "",
     "gross": "",
+    "status":"",
     "descriptionLong": ""
   },
   {
@@ -300,7 +312,7 @@
     "phase": [
       "Idejni"
     ],
-    "status": [
+    "contest": [
       "Konkurs"
     ],
     "link": "../projekat/?id=13",
@@ -308,6 +320,7 @@
     "client": "",
     "location": "",
     "gross": "",
+    "status":"",
     "descriptionLong": ""
   },
   {
@@ -326,7 +339,7 @@
     "phase": [
       "Idejni"
     ],
-    "status": [
+    "contest": [
       "Konkurs",
       "Nagrađen"
     ],
@@ -335,6 +348,7 @@
     "client": "Opština Savski venac i DAB",
     "location": "Senjak, Beograd",
     "gross": "7280 m2 pod objektom",
+    "status":"",
     "descriptionLong":"Arhitektonski studio Saurus je dobio treću povišenu nagradu na konkursu za pijacu Senjak. Druga nagrada nije dodeljena.\nGRADSKA OPŠTINA SAVSKI VENAC, Beograd u saradnji sa DRUŠTVOM ARHITEKATA BEOGRAD raspisala je opšti javni anonimni anketni urbanističko-arhitektonski konkurs za izradu rešenja pijace „Senjak“\nŽiri će vrednovati konkursne radove prema sledećim okvirnim kriterijumima:<br>– Poštovanje uslova raspisa i programa konkursa ;<br>– Koncept rešenja primeren značaju lokacije;<br>– Funkcionalnost rešenja pijace;<br>– Savremene tendencije u oblikovanju gradskih prostora i savremeno saobraćajno rešenje.;<br>– Odnos predloženog rešenja prema okruženju.<br>– Racionalnost i ekonomičnost ponuđenog rešenja.\nŽiri konkursa:<br>Pr.Vasilije Milunović, dipl.inž.arh.,s.r. predsednik i članovi:<br>Ljubica Popović, dipl.oecc., s.r. Mr Žaklina Gligorijević, dipl.inž.arh., s.r. Dragan Ćorović, dipl.inž.elektr., s.r. Nina Mitranić, dipl.inž.arh., s.r. Slobodan Ristić, dipl.inž.arh.,s.r. Aleksandar Nedeljković, dipl.inž.arh., s.r.\nKompleksnost problema bila je inspirativna u vajanju teško dostižnog jedinstva mnogih uticaja proizvodeći bogato, višeslojno i dobro utemeljeno konceptualno rešenje sa puno potencijala za dalju razradu."
   },
   {
@@ -349,7 +363,7 @@
     "phase": [
       "Enterijer"
     ],
-    "status": [
+    "contest": [
       "Konkurs"
     ],
     "link": "../projekat/?id=15",
@@ -357,6 +371,7 @@
     "client": "",
     "location": "",
     "gross": "",
+    "status":"",
     "descriptionLong": ""
   },
   {
@@ -375,7 +390,7 @@
     "phase": [
       "Glavni"
     ],
-    "status": [
+    "contest": [
       "Konkurs",
       "Nagrađen",
       "Izveden"
@@ -385,6 +400,7 @@
     "client": "Lafarge BFC d.o.o.",
     "location": "Beočin, Srbija",
     "gross": "Oko 3000 m2",
+    "status":"Trg je realizovan",
     "descriptionLong": "Arhitektonski studio Saurus je dobio konkurs. Izvod sa stranice opštine Beočin www.beocin.rs:\nKompanija Lafarge BFC d.o.o. raspisala je konkurs za idejno rešenje trga u Beočinu, koji će se izgraditi u saradnji sa opštinom Beočin. Na osnovu raspisanog konkursa, pristiglo je ukupno 48 radova. Međunarodni žiri je jednoglasno doneo odluku da prvu nagradu za idejno rešenje za izgradnju trga u Beočinu dobije dokumentacija pod šifrom „Lepeza“. To je zajednički rad koji je izradio bračni par Tomić, Jelena i Srđan iz Aranđelovca.\nVodeći se kriterijumima da ideja bude pre svega izvodljiva, zatim da trg bude funkcionalan, odnosno da posluži svrsi okupljanja građana, te da se dobro uklopi u postojeće okruženje, žiri je jednoglasno doneo odluku da pobednički rad bude autorsko delo mladog bračnog para iz Aranđelovca.\nČlanovi žirija bili su predsednik žirija Bogdan Cvejić, „Lafaržov“ arhitekta iz Pariza Leopold Lombard, profesor Arhitektonskog fakulteta u Beogradu Zoran Lazović, profesor Arhitektonskog fakulteta u Novom Sadu Milica Kostreš i predsednik Društva arhitekata Novog Sada N.K.\nNa osnovu izabranog idejnog rešenja projekat za građevinsku dozvolu, konsalting, projektantski nadzor nad izvođenjem trga."
   },
   {
@@ -402,12 +418,13 @@
     "phase": [
       "Idejni"
     ],
-    "status": [],
+    "contest": [],
     "link": "../projekat/?id=17",
     "imagesFolderName": "/src/assets/projects/park-bukovička-banja-aranđelovac-talpara/",
     "client": "",
     "location": "",
     "gross": "",
+    "status":"",
     "descriptionLong": ""
   },
   {
@@ -424,7 +441,7 @@
     "phase": [
       "Idejni"
     ],
-    "status": [
+    "contest": [
       "Konkurs",
       "Nagrađen"
     ],
@@ -433,6 +450,7 @@
     "client": "GSP Beograd",
     "location": "Kalemegdan, Beograd",
     "gross": "",
+    "status":"",
     "descriptionLong": "Arhitektonski studio Saurus je dobio treću nagradu na konkursu. Ideja je bila prezahtevna za investitora uzimajući u obzir rokove za realizaciju.\nOvu česmu na Kalemegdanu posvećujemo japanskom narodu u znak zahvalnosti za pomoć koju su nam pružili u teškim trenucima. Japan je zemlja i duhovno i prostorno daleka. U vremenu kada se fizičke razdaljine brišu putem „world wide web“-a pokušali smo da se u ovom globalnom virtuelnom svetu približimo i svoj poklon podarimo svakom japancu. On će ga videti u Google map-u , Google Earth-u, internet aplikacijama koje omogućavaju lak pregled celokupne površine planete u vidu satelitskih snimaka putem interneta. Na ušću dveju reka, u starom utvrđenju prepunom istorijskih slojeva videće ga kao jedan od osnovnih znakova iz japanskog pisma koji označava suštinski sastojak prirode – vodu.\nAko iz bilo kog razloga on iz daleka zaluta među ovim zidinama iznenadiće se kada čuje kako u Beogradu ljudi nevešto, ali neobično često ponavljaju, zapravo, svaki put kada piju vodu, njemu poznati, zvučni deo istog pojma – Mizu!<br>Nigde na česmi, u mas-medijima nije istaknuto uputsvo o korišćenju. Građani postepeno osvajaju urbanu tajnu koja se prenosi usmenim putem, kao gradski trač. Predviđamo da će ovaj nematerijalni aspekt otkrića u kolektivnoj svesti grada, stalno se iznova obnavljajući kroz nove generacije,trajati duže od samog materijala, što je još jedan naklon japanskoj filozofiji.\nNa lokaciji smo ispravili grešku u prostoru kojom se prostor definisan sa četiri drveta tretira kao nezavisna celina. Potencijal ovog izolovanog ostrva je otključan i oslobođen se prolio na ceo plato u nivou. U obradi partera to se ogleda u jednoj visinskoj koti i moru granitnih kocki po kome plutaju koncentrični krugovi zelenila. Time smo ceo trg aktivirali u funkciji česme sa obodno raspoređenim sedećim pozicijama za predah i posmatranje.\nŽiri konkursa:<br>Branislav Mitrović, dipl.inž.arh.,redovni profesor Arhitektonskog fakulteta i članovi: Darijan Mihajlović, član gradskog veća, Tetsuya Tsubota, prvi sekretar Ambasade Japana u Srbiji, Marina Andrić, istoričar umetnosti i Ksenija Kostić, dipl.inž.arh GSP Beograd."
   },
   {
@@ -449,7 +467,7 @@
     "phase": [
       "Idejni"
     ],
-    "status": [
+    "contest": [
       "Konkurs"
     ],
     "link": "../projekat/?id=19",
@@ -457,6 +475,7 @@
     "client": "",
     "location": "",
     "gross": "",
+    "status":"",
     "descriptionLong": ""
   },
   {
@@ -473,12 +492,13 @@
     "phase": [
       "Idejni"
     ],
-    "status": [],
+    "contest": [],
     "link": "../projekat/?id=20",
     "imagesFolderName": "/src/assets/projects/ethnicraft-gir-pariz-izložbeni-štand/",
     "client": "",
     "location": "",
     "gross": "",
+    "status":"",
     "descriptionLong": ""
   },
   {
@@ -496,7 +516,7 @@
     "phase": [
       "Glavni"
     ],
-    "status": [
+    "contest": [
       "Izveden"
     ],
     "link": "../projekat/?id=21",
@@ -504,6 +524,7 @@
     "client": "",
     "location": "",
     "gross": "",
+    "status":"",
     "descriptionLong": ""
   },
   {
@@ -520,7 +541,7 @@
     "phase": [
       "Glavni"
     ],
-    "status": [
+    "contest": [
       "Izveden"
     ],
     "link": "../projekat/?id=22",
@@ -528,6 +549,7 @@
     "client": "",
     "location": "",
     "gross": "",
+    "status":"",
     "descriptionLong": ""
   },
   {
@@ -545,12 +567,13 @@
     "phase": [
       "Glavni"
     ],
-    "status": [],
+    "contest": [],
     "link": "../projekat/?id=23",
     "imagesFolderName": "/src/assets/projects/park-bukovička-banja-aranđelovac-kiosk/",
     "client": "",
     "location": "",
     "gross": "",
+    "status":"",
     "descriptionLong": ""
   },
   {
@@ -570,7 +593,7 @@
     "phase": [
       "Glavni"
     ],
-    "status": [
+    "contest": [
       "Izveden"
     ],
     "link": "../projekat/?id=24",
@@ -578,6 +601,7 @@
     "client": "",
     "location": "",
     "gross": "",
+    "status":"",
     "descriptionLong": ""
   },
   {
@@ -595,7 +619,7 @@
     "phase": [
       "Glavni"
     ],
-    "status": [
+    "contest": [
       "Izveden"
     ],
     "link": "../projekat/?id=25",
@@ -603,6 +627,7 @@
     "client": "",
     "location": "",
     "gross": "",
+    "status":"",
     "descriptionLong": ""
   },
   {
@@ -619,7 +644,7 @@
     "phase": [
       "Glavni"
     ],
-    "status": [
+    "contest": [
       "Izveden"
     ],
     "link": "../projekat/?id=26",
@@ -627,6 +652,7 @@
     "client": "",
     "location": "",
     "gross": "",
+    "status":"",
     "descriptionLong": ""
   },
   {
@@ -643,7 +669,7 @@
     "phase": [
       "Idejni"
     ],
-    "status": [
+    "contest": [
       "Konkurs"
     ],
     "link": "../projekat/?id=27",
@@ -651,6 +677,7 @@
     "client": "",
     "location": "",
     "gross": "",
+    "status":"",
     "descriptionLong": ""
   },
   {
@@ -667,7 +694,7 @@
     "phase": [
       "Enterijer"
     ],
-    "status": [
+    "contest": [
       "Izveden"
     ],
     "link": "../projekat/?id=28",
@@ -675,6 +702,7 @@
     "client": "",
     "location": "",
     "gross": "",
+    "status":"",
     "descriptionLong": ""
   },
   {
@@ -693,12 +721,13 @@
     "phase": [
       "Idejni"
     ],
-    "status": [],
+    "contest": [],
     "link": "../projekat/?id=29",
     "imagesFolderName": "/src/assets/projects/src-šumadija-aranđelovac/",
     "client": "",
     "location": "",
     "gross": "",
+    "status":"",
     "descriptionLong": ""
   },
   {
@@ -716,7 +745,7 @@
     "phase": [
       "Idejni"
     ],
-    "status": [
+    "contest": [
       "Konkurs"
     ],
     "link": "../projekat/?id=30",
@@ -724,6 +753,7 @@
     "client": "",
     "location": "",
     "gross": "",
+    "status":"",
     "descriptionLong": ""
   },
   {
@@ -740,7 +770,7 @@
     "phase": [
       "Enterijer"
     ],
-    "status": [
+    "contest": [
       "Izveden"
     ],
     "link": "../projekat/?id=31",
@@ -748,6 +778,7 @@
     "client": "",
     "location": "",
     "gross": "",
+    "status":"",
     "descriptionLong": ""
   },
   {
@@ -765,7 +796,7 @@
     "phase": [
       "Glavni"
     ],
-    "status": [
+    "contest": [
       "Izveden"
     ],
     "link": "../projekat/?id=32",
@@ -773,6 +804,7 @@
     "client": "Alvasari doo",
     "location": "Beograd, Jajinci",
     "gross": "445 m2",
+    "status":"Izgrađen",
     "descriptionLong": "Projekat kuće u zoni individualne gradnje na obodu zelene zone. Pozicionirana je na severnoj strani parcele, orijentisana ka južnom intimnom dvorištu.<br>Objekat je spratnosti Su+Pr+1+Pk. Blaga denivelacija parcele od 1.50m iskorišćena je za formiranje poluukopanog suterena na severnoj strani koji služi kao garaža, kotlarnica i ostava za ogrev, sa toplom vezom – stepeništem ka prizemlju.<br>Prizemlje objekta je na koti gornjeg južnog dvorišta i namenjeno je dnevnom boravku, dok je na 1. spratu noćna zona. Potkrovlje je ostava.<br>Oblikovanje objekta je smireno, savremeno i podređeno njegovoj stambenoj funkciji. Formu objekta čine dva bazična kubusa čijim proporcijama i ukrštanjem nastaje stabilna kompozicija."
   },
   {
@@ -789,7 +821,7 @@
     "phase": [
       "Enterijer"
     ],
-    "status": [
+    "contest": [
       "Izveden"
     ],
     "link": "../projekat/?id=33",
@@ -797,6 +829,7 @@
     "client": "",
     "location": "",
     "gross": "",
+    "status":"",
     "descriptionLong": ""
   },
   {
@@ -813,12 +846,13 @@
     "phase": [
       "Idejni"
     ],
-    "status": [],
+    "contest": [],
     "link": "../projekat/?id=34",
     "imagesFolderName": "/src/assets/projects/vanilica-aranđelovac/",
     "client": "",
     "location": "",
     "gross": "",
+    "status":"",
     "descriptionLong": ""
   },
   {
@@ -837,7 +871,7 @@
     "phase": [
       "Glavni"
     ],
-    "status": [
+    "contest": [
       "Izveden"
     ],
     "link": "../projekat/?id=35",
@@ -845,6 +879,7 @@
     "client": "",
     "location": "",
     "gross": "",
+    "status":"",
     "descriptionLong": ""
   },
   {
@@ -861,12 +896,13 @@
     "phase": [
       "Idejni"
     ],
-    "status": [],
+    "contest": [],
     "link": "../projekat/?id=36",
     "imagesFolderName": "/src/assets/projects/stambeni-objekat-u-aranđelovcu/",
     "client": "",
     "location": "",
     "gross": "",
+    "status":"",
     "descriptionLong": ""
   },
   {
@@ -883,7 +919,7 @@
     "phase": [
       "Enterijer"
     ],
-    "status": [
+    "contest": [
       "Izveden"
     ],
     "link": "../projekat/?id=37",
@@ -891,6 +927,7 @@
     "client": "",
     "location": "",
     "gross": "",
+    "status":"",
     "descriptionLong": ""
   },
   {
@@ -907,12 +944,13 @@
     "phase": [
       "Idejni"
     ],
-    "status": [],
+    "contest": [],
     "link": "../projekat/?id=38",
     "imagesFolderName": "/src/assets/projects/dogradnja-kuće-u-sremskoj-mitrovici/",
     "client": "",
     "location": "",
     "gross": "",
+    "status":"",
     "descriptionLong": ""
   },
   {
@@ -931,7 +969,7 @@
     "phase": [
       "Idejni"
     ],
-    "status": [
+    "contest": [
       "Konkurs"
     ],
     "link": "../projekat/?id=39",
@@ -939,6 +977,7 @@
     "client": "Almex doo",
     "location": "Pančevo",
     "gross": "27508 m2",
+    "status":"Otkup",
     "descriptionLong": "Kontekst<br>Prostor intervencije je smešten u neposrednoj blizini reke Tamiš, mosta i keja, na samom „ulazu“ starim putem (magistralni put BG – Vršac (Rumunija)) i u neposrednoj blizini gradskog centra. Fizička struktura okolnog gradskog tkiva je tradicionalna blokovska gradnja pretežno individualnih objekata P+1.\nOpis Arhitektonskog rešenja sa dinamikom realizacije<br>Arhitektonski Studio Saurus Gradski blok u neposrednoj blizini reke Tamiš, mosta i keja, na samom „ulazu“ u Pančevo. Predlaže se rekonstrukcija hotela i dogradnja sprata kao i dogradnja različitih sadržaja na parceli kroz šest faza izgradnje. Energetska efikasnost je unapređena kroz energetsku sanaciju fasade hotela i njenu rekonstrukciju.<br>Projektovani prostor se po nameni može podeliti u četiri podceline – hotel, trgovinski centar sa garažom, poslovna celina, poslovno stambena celina i javni prostor.<br>Ukupno ostvarena razvijena bruto površina je 27508 m2.<br>Ukupno ostvarena razvijena neto površina je 24385 m2.<br>Indeks zauzetosti (Iz) 50% (prema postojećem Iz 14%)\nIntegracija<br>Problem u urbanom tkivu je nastao izgradnjom predimenzioniranog slobodnostojećeg objekta u tradicionalnoj blokovskoj matrici usitnjene strukture. Inverzija izgradjeno-neizgradjeno je u potpunom kontrastu sa kontekstom.<br>Primenjen je princip integracije kao univerzalni metod metod resavanja složenih problema. Integracija hotela Tamiš odvija se u više nivoa:<br>– na nivou izgrađene fizičke strukture u okviru bloka (dela pripadajućeg bloka) kao i samog bloka (dela pripadajućeg bloka) u okolno gradsko tkivo – obodnom izgradnjom.<br>– na nivou sadržaja – kroz integrisanje sadržaja hotela u prizemlju sa sadržajima pripadajućeg bloka koji će biti izgrađen kao i uvođenjem novih sadržaja koji su atraktivni za veliki broj posetilaca<br>– aktivacijom pešačkih tokova odnosno zadržavanjem postojećih pešačkih tokova i formiranjem novih pešačkih tokova odnosno omogućavanja direktne veze centra sa rekom i drugim planiranim urbanim tačkama uključivanjem u medjunarodnu turističku ponudu (smeštaj grada Beograda (praktično na istoj udaljenosti od Skupštine grada Beograda kao i hotelski lanci na Novom Beogradu) odnosno magistralnog puta Beograd-Rumunija)\nAktivacija unutrašnjosti bloka<br>Hotel Tamiš, svojim slobodno stojećim brutalistički oblikovanom korpusom zauzima centralni deo bloka, ostavljajući regulacionu liniju slobodnu.<br>Fizička struktura – struktura hotela Tamiš se slično cvetu – razvija u postojećem rasteru na celu površinu partera parcele formirajući puno-prazne (zelene) prostore. Obodna izgradnja nije mogla biti jednostavno primenjena jer proizvodi problem sukoba zadnjih dvorista i hotela, tj. hotel unutar bloka. Rešenje je pronadjeno u integraciji u nivou prizemlja/partera – gde je ono u svojoj nameni i strukturi zajedničko za ceo kompleks. Krovovi prizemnih krila hotela (restorana) postaju zelene platforme – novo unutrasnje dvoriste. Kroz prostre kompleksa propušteni su različiti pešački tokovi, motivisani pažljivo planiranim rasporedom različitih namena i postojećim atrakterima ( Tamiš, autobuska stajališta, Dom vojske).\nEnergetska efikasnost i ekologija<br>Potrebno je da primenjeni materijali i oprema zadovolje najviše standarde iz ove oblasti – efikasnosti i štednje energije, proizvodnje zelene energije i koriščenja tehnološki naprednih rešenja. Energetska efikasnost je postignuta kroz energetsku sanaciju fasade hotela i njenu rekonstrukciju. Planirani objekti poštuju u potpunosti ove principe – po svom obliku, prostornoj organizaciji, pažljivoj orjentaciji i tehničkim rešenjima za grejanje (toplotne pumpe i solarni paneli za zagrevanje tople vode), rasvetu (leed rasveta, oprema visokih razreda) i ponovnog korišćenja vode atmosferskih padavina. Planirane su krovne bašte radi smanjenja emisije CO2 i postizanja bolje mikro klime bloka."
   },
   {
@@ -955,12 +994,13 @@
     "phase": [
       "Enterijer"
     ],
-    "status": [],
+    "contest": [],
     "link": "../projekat/?id=40",
     "imagesFolderName": "/src/assets/projects/mirra-capital-beograd/",
     "client": "",
     "location": "",
     "gross": "",
+    "status":"",
     "descriptionLong": ""
   },
   {
@@ -979,7 +1019,7 @@
     "phase": [
       "Glavni"
     ],
-    "status": [
+    "contest": [
       "Izveden"
     ],
     "link": "../projekat/?id=41",
@@ -987,6 +1027,7 @@
     "client": "Fizičko lice",
     "location": "Sremska Mitrovica",
     "gross": "443 m2",
+    "status":"Izgrađen",
     "descriptionLong": "Porodični objekat spratnosti P, pomoćni objekti spratnosti P i Po+P, i otvoreni bazen se zicioniraju nа regulacionoj liniji prema ulici i u okviru građevinskih linija.<br>Tradicionalnim jezikom i tehnikama gradnje u kombinaciji sa savremenim tehnologijama ostvarena je topla i udobna atmosfera doma. Dizajn enterijera je tako osmišljen da unutrašnji i spoljni prostor zajedno čine intimnu celinu odvojenu od javnog prostora.<br>Glavni objekat je postavljen duž severne ivice parcele, orijentisan mahom na jug, ostavljajući prostora za dvorište u južnom delu, dok pomoćni objekat upravan na njega, odvaja baštu u zapadnom delu parcele uvučenom od ulice.<br>Parternim rešenjem predviđena je podela parcele na dva nivoa kako bi se uklopila u profil ulice koji je pod blagim nagibom. Sam objekat sa pripadajućim platoom i bazenom u obradi drvenim daskama podignut je u odnosu na ostatak dvorišta."
   },
   {
@@ -1004,12 +1045,13 @@
     "phase": [
       "Enterijer"
     ],
-    "status": [],
+    "contest": [],
     "link": "../projekat/?id=42",
     "imagesFolderName": "/src/assets/projects/enterijer-kuće-u-jajincima/",
     "client": "",
     "location": "",
     "gross": "",
+    "status":"",
     "descriptionLong": ""
   },
   {
@@ -1027,7 +1069,7 @@
     "phase": [
       "Enterijer"
     ],
-    "status": [
+    "contest": [
       "Izveden"
     ],
     "link": "../projekat/?id=43",
@@ -1035,6 +1077,7 @@
     "client": "Fizičko lice",
     "location": "Sremska Mitrovica",
     "gross": "443 m2",
+    "status":"Izgrađen",
     "descriptionLong": "Porodični objekat spratnosti P, pomoćni objekti spratnosti P i Po+P, i otvoreni bazen se zicioniraju nа regulacionoj liniji prema ulici i u okviru građevinskih linija.<br>Tradicionalnim jezikom i tehnikama gradnje u kombinaciji sa savremenim tehnologijama ostvarena je topla i udobna atmosfera doma. Dizajn enterijera je tako osmišljen da unutrašnji i spoljni prostor zajedno čine intimnu celinu odvojenu od javnog prostora.<br>Glavni objekat je postavljen duž severne ivice parcele, orijentisan mahom na jug, ostavljajući prostora za dvorište u južnom delu, dok pomoćni objekat upravan na njega, odvaja baštu u zapadnom delu parcele uvučenom od ulice.<br>Parternim rešenjem predviđena je podela parcele na dva nivoa kako bi se uklopila u profil ulice koji je pod blagim nagibom. Sam objekat sa pripadajućim platoom i bazenom u obradi drvenim daskama podignut je u odnosu na ostatak dvorišta."
   },
   {
@@ -1051,12 +1094,13 @@
     "phase": [
       "Glavni"
     ],
-    "status": [],
+    "contest": [],
     "link": "../projekat/?id=44",
     "imagesFolderName": "/src/assets/projects/kuća-u-aranđelovcu-44/",
     "client": "",
     "location": "",
     "gross": "",
+    "status":"",
     "descriptionLong": ""
   },
   {
@@ -1074,12 +1118,13 @@
     "phase": [
       "Enterijer"
     ],
-    "status": [],
+    "contest": [],
     "link": "../projekat/?id=45",
     "imagesFolderName": "/src/assets/projects/caussade-semences-sremska-mitrovica/",
     "client": "",
     "location": "",
     "gross": "",
+    "status":"",
     "descriptionLong": ""
   },
   {
@@ -1096,7 +1141,7 @@
     "phase": [
       "Idejni"
     ],
-    "status": [
+    "contest": [
       "Konkurs"
     ],
     "link": "../projekat/?id=46",
@@ -1104,6 +1149,7 @@
     "client": "",
     "location": "",
     "gross": "",
+    "status":"",
     "descriptionLong": ""
   },
   {
@@ -1124,7 +1170,7 @@
     "phase": [
       "Glavni"
     ],
-    "status": [
+    "contest": [
       "Izveden"
     ],
     "link": "../projekat/?id=47",
@@ -1132,6 +1178,7 @@
     "client": "Mirra Capital doo",
     "location": "Beograd, Bulevar kralja Madridska 8",
     "gross": "3470 m2",
+    "status":"Izgrađen",
     "descriptionLong": "Arhitektonski Studio Saurus uradio je idejno rešenje, projekat za građevinsku dozvolu, dizajn enterijera, konsalting, projektantski nadzor za stambeno poslovni objekat na uglu Bulevara kralja Aleksandra i Madridske ulice bruto površine 3470m2 sa 40 stanova. Lokacija je visokog potencijala u planiranom daljem razvoju grada na osnovu GUP-a Beograd 2021. Nalazi se na ulazu u centralnu zonu Beograda, u zoni novoplaniranog centra potceline i na sredini poteza između novoplaniranog reprezentativnog prostora Promenade Pašina česma na prostoru stare tramvajske okretnice preko puta parka-trga i novoplaniranog poslovnog centra na preseku Bulevara kralja Aleksandra i Ustaničke.<br>Objekat se pozicionira duž građevinskih linija ka Bulevaru kralja Aleksandra (g.l. se poklapa sa r.l.) i Madridskoj ulici (g.l. udaljena 3m od r.l.) zatvarajući blok na uglu u obliku slova L i naslanjajući se zabatnim zidovima u visini planom predviđenih maksimalnih visina suseda, koja se znatno razlikuje. Složenost problema visinske regulacije posledica je velike denivelacije dve ulice i njihovog različitog značaja i profila.\nGledano iz Bulevara kralja Aleksandra prizemlje sa poslovnim prostorom je posebna celina -bazis objekta, uokvirenih 6 spratova objekta sa stambenim funkcijom telo, a povučeni sprat sa nadstrešnicom čini venac objekta. Sekundarna plastika je definisana strogim rasterom horizontala i vertikala koje uokviruju prozore i lođe i ritmičkim preplitanjem dve vrste materijalizacije. Objekat je međutim oblikovno razdvojen na dve celine i po horizontali od kojih se svaka uklapa u planirani profil ulice. Niži deo objekta od tri stambena sprata tretiran je kao interpolacija koja započinje budući niz objekata duž Madridske ulice. Vezujući element je isturen “izlog” poslovnog prostora koji savija iz Bulevara i podcrtava interpolaciju, uokviruje i objedinjuje dve fasade. Deo objekta ispod kote 0.00, tj. poslovnog etaža koji podcrtava ceo objekat, iz Madridske ulice je tretiran kao “servisni”, kolski ulaz i garaža na dva nivoa u okviru koga je umetnut , do realizacije PDR-a jedino mogući pešački ulaz u objekat."
   },
   {
@@ -1151,12 +1198,13 @@
     "phase": [
       "Idejni"
     ],
-    "status": [],
+    "contest": [],
     "link": "../projekat/?id=48",
     "imagesFolderName": "/src/assets/projects/mirra-capital-beograd-bulevar-414/",
     "client": "Mirra Capital doo",
     "location": "Beograd, Bulevar kralja Aleksandra 414",
     "gross": "6350 m2",
+    "status":"U pripremi",
     "descriptionLong": "Lokacija na raskrsnici Bulevara kralja Aleksandra i Mite Ružića, tj Katarine Milovuk zatvara ugao kompaktnog bloka visoke gustine definisan PDR-om.<br>Funkcionalno je izvučen maksimum iz datih uslova sa postignutim poslovnim prostorom u prizemlju. Stambeno poslovni objekat sadrži 50 kvalitetnih stanova optimalne površine i raznovrsne strukture i potrebnim brojem parking mesta na tri nivoa garaže.<br>S obzirom da je među prvima koji započinje realizaciju plana daljeg proširenja Bulevara kralja Aleksandra od Cvetkove pijace na više objekat nema oslonca u postojećem kontekstu već ga sam definiše.\nRitmična, umerena fasada u kombinaciji tople opeke, belih površina i tamnih metalnih delova sa posebno artikulisanim, ali ne preteranim uglom pokušava da poveže dostojanstvo i javni karakter jedne od glavnih beogradskih ulica sa toplinom i intimnošću doma.\nNadovezujući se na prethodne primere od opeke, ali na svež način, koristeći mogućnost izbora savremenih opekarskih proizvoda za suptilniju kombinaciju kontrastnih materijala, uz kvalitet energetske efikasnosti koji daleko nadmašuje nekadašnje standarde."
   },
   {
@@ -1174,12 +1222,13 @@
     "phase": [
       "Idejni"
     ],
-    "status": [],
+    "contest": [],
     "link": "../projekat/?id=49",
     "imagesFolderName": "/src/assets/projects/porodična-kuća-na-brdu-u-beogradu/",
     "client": "Fizičko lice",
     "location": "Kumodraž Beograd",
     "gross": "195m2",
+    "status":"Idejno rešenje",
     "descriptionLong": "Porodična kuća za četvoročlanu porodicu na zahtevnom strmom terenu pozicionirana je na polovini uspona kako bi se otvorio pogled preko suseda. Kuća se optimalno uklapa sa terenom na nekoliko kaskadnih nivoa duž kojih se unutrašnji prostori kao spiralni cvet otvaraju ka suncu i pogledu i produžuju na otvorene terase. Ceo kompleks sa bazenom omeđen je potpornim kamenim zidovima i ogradama i čini kompaktnu celinu koja podseća na porodičnu tvrđavicu. „E tu će tvrđavicu malo teže srušiti…“"
   },
   {
@@ -1198,12 +1247,13 @@
       "Idejni",
       "Glavni"
     ],
-    "status": [],
+    "contest": [],
     "link": "../projekat/?id=50",
     "imagesFolderName": "/src/assets/projects/šumadinka-kuća-u-banji-aranđelovac/",
     "client": "Fizičko lice",
     "location": "Banja Aranđelovac",
     "gross": "266m2",
+    "status":"Dobijena građevinska dozvola",
     "descriptionLong": "Šumadinka, kuća u Banji Aranđelovac je vanvremenski odgovor na tradicionalni kontekst dobrih domaćina i zelene brdovite šumadijske idile. Kuća je optimalno pozicionirana na terenu pod blagim nagibom. Osnovni problem na lokaciji bio je konflikt potrebe otvaranja dnevnih prostorija ka pogledu niz brdo, i potrebe otvaranja ka suncu uz brdo. Projektom je omogućeno i jedno i drugo tako što je kuća podeljena na spavaće i dnevno krilo koje je slobodno orijentisano na tri strane. Korišćeni su prirodni materijali – glina, drvo, i kamen. Energetska efikasnost i unutrašnji komfor postignuti su korišćenjem osavremenjenih tradicionalnih opekarskih blokova visokih termoizolacionih svojstava koji omogućavaju kući da „diše“ uz minimalne troškove održavanja toplotnog komfora."
   },
   {
@@ -1222,12 +1272,13 @@
       "Idejni",
       "Enterijer"
     ],
-    "status": [],
+    "contest": [],
     "link": "../projekat/?id=51",
     "imagesFolderName": "/src/assets/projects/enterijer-porodične-kuće-u-beogradu/",
     "client": "Privatno lice",
     "location": "Beograd",
     "gross": "200m2",
+    "status":"U pripremi",
     "descriptionLong": "Enterijer porodične kuće u Beogradu. Bolji opis bi bio Arhitektura unutrašnjeg prostora. U nasleđeni neartikulisani okvir iznutra se uvodi red. Projekat pet fasada i osvetljenja koje podržava oblik. Namerno izbegnut trendy cool prostor. Umesto toga – topla i taktilna atmosfera doma."
   },
   {
@@ -1246,12 +1297,13 @@
       "Idejni",
       "Enterijer"
     ],
-    "status": [],
+    "contest": [],
     "link": "../projekat/?id=52",
     "imagesFolderName": "/src/assets/projects/enterijer-kuće-šumadinka-u-banji-aranđelovac/",
     "client": "Privatno lice",
     "location": "Banja Aranđelovac",
     "gross": "200m2",
+    "status":"U pripremi",
     "descriptionLong": "Enterijer kuće Šumadinka u Banji Aranđelovac. Arhitektura unutrašnjeg prostora. Projekat pet fasada i osvetljenja koje podržava oblik. Visoki lučni prozor koji hvata sunce za brdom i uvlači ga duboko u prostor."
   },
   {
@@ -1268,7 +1320,7 @@
       "Javni"
     ],
     "phase": [],
-    "status": [
+    "contest": [
       "Konkurs"
     ],
     "link": "../projekat/?id=53",
@@ -1276,6 +1328,7 @@
     "client": "Grad Beograd",
     "location": "Beograd",
     "gross": "27000 m2",
+    "status":"Nenagrađen",
     "descriptionLong": "Do predviđenog roka predato je ukupno 25 konkursnih radova.<br>Žiri je radio u sastavu:<br>Predsednik Žirija: prof.Janez Koželj, arhitekta, predstavnik Udruženja arhitekata Srbije<br>Potpredsednik Žirija: Milutin Folić, arhitekta, Gradski urbanista Grada Beograda i članovi:<br>Osama Al Hassan, pejzažni arhitekta, predstavnik Naručioca<br>Jovan Mitrović, arhitekta, predstavnik Udruženja arhitekata Srbije<br>Dr Milena Kordić, arhitekta, predstavnik Udruženja arhitekata Srbije<br>Žiri je doneo sledeće odluke:<br>• Prva nagrada „Fenwick Iribarren Architects“, Madrid, Španija<br>• Druga nagrada „Medprostor“ d.o.o., Ljubljana, Slovenija<br>• Treća nagrada: „SWA Group (SWA)“, Kalifornija, SAD, saradnici: „CEP“ – Centar za planiranje urbanog razvoja, Beograd<br>• Otkup 1: „Arhitektura ARSA“, Novi Pazar, Republika Srbija ( Damir Rastoder, Admir Bibić, Emrah Bronja, Armin Redžepagić )<br>• Otkup 2: InSite, a division of KEO International Consultants“, Abu Dabi, UAE<br>• Otkup 3,4 i 5 nisu dodeljeni.\nSavski trg – Hrastko<br>Stefan Nemanja je u fokusu trga, ispred ulaza u Nacionalni muzej istorije Srbije, kao čuvar kapije, portala u budućnost. Nemanja je bio vladar, čovek od mača, imena izvedenog od „neman“. Jednom od sinova je dao ime Rastko, po rastu, ili hrastu, svetom srpskom drvetu. Rastko je postao Sv. Sava, duhovnik srpskog naroda. Upravo je iz ljubavi između oca i sina Srbija počela da raste kao hrast, u početku kao porodično stablo Nemanjića, da bi se dalje nastavalo granama koje sežu kroz vekove. Savski trg je organizovan kao Hrast koji raste iz centra formirajući organske fraktalne ćelije u svojoj krošnji. Svaka ćelija je jedna otvorena soba, ostrvo za različite aktivnosti, koje se menjaju s vremena na vreme. One mogu biti u vezi sa Muzejom istorije Srbije, kao pomenuta tema porodičnog stabla Nemanjića, ili neke druge grane izabrane iz bogate i duge srpske istorije, ili nešto potpuno drugačije iz domena popularne umetnosti, kupovine, zabave…"
   },
   {
@@ -1294,12 +1347,13 @@
     "phase": [
       "Glavni"
     ],
-    "status": [],
+    "contest": [],
     "link": "../projekat/?id=54",
     "imagesFolderName": "/src/assets/projects/naselje-kuća-u-malaviju-afrika/",
     "client": "Fizičko lice",
     "location": "Malavi Afrika",
     "gross": "9x220m2",
+    "status":"U izgradnji",
     "descriptionLong": "Lokacija je veoma povoljna, na uzvišenju iznad grada sa lepim pogledom na okolni planinski pejzaž, i dobrim saobraćajnim vezama. Poseban problem je uklapanje u trougaoni oblik parcele i nagnuti teren, sa zahtevanom velikom gustinom naseljenosti i odvajanjem vile vlasnika kao posebne, fizički i vizuelno izolovane celine. Kulturni kontekst ovog naselja nije sama Afrika, već globalno tržište. Temperatura koja se kreće u rasponu od +15 do +35 ne zahteva poseban termički omotač, što omogućava slobodnije oblikovanje fasade."
   },
   {
@@ -1318,12 +1372,13 @@
     "phase": [
       "Glavni"
     ],
-    "status": [],
+    "contest": [],
     "link": "../projekat/?id=55",
     "imagesFolderName": "/src/assets/projects/vila-sa-bazenom-u-malaviju-afrika/",
     "client": "Fizičko lice",
     "location": "Malavi Afrika",
     "gross": "567m2",
+    "status":"U izgradnji",
     "descriptionLong": "Lokacija je veoma povoljna, na uzvišenju iznad grada sa lepim pogledom na okolni planinski pejzaž, i dobrim saobraćajnim vezama. Poseban problem je uklapanje u trougaoni oblik parcele i nagnuti teren, sa zahtevanom velikom gustinom naseljenosti i odvajanjem vile vlasnika kao posebne, fizički i vizuelno izolovane celine od ostalih kuća kompleksa. Nagib terena iskorišćen je da se vila odvoji od ostalih kuća u naselju čime se omogućava južna orijentacija dnevne zone sa velikim staklenim površinama.Temperatura koja se kreće u rasponu od +15 do +35 ne zahteva poseban termički omotač, što omogućava slobodnije oblikovanje fasade."
   },
   {
@@ -1340,12 +1395,13 @@
     "phase": [
       "Idejni"
     ],
-    "status": [],
+    "contest": [],
     "link": "../projekat/?id=56",
     "imagesFolderName": "/src/assets/projects/vila-na-brdu-tradicionalna/",
     "client": "",
     "location": "",
     "gross": "",
+    "status":"",
     "descriptionLong": ""
   },
   {
@@ -1362,12 +1418,13 @@
     "phase": [
       "Idejni"
     ],
-    "status": [],
+    "contest": [],
     "link": "../projekat/?id=57",
     "imagesFolderName": "/src/assets/projects/vila-na-brdu-moderna/",
     "client": "",
     "location": "",
     "gross": "",
+    "status":"",
     "descriptionLong": ""
   },
   {
@@ -1385,7 +1442,7 @@
     "phase": [
       "Idejni"
     ],
-    "status": [
+    "contest": [
       "Izveden"
     ],
     "link": "../projekat/?id=58",
@@ -1393,6 +1450,7 @@
     "client": "Packom doo",
     "location": "Beograd",
     "gross": "9x220m2",
+    "status":"Izvedeno",
     "descriptionLong": "Poslovni kompleks Packom Beograd. Uredjenje. Fasada. Enterijer. Radi se o nizu adhoc rešenja koja se kreću od idejnih do glavnih projekata u domenu uređenja parcele, arhitektonske obrade objekta koja se nadovezuje na postojeću konstrukciju i enterijera poslovnog prostora uz veoma kratke rokove za realizaciju. Korišćena je kombinacija opeke i tamne aluminijumske stolarije sa velikim staklenim površinama na fasadi, ritma sprovedenog i na parteru uz taktilno popločavanje partera klinkerom sa ostrvima zelenila koji ne smetaju funkcionalnosti proizvodnog procesa istovremeno definišući pravilne sagledive otvorene prostore, uz posebno naglašen trg pred ulazom u objekat."
   },
   {
@@ -1410,7 +1468,7 @@
       "Idejni",
       "Enterijer"
     ],
-    "status": [
+    "contest": [
       "Izveden"
     ],
     "link": "../projekat/?id=59",
@@ -1418,6 +1476,7 @@
     "client": "Packom doo",
     "location": "Beograd",
     "gross": "9x220m2",
+    "status":"Izvedeno",
     "descriptionLong": "Poslovni kompleks Packom Beograd. Uredjenje. Fasada. Enterijer. Open space poslovni prostor sa staklenim pregradama za fizičku i zvučnu, ali ne i vizuelnu izolaciju. Kontrast taktilne rustične opeke, neobrađene brut betonske konstrukcije, toplog drveta i glatkog mermera sa zlatnim i tamnim metalnim akcentima. Steel Case nameštaj sa minimalističkim belim uz osvežavajuće pistaći zelene tonove. Geometrija vetrenjače oko centralnog stuba generiše dinamična i statičnih polja na podu i plafonu prateći funkcije kretanja i sedenja definišući posebne delove unutar zajedničke celine. Unutrašnja krovna terasa funkcioniše kao atrijum uvodeći dodatno svetlo i otvarajući prostor u centru zbivanja…"
   },
   {
@@ -1435,12 +1494,13 @@
     "phase": [
       "Glavni"
     ],
-    "status": [],
+    "contest": [],
     "link": "../projekat/?id=60",
     "imagesFolderName": "/src/assets/projects/adaptacija-u-višeporodičnu-stambeno-poslovnu-urbanu-vilu/",
     "client": "",
     "location": "",
     "gross": "",
+    "status":"",
     "descriptionLong": ""
   },
   {
@@ -1455,14 +1515,13 @@
     "phase": [
       "Glavni"
     ],
-    "status": [
-      "U pripremi"
-    ],
+    "contest": [],
     "link": "../projekat/?id=61",
     "imagesFolderName": "/src/assets/projects/adaptacija-u-hotel-u-beogradu/",
     "client": "Elegance doo",
     "location": "Beograd",
     "gross":"2250m2",
+    "status":"U pripremi",
     "descriptionLong":"Glavni projekat adaptacije postojećeg objekta u sivoj fazi u hotel sa 76 ležaja u 32 sobe i restoranom. Sa veoma ograničenim sredstvima, uz unapred definisane proporcije i raspored otvora i krova formirana je harmonična celina podelom fasada na bazis u kamenu, telo u svetlom malteru i sprat – venac upotrebom plitke plastike i finih nijansi u završnoj obradi. Planiran je hotel opremljen modernim sistemom instalacija koje se projektom sinhronizuju kako međusobno, tako i sa nasleđenom betonskom konstrukcijom."
   }
 ]

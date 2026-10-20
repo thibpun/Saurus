@@ -1,0 +1,41 @@
+[   
+    {
+        "id": 1,
+        "title": "Osvojena prav nagrada na Lafarge-ovom konkursu za trg u Beočinu",
+        "thumbnail": "beočinTrg.jpg",
+        "bannerImage":"beočinTrgLarge.jpg",
+        "description": "Kompanija Lafarge BFC d.o.o. raspisala je konkurs za idejno rešenje trga u Beočinu, koji će se izgraditi u saradnji sa opštinom Beočin. Na osnovu raspisanog konkursa, pristiglo je ukupno 48 radova. Međunarodni žiri je jednoglasno doneo odluku da prvu nagradu za idejno rešenje za izgradnju trga u Beočinu dobije dokumentacija pod šifrom „Lepeza“. To je zajednički rad koji je izradio bračni par Tomić, Jelena i Srđan iz Aranđelovca.",
+        "day":"26",
+        "month":"JAN",
+        "year": [
+          "2009"
+        ],
+        "projectID":"16"
+    },
+    {
+        "id": 2,
+        "title": "Osvojena treća nagrada na konkursu za Japansku česmu",
+        "thumbnail": "česma.jpg",
+        "bannerImage":"česmaLarge.jpg",
+        "description": "Japanska česma - 3. nagrada Period posla 2010 Klijent GSP Beograd Lokacija Kalemegdan, Beograd Opis Konkursno rešenje na temu Japanska česma na Kalemegdanu Bruto Status Arhitektonski studio Saurus je dobio treću nagradu na konkursu. Ideja je bila prezahtevna za investitora uzimajući u obzir rokove za realizaciju. Ovu česmu na Kalemegdanu posvećujemo japanskom narodu u znak zahvalnosti za pomoć koju su nam pružili u teškim trenucima. Japan je zemlja i duhovno i prostorno daleka. U vremenu kada se fizičke razdaljine brišu putem \"world wide web\"-a pokušali smo da se u ovom globalnom virtuelnom svetu približimo i svoj poklon podarimo svakom japancu. On će ga videti u Google map-u , Google Earth-u, internet aplikacijama koje omogućavaju lak pregled celokupne površine planete u vidu satelitskih snimaka putem interneta.",
+        "day":"26",
+        "month":"JAN",
+        "year": [
+          "2010"
+        ],
+        "projectID":"18"
+    },
+    {
+      "id": 3,
+      "title": "Saveti za 3D modelovanje u magazinu DaiBau",
+      "thumbnail": "SavetiDaiBau.jpg",
+      "bannerImage":"SavetiDaiBauLarge.jpg",
+      "description": "Studio Saurus dao je nekoliko saveta čitaocima magazina DaiBau u vezi sa 3D modelovanjem i vizuelizacijom arhitektonskih projekata, o procesu 3D projektovanja kao simulaciji budućeg objekta. 3D modelovanje objekta se podrazumeva kao interni alat za projektovanje, pored standardnog 2D crteža. Ono što je nekada bila radna maketa, to je sada kompjuterski model, koji nam omogućava da iz prvog lica, empirijski proverimo svaku našu odluku, svaku igru svetlosti i senke koja iz toga proističe u svakom ćošku objekta, unutra i spolja. Ovde se ne radi samo o geometriji, već o fizički ispravnoj simulaciji svih vidljivih elemenata stvarnosti, materijala, tekstura, svetlosti, prirodne i veštačke. Pored toga, 3D model omogućava da se sa mnogo manje grešaka usaglase pojedini elementi projekta – statika konstrukcije i instalacije sa arhitekturom, čime se drastično smanjuju troškovi izmena na gradilištu. Simulacija je najpošteniji način rada na projektu koji onemogućava lažiranje. Tu postoji velika razlika između simulacije, i naknadne vizuelizacije čiji je cilj da svim sredstvima postprodukcije proda sliku, umesto objekta. Klijent delom učestvuje u ovom kreativnom procesu, realnim uvidom u svoj budući objekat.",
+      "day":"25",
+      "month":"JAN",
+      "year": [
+        "2021"
+      ],
+      "projectID":""
+    }
+  ]
