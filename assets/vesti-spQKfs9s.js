@@ -1,4 +1,4 @@
-import{t as e}from"./nav-CmktI5H1.js";import{t}from"./loadNews-ChPPvLaZ.js";var n=`/Saurus/assets/SavetiDaiBau-D7EkmCtW.jpg`,r=`/Saurus/assets/proj16-COgOM7Rr.jpg`,i=`/Saurus/assets/proj18-BtHpfETb.jpg`,a=document.getElementById(`news-container`);async function o(){s(await t())}o(),e.on(`languageChanged`,async()=>{s(await t())});function s(e){a.innerHTML=e.toReversed().map(e=>`<div class="article">
+import{t as e}from"./nav-D4rRmQyM.js";import{t}from"./loadNews-CyiueIZp.js";var n=`/Saurus/assets/SavetiDaiBau-D7EkmCtW.jpg`,r=`/Saurus/assets/proj16-COgOM7Rr.jpg`,i=`/Saurus/assets/proj18-BtHpfETb.jpg`,a=document.getElementById(`news-container`);async function o(){s(await t())}o(),e.on(`languageChanged`,async()=>{s(await t())});function s(e){a.innerHTML=e.toReversed().map(e=>`<div class="article">
   <div class="article-date">
   <time>${e.day}</time>
   <time>${e.month} ${e.year}</time>
