@@ -17,7 +17,7 @@ if(!isMobile.matches){
     })
     carousel.addEventListener("click",(event)=>{
         const x=event.clientX-rect.left;
-        const activeImage=document.querySelector("#project-carousel img[data-active]");
+        const activeImage=document.querySelector("#project-carousel picture[data-active]");
         let newIndex=Array.from(images).indexOf(activeImage)
         if(x<width/2)newIndex--;
         else newIndex++;
@@ -43,7 +43,7 @@ else{
 
         if (Math.abs(dX) > Math.abs(dY)) {
             if (Math.abs(dX) > threshold) {
-                const activeImage=document.querySelector("#project-carousel img[data-active]");
+                const activeImage=document.querySelector("#project-carousel picture[data-active]");
                 let newIndex=Array.from(images).indexOf(activeImage)
                 if (dX > 0) newIndex--;
                 else newIndex++;
@@ -55,20 +55,36 @@ else{
     },{passive:true});
 }
 
-export default function createCarousel(folderPath){
+export default function createCarousel(folderPath,mobilePath){
     const allImageModules = import.meta.glob('/src/assets/projects/**/*.{png,jpg,jpeg,webp}', { eager: true });
     const imagesLinks = Object.entries(allImageModules).filter(([filePath, module]) => filePath.includes(folderPath)).map(([filePath, module]) => module.default);
+    const mobileLinks = Object.entries(allImageModules).filter(([filePath, module]) => filePath.includes(mobilePath)).map(([filePath, module]) => module.default);
     let innerHtml='';
     let rectangles='';
     for(let i=0;i<imagesLinks.length;i++){
         if(i==0){
-            innerHtml+=`<img src="${imagesLinks[i]}" data-active>`;
+            innerHtml+=`<picture data-active>
+            <source media="(min-width: 65rem)" srcset="${imagesLinks[i]}">
+            <img src="${mobileLinks[i]}" fetchpriority="high">
+            </picture>`;
             rectangles+=`<button type="button" class="rectangular-marker" data-active aria-label="show image ${i+1}"></button>`;
         }
         else
         {
-            innerHtml+=`<img src="${imagesLinks[i]}">`;
-            rectangles+=`<button type="button" class="rectangular-marker" aria-label="show image ${i+1}"></button>`;
+            try{
+                innerHtml+=`<picture>
+                <source media="(min-width: 65rem)" srcset="${imagesLinks[i]}">
+                <img src="${mobileLinks[i]}">
+                </picture>`;
+                rectangles+=`<button type="button" class="rectangular-marker" aria-label="show image ${i+1}"></button>`;
+            }
+            catch{
+                innerHtml+=`<picture>
+                <source media="(min-width: 65rem)" srcset="${imagesLinks[i]}">
+                <img src="${imagesLinks[i]}">
+                </picture>`;
+                rectangles+=`<button type="button" class="rectangular-marker" aria-label="show image ${i+1}"></button>`;       
+            }
         }
     }
     const markerContainer=document.createElement('div');
@@ -76,7 +92,7 @@ export default function createCarousel(folderPath){
     markerContainer.innerHTML=rectangles;
     carousel.innerHTML=innerHtml;
     carousel.append(markerContainer);
-    images=document.querySelectorAll('#project-carousel>img');
+    images=document.querySelectorAll('#project-carousel > picture');
     markers=markerContainer.querySelectorAll('button');
     createButtonEvents(markerContainer);
 }  
@@ -87,7 +103,7 @@ function createButtonEvents(markerContainer){
         const marker=e.target.closest('button');
         if(marker){
             let newIndex=Array.from(markers).indexOf(marker);
-            const activeImage=document.querySelector("#project-carousel img[data-active]");
+            const activeImage=document.querySelector("#project-carousel picture[data-active]");
             changeImage(newIndex,activeImage);
         }
     })
