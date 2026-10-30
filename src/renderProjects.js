@@ -15,20 +15,6 @@ i18next.on('languageChanged', async () => {
   renderProjects(projects); 
 });
 
-// export default function renderProjects(projects){
-//   projectsContainer.innerHTML=projects.toReversed().map((project)=>
-//     `<a href="${getProjectUrl(project)}" class="project">
-//     <img src="${getImageUrl(project.thumbnail)}" alt="" loading="lazy">
-//     <div class="card-content">
-//     <h2>${project.title}</h2>
-//     <p>${project.thumbnailDescription}</p>
-//     <div>
-//     <p>${project.year.join(', ')}</p>
-//     <p>${project.type.join(', ')}</p>
-//     </div>
-//     </div>
-//     </a>`).join("");
-// }
 export default function renderProjects(projects){
   projectsContainer.innerHTML=projects.toReversed().map((project)=>
     project.expand ?    
@@ -43,7 +29,7 @@ export default function renderProjects(projects){
       </div>
       </div>
       </a>`
-      :`<div class="project">
+      :`<div class="project" data-id="${project.id}">
       <img src="${getImageUrl(project.thumbnail)}" alt="" loading="lazy">
       <div class="card-content">
       <h2>${project.title}</h2>

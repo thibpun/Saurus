@@ -38,7 +38,7 @@
       </nav>
     </header>
     <h1 class="visually-hidden" data-i18n="projectsPage.title">Projekti</h1>
-    <!-- parent div bicause of position sticky on filter -->
+    <!-- parent main needed because of position sticky on filter -->
     <main> 
       <div id="filter-container">
         <h2 style="display: none;" data-i18n="projectsPage.filtersTitle">Filteri</h2>
@@ -129,7 +129,12 @@
         </div>
       </div>
     </main>
-
+    <div id="popout-carousel-container">
+      <div></div>
+      <button type="button" id="close-popout" aria-controls="popout-carousel" aria-label="close carousel">
+        <iconify-icon icon="ri:close-large-fill"></iconify-icon>
+      </button>
+    </div>
     <footer class="link-container">
       <a href="https://www.facebook.com/StudioSaurus/" aria-label="Facebook"><iconify-icon icon="ri:facebook-fill" class="link-icon"></iconify-icon></a>
       <a href="https://www.instagram.com/studio_saurus/" aria-label="Instagram"><iconify-icon icon="ri:instagram-line" class="link-icon"></iconify-icon></a>
@@ -141,6 +146,7 @@
     <script type="module" src="/src/filters.js"></script>
     <script type="module" src="/src/loadProjects.js"></script>
     <script type="module" src="/src/renderProjects.js"></script>
+    <script type="module" src="/src/popOutCarousel.js"></script>
     <script type="module" src="/src/nav.js"></script>
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
   </body>

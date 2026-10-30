@@ -17,7 +17,7 @@ if(!isMobile.matches){
     })
     carousel.addEventListener("click",(event)=>{
         const x=event.clientX-rect.left;
-        const activeImage=document.querySelector("#project-carousel picture[data-active]");
+        const activeImage=carousel.querySelector("picture[data-active]");
         let newIndex=Array.from(images).indexOf(activeImage)
         if(x<width/2)newIndex--;
         else newIndex++;
@@ -43,7 +43,7 @@ else{
 
         if (Math.abs(dX) > Math.abs(dY)) {
             if (Math.abs(dX) > threshold) {
-                const activeImage=document.querySelector("#project-carousel picture[data-active]");
+                const activeImage=carousel.querySelector("picture[data-active]");
                 let newIndex=Array.from(images).indexOf(activeImage)
                 if (dX > 0) newIndex--;
                 else newIndex++;
@@ -92,7 +92,7 @@ export default function createCarousel(folderPath,mobilePath){
     markerContainer.innerHTML=rectangles;
     carousel.innerHTML=innerHtml;
     carousel.append(markerContainer);
-    images=document.querySelectorAll('#project-carousel > picture');
+    images=carousel.querySelectorAll('picture');
     markers=markerContainer.querySelectorAll('button');
     createButtonEvents(markerContainer);
 }  
