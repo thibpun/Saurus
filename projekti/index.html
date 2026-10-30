@@ -9,10 +9,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
-    <script type="module" crossorigin src="/Saurus/assets/projekti-Do6X7lVJ.js"></script>
-    <link rel="modulepreload" crossorigin href="/Saurus/assets/nav-CXHG0WiL.js">
-    <link rel="modulepreload" crossorigin href="/Saurus/assets/loadProjects-Cb_GEwjk.js">
-    <link rel="stylesheet" crossorigin href="/Saurus/assets/nav-CUakn3P3.css">
+    <script type="module" crossorigin src="/Saurus/assets/projekti-y8-x7aIj.js"></script>
+    <link rel="modulepreload" crossorigin href="/Saurus/assets/nav-D34o2uUk.js">
+    <link rel="modulepreload" crossorigin href="/Saurus/assets/2018-Saurus-Drim-Kuca-2-Banja-Arandjelovac-51b-BIdqfXZq.js">
+    <link rel="stylesheet" crossorigin href="/Saurus/assets/nav-DMkuDz-k.css">
   </head>
   <body>
     <header class="navbar" style="box-shadow: none;">
@@ -41,7 +41,7 @@
       </nav>
     </header>
     <h1 class="visually-hidden" data-i18n="projectsPage.title">Projekti</h1>
-    <!-- parent div bicause of position sticky on filter -->
+    <!-- parent main needed because of position sticky on filter -->
     <main> 
       <div id="filter-container">
         <h2 style="display: none;" data-i18n="projectsPage.filtersTitle">Filteri</h2>
@@ -132,13 +132,18 @@
         </div>
       </div>
     </main>
-
+    <div id="popout-carousel-container">
+      <div></div>
+      <button type="button" id="close-popout" aria-controls="popout-carousel" aria-label="close carousel">
+        <iconify-icon icon="ri:close-large-fill"></iconify-icon>
+      </button>
+    </div>
     <footer class="link-container">
       <a href="https://www.facebook.com/StudioSaurus/" aria-label="Facebook"><iconify-icon icon="ri:facebook-fill" class="link-icon"></iconify-icon></a>
       <a href="https://www.instagram.com/studio_saurus/" aria-label="Instagram"><iconify-icon icon="ri:instagram-line" class="link-icon"></iconify-icon></a>
       <a href="https://www.linkedin.com/company/studio-saurus/" aria-label="LinkedIn"><iconify-icon icon="ri:linkedin-fill" class="link-icon"></iconify-icon></a>
     </footer>
-
+
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
   </body>
 </html>
