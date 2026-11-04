@@ -54,18 +54,14 @@ else{
           } 
     },{passive:true});
 }
-
-export default function createCarousel(folderPath,mobilePath){
-    const allImageModules = import.meta.glob('/src/assets/projects/**/*.{png,jpg,jpeg,webp}', { eager: true });
-    const imagesLinks = Object.entries(allImageModules).filter(([filePath, module]) => filePath.includes(folderPath)).map(([filePath, module]) => module.default);
-    const mobileLinks = Object.entries(allImageModules).filter(([filePath, module]) => filePath.includes(mobilePath)).map(([filePath, module]) => module.default);
+export default function createCarousel(imagesLinks,mobileLinks){
     let innerHtml='';
     let rectangles='';
     for(let i=0;i<imagesLinks.length;i++){
         if(i==0){
             innerHtml+=`<picture data-active>
-            <source media="(min-width: 65rem)" srcset="${imagesLinks[i]}">
-            <img src="${mobileLinks[i]}" fetchpriority="high">
+            <source media="(min-width: 65rem)" srcset="${imagesLinks[i].url}">
+            <img src="${mobileLinks[i].url}" alt="${mobileLinks[i].alt}" fetchpriority="high">
             </picture>`;
             rectangles+=`<button type="button" class="rectangular-marker" data-active aria-label="show image ${i+1}"></button>`;
         }
@@ -73,15 +69,15 @@ export default function createCarousel(folderPath,mobilePath){
         {
             try{
                 innerHtml+=`<picture>
-                <source media="(min-width: 65rem)" srcset="${imagesLinks[i]}">
-                <img src="${mobileLinks[i]}">
+                <source media="(min-width: 65rem)" srcset="${imagesLinks[i].url}">
+                <img src="${mobileLinks[i].url}" alt="${mobileLinks[i].alt}">
                 </picture>`;
                 rectangles+=`<button type="button" class="rectangular-marker" aria-label="show image ${i+1}"></button>`;
             }
             catch{
                 innerHtml+=`<picture>
-                <source media="(min-width: 65rem)" srcset="${imagesLinks[i]}">
-                <img src="${imagesLinks[i]}">
+                <source media="(min-width: 65rem)" srcset="${imagesLinks[i].url}">
+                <img src="${imagesLinks[i].url}" alt="${imagesLinks[i].alt}">
                 </picture>`;
                 rectangles+=`<button type="button" class="rectangular-marker" aria-label="show image ${i+1}"></button>`;       
             }
@@ -96,6 +92,47 @@ export default function createCarousel(folderPath,mobilePath){
     markers=markerContainer.querySelectorAll('button');
     createButtonEvents(markerContainer);
 }  
+// export default function createCarousel(folderPath,mobilePath){
+//     const allImageModules = import.meta.glob('/src/assets/projects/**/*.{png,jpg,jpeg,webp}', { eager: true });
+//     const imagesLinks = Object.entries(allImageModules).filter(([filePath, module]) => filePath.includes(folderPath)).map(([filePath, module]) => module.default);
+//     const mobileLinks = Object.entries(allImageModules).filter(([filePath, module]) => filePath.includes(mobilePath)).map(([filePath, module]) => module.default);
+//     let innerHtml='';
+//     let rectangles='';
+//     for(let i=0;i<imagesLinks.length;i++){
+//         if(i==0){
+//             innerHtml+=`<picture data-active>
+//             <source media="(min-width: 65rem)" srcset="${imagesLinks[i]}">
+//             <img src="${mobileLinks[i]}" fetchpriority="high">
+//             </picture>`;
+//             rectangles+=`<button type="button" class="rectangular-marker" data-active aria-label="show image ${i+1}"></button>`;
+//         }
+//         else
+//         {
+//             try{
+//                 innerHtml+=`<picture>
+//                 <source media="(min-width: 65rem)" srcset="${imagesLinks[i]}">
+//                 <img src="${mobileLinks[i]}">
+//                 </picture>`;
+//                 rectangles+=`<button type="button" class="rectangular-marker" aria-label="show image ${i+1}"></button>`;
+//             }
+//             catch{
+//                 innerHtml+=`<picture>
+//                 <source media="(min-width: 65rem)" srcset="${imagesLinks[i]}">
+//                 <img src="${imagesLinks[i]}">
+//                 </picture>`;
+//                 rectangles+=`<button type="button" class="rectangular-marker" aria-label="show image ${i+1}"></button>`;       
+//             }
+//         }
+//     }
+//     const markerContainer=document.createElement('div');
+//     markerContainer.id='marker-container'
+//     markerContainer.innerHTML=rectangles;
+//     carousel.innerHTML=innerHtml;
+//     carousel.append(markerContainer);
+//     images=carousel.querySelectorAll('picture');
+//     markers=markerContainer.querySelectorAll('button');
+//     createButtonEvents(markerContainer);
+// }  
 
 function createButtonEvents(markerContainer){
     markerContainer.addEventListener("click",(e)=>{

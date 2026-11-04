@@ -346,7 +346,7 @@ const resources = {
         period:"Project period",
         client:"Client",
         location:"Location",
-        description:"description",
+        description:"Description",
         gross:"Gross",
       },
 

@@ -3,7 +3,10 @@ const carousel=carouselContainer.querySelector('div');
 const projectsContainer = document.getElementById('projects-container');
 const body=document.querySelector("body");
 const closeBtn=document.querySelector("#close-popout iconify-icon");
-import getProjects from "./loadProjects";
+// import getProjects from "./loadProjects";
+
+import { fetchProjectImages } from "./loadProjects";
+
 let images;
 let markers;
 const isMobile = window.matchMedia("(max-width: 65rem)");
@@ -17,7 +20,7 @@ function init() {
         if(proj){
             carouselContainer.style.display="flex";
             body.classList.toggle("no-scroll");
-            renderCarousel(Number(proj.getAttribute('data-id')));
+            renderCarousel(proj.getAttribute('data-id'));
     }
   });
   closeBtn.addEventListener("click",()=>{
@@ -80,18 +83,19 @@ else{
 }
 }
 async function renderCarousel(desiredID){
-    const projects = await getProjects();
-    const project=projects.find(project=>project.id===desiredID);
-    const allImageModules = import.meta.glob('/src/assets/projects/**/*.{png,jpg,jpeg,webp}', { eager: true });
-    const imagesLinks = Object.entries(allImageModules).filter(([filePath, module]) => filePath.includes(project.imagesFolderName)).map(([filePath, module]) => module.default);
-    const mobileLinks = Object.entries(allImageModules).filter(([filePath, module]) => filePath.includes(project.mobileImagesFolderName)).map(([filePath, module]) => module.default);
+    const project = (await fetchProjectImages(desiredID))[0];
+    
+    const desktopImages = project.images;
+    const mobileImages = project.mobileImages;
+    console.log(mobileImages[0]);
+    mobileImages.forEach(img=>{console.log(img.alt)});
     let pictures='';
     let rectangles='';
-    for(let i=0;i<imagesLinks.length;i++){
+    for(let i=0;i<desktopImages.length;i++){
         if(i==0){
             pictures+=`<picture data-active>
-            <source media="(min-width: 65rem)" srcset="${imagesLinks[i]}">
-            <img src="${mobileLinks[i]}" fetchpriority="high">
+            <source media="(min-width: 65rem)" srcset="${desktopImages[i].url}">
+            <img src="${mobileImages[i].url}" alt="${mobileImages[i].alt}" fetchpriority="high">
             </picture>`;
             rectangles+=`<button type="button" class="rectangular-marker" data-active aria-label="show image ${i+1}"></button>`;
         }
@@ -99,15 +103,15 @@ async function renderCarousel(desiredID){
         {
             try{
                 pictures+=`<picture>
-                <source media="(min-width: 65rem)" srcset="${imagesLinks[i]}">
-                <img src="${mobileLinks[i]}">
+                <source media="(min-width: 65rem)" srcset="${desktopImages[i].url}">
+                <img src="${mobileImages[i].url}" alt="${mobileImages[i].alt}">
                 </picture>`;
                 rectangles+=`<button type="button" class="rectangular-marker" aria-label="show image ${i+1}"></button>`;
             }
             catch{
                 pictures+=`<picture>
-                <source media="(min-width: 65rem)" srcset="${imagesLinks[i]}">
-                <img src="${imagesLinks[i]}">
+                <source media="(min-width: 65rem)" srcset="${desktopImages[i].url}">
+                <img src="${desktopImages[i].url}" alt="${desktopImages[i].alt}">
                 </picture>`;
                 rectangles+=`<button type="button" class="rectangular-marker" aria-label="show image ${i+1}"></button>`;       
             }
@@ -122,6 +126,49 @@ async function renderCarousel(desiredID){
     markers=markerContainer.querySelectorAll('button');
     createButtonEvents(markerContainer);
 }
+// async function renderCarousel(desiredID){
+//     const projects = await getProjects();
+//     const project=projects.find(project=>project.id===desiredID);
+//     const allImageModules = import.meta.glob('/src/assets/projects/**/*.{png,jpg,jpeg,webp}', { eager: true });
+//     const imagesLinks = Object.entries(allImageModules).filter(([filePath, module]) => filePath.includes(project.imagesFolderName)).map(([filePath, module]) => module.default);
+//     const mobileLinks = Object.entries(allImageModules).filter(([filePath, module]) => filePath.includes(project.mobileImagesFolderName)).map(([filePath, module]) => module.default);
+//     let pictures='';
+//     let rectangles='';
+//     for(let i=0;i<imagesLinks.length;i++){
+//         if(i==0){
+//             pictures+=`<picture data-active>
+//             <source media="(min-width: 65rem)" srcset="${imagesLinks[i]}">
+//             <img src="${mobileLinks[i]}" fetchpriority="high">
+//             </picture>`;
+//             rectangles+=`<button type="button" class="rectangular-marker" data-active aria-label="show image ${i+1}"></button>`;
+//         }
+//         else
+//         {
+//             try{
+//                 pictures+=`<picture>
+//                 <source media="(min-width: 65rem)" srcset="${imagesLinks[i]}">
+//                 <img src="${mobileLinks[i]}">
+//                 </picture>`;
+//                 rectangles+=`<button type="button" class="rectangular-marker" aria-label="show image ${i+1}"></button>`;
+//             }
+//             catch{
+//                 pictures+=`<picture>
+//                 <source media="(min-width: 65rem)" srcset="${imagesLinks[i]}">
+//                 <img src="${imagesLinks[i]}">
+//                 </picture>`;
+//                 rectangles+=`<button type="button" class="rectangular-marker" aria-label="show image ${i+1}"></button>`;       
+//             }
+//         }
+//     }
+//     const markerContainer=document.createElement('div');
+//     markerContainer.id='popout-marker-container'
+//     markerContainer.innerHTML=rectangles;
+//     carousel.innerHTML=pictures;
+//     carousel.append(markerContainer);
+//     images=carousel.querySelectorAll('picture');
+//     markers=markerContainer.querySelectorAll('button');
+//     createButtonEvents(markerContainer);
+// }
 
 function createButtonEvents(markerContainer){
     markerContainer.addEventListener("click",(e)=>{
