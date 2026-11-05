@@ -5,8 +5,6 @@ import { translateCategories } from "./categoryTranslations.js";
 export async function fetchProjectsPreview(language = "sr") {
     const query = `*[_type == "project"] | order(sortOrder asc) {
         _id,
-        sortOrder,
-
         "title": select(
             $language == "en" => titleEn,
             title
@@ -79,9 +77,9 @@ export async function fetchProjectExpaned(slug,language="sr"){
            status
        ),
        "descriptionLong": select(
-           $language == "en" => descriptionLongEn,
-           descriptionLong
-       ),
+        $language == "en" => descriptionLongEn,
+        descriptionLong
+        ),
        "images":coalesce(images[]{
         alt,
         "url": asset->url

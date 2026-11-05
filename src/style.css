@@ -46,6 +46,11 @@ html {
 * {
   margin: 0;
   padding: 0;
+}
+button,
+input,
+textarea,
+select {
   font: inherit;
 }
 
@@ -68,7 +73,7 @@ body {
 body {
   font-family: var(--ff-body);
   font-optical-sizing: auto;
-  font-style: normal;
+  /* font-style: normal; */
   min-height: 100%;
   line-height: 1.5;
   /* overflow-x: hidden; */

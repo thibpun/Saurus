@@ -83,8 +83,9 @@ else{
 }
 }
 async function renderCarousel(desiredID){
+    console.log(desiredID);
     const project = (await fetchProjectImages(desiredID))[0];
-    
+    console.log(project);
     const desktopImages = project.images;
     const mobileImages = project.mobileImages;
     console.log(mobileImages[0]);

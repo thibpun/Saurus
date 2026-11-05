@@ -2,6 +2,8 @@ import createCarousel from "./projectCarousel";
 import i18next from "./i18n.js";
 // import getProjects from "./loadProjects";
 import { fetchProjectExpaned } from "./loadProjects";
+import { toHTML } from '@portabletext/to-html';
+import DOMPurify from 'dompurify';
 const params = new URLSearchParams(window.location.search);
 // const projectId = params.get('id');
 const projectSlug = params.get('slug');
@@ -32,14 +34,7 @@ i18next.on('languageChanged', async () => {
   }
 });
 
-function createDescritpionLong(description){
-  const descriptionArr=description.split('\n');
-  let innerHtml="";
-  descriptionArr.forEach((paragraph)=>{
-    innerHtml+=`<p>${paragraph}</p>`;
-  })
-  return innerHtml;
-}
+
 async function insertProject(){
   const project = (await fetchProjectExpaned(projectSlug,i18next.language))[0];
   console.log(project);
@@ -55,8 +50,11 @@ async function insertProject(){
     document.querySelector(`td[data-field="description"]`).textContent=project.description;
     document.querySelector(`td[data-field="gross"]`).textContent=project.gross;
     document.querySelector(`td[data-field="status"]`).textContent=project.status;
-    const projectDescription=createDescritpionLong(project.descriptionLong);
-    document.getElementById('project-description').innerHTML = projectDescription;
+    const contentHTML = toHTML(
+      project.descriptionLong  || []
+    );
+    console.log(contentHTML);
+    document.getElementById('project-description').innerHTML = contentHTML;
   }
   else document.body.innerHTML = `<h1>${doesntExistError}</h1>`;
 }
