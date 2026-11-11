@@ -1,4 +1,4 @@
-import{t as e}from"./nav-CcwC5fxz.js";import{n as t,r as n}from"./loadProjects-DZ96L1th.js";var r=document.getElementById(`projects`);async function i(){a(await n(e.language))}i(),e.on(`languageChanged`,async()=>{a(await n(e.language))});function a(e){r.innerHTML=e.toReversed().map(e=>e.expand?`<a href="../projekat/?slug=${e.slug}" class="project">
+import{t as e}from"./nav-CcwC5fxz.js";import{n as t,r as n}from"./loadProjects-D3vbOAZT.js";var r=document.getElementById(`projects`);async function i(){a(await n(e.language))}i(),e.on(`languageChanged`,async()=>{a(await n(e.language))});function a(e){r.innerHTML=e.toReversed().map(e=>e.expand?`<a href="../projekat/?slug=${e.slug}" class="project">
       <img src="${e.thumbnail}" alt="" loading="lazy">
       <div class="card-content">
       <h2>${e.title}</h2>
