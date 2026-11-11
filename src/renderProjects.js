@@ -5,7 +5,6 @@ const projectsContainer = document.getElementById('projects');
 
 async function init() {
   const projects=await fetchProjectsPreview(i18next.language);
-  console.log(projects);
   renderProjects(projects);
 }
 

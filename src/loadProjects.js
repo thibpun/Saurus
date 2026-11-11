@@ -1,3 +1,4 @@
+import i18next from "./i18n.js";
 import { sanityClient } from "./sanityClient.js";
 import { translateCategories } from "./categoryTranslations.js";
 

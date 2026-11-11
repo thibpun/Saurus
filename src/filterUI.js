@@ -1,5 +1,5 @@
 import applyFilters from "./filters";
-import getProjects from "./loadProjects";
+import { fetchProjectsPreview } from "./loadProjects";
 import i18next from "./i18n.js";
 
 const isMobile = window.matchMedia("(max-width: 65rem)");
@@ -99,7 +99,7 @@ else{
 
 async function loadYearFilter(){
     const yearsUL = document.querySelector('#year-filter ul');
-    const projects=await getProjects();
+    const projects=await fetchProjectsPreview();
     const years = [];
 
     projects.forEach((project)=>{
