@@ -83,13 +83,9 @@ else{
 }
 }
 async function renderCarousel(desiredID){
-    console.log(desiredID);
     const project = (await fetchProjectImages(desiredID))[0];
-    console.log(project);
     const desktopImages = project.images;
     const mobileImages = project.mobileImages;
-    console.log(mobileImages[0]);
-    mobileImages.forEach(img=>{console.log(img.alt)});
     let pictures='';
     let rectangles='';
     for(let i=0;i<desktopImages.length;i++){
@@ -127,50 +123,6 @@ async function renderCarousel(desiredID){
     markers=markerContainer.querySelectorAll('button');
     createButtonEvents(markerContainer);
 }
-// async function renderCarousel(desiredID){
-//     const projects = await getProjects();
-//     const project=projects.find(project=>project.id===desiredID);
-//     const allImageModules = import.meta.glob('/src/assets/projects/**/*.{png,jpg,jpeg,webp}', { eager: true });
-//     const imagesLinks = Object.entries(allImageModules).filter(([filePath, module]) => filePath.includes(project.imagesFolderName)).map(([filePath, module]) => module.default);
-//     const mobileLinks = Object.entries(allImageModules).filter(([filePath, module]) => filePath.includes(project.mobileImagesFolderName)).map(([filePath, module]) => module.default);
-//     let pictures='';
-//     let rectangles='';
-//     for(let i=0;i<imagesLinks.length;i++){
-//         if(i==0){
-//             pictures+=`<picture data-active>
-//             <source media="(min-width: 65rem)" srcset="${imagesLinks[i]}">
-//             <img src="${mobileLinks[i]}" fetchpriority="high">
-//             </picture>`;
-//             rectangles+=`<button type="button" class="rectangular-marker" data-active aria-label="show image ${i+1}"></button>`;
-//         }
-//         else
-//         {
-//             try{
-//                 pictures+=`<picture>
-//                 <source media="(min-width: 65rem)" srcset="${imagesLinks[i]}">
-//                 <img src="${mobileLinks[i]}">
-//                 </picture>`;
-//                 rectangles+=`<button type="button" class="rectangular-marker" aria-label="show image ${i+1}"></button>`;
-//             }
-//             catch{
-//                 pictures+=`<picture>
-//                 <source media="(min-width: 65rem)" srcset="${imagesLinks[i]}">
-//                 <img src="${imagesLinks[i]}">
-//                 </picture>`;
-//                 rectangles+=`<button type="button" class="rectangular-marker" aria-label="show image ${i+1}"></button>`;       
-//             }
-//         }
-//     }
-//     const markerContainer=document.createElement('div');
-//     markerContainer.id='popout-marker-container'
-//     markerContainer.innerHTML=rectangles;
-//     carousel.innerHTML=pictures;
-//     carousel.append(markerContainer);
-//     images=carousel.querySelectorAll('picture');
-//     markers=markerContainer.querySelectorAll('button');
-//     createButtonEvents(markerContainer);
-// }
-
 function createButtonEvents(markerContainer){
     markerContainer.addEventListener("click",(e)=>{
         e.stopPropagation();

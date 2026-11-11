@@ -12,13 +12,13 @@
     "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
+    "gh-pages": "github:tschaub/gh-pages#main",
     "vite": "^8.3.0"
   },
   "dependencies": {
     "@portabletext/to-html": "^6.0.0",
     "@sanity/client": "^8.14.1",
     "dompurify": "^3.4.17",
-    "gh-pages": "^6.3.0",
     "i18next": "^26.4.2"
   }
 }

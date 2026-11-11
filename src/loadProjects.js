@@ -1,9 +1,8 @@
-import i18next from "./i18n.js";
 import { sanityClient } from "./sanityClient.js";
 import { translateCategories } from "./categoryTranslations.js";
 
 export async function fetchProjectsPreview(language = "sr") {
-    const query = `*[_type == "project"] | order(sortOrder asc) {
+    const query = `*[_type == "project" && hide!=true] | order(sortOrder asc) {
         _id,
         "title": select(
             $language == "en" => titleEn,
@@ -92,38 +91,3 @@ export async function fetchProjectExpaned(slug,language="sr"){
 
     return sanityClient.fetch(query, {slug, language });
 }
-
-let cache = {
-    lang: null,
-    data: null
-  };
-
-export default async function getProjects(){
-    const currentLang = i18next.language || "sr";
-    const fileName= currentLang==="en"?"projects_en.json":"projects.json";
-
-    if(cache.data && cache.lang===currentLang) return cache.data;
-
-    try{
-        const cacheBuster = `?v=${Date.now()}`;
-        const res = await fetch(`${import.meta.env.BASE_URL}${fileName}${cacheBuster}`, {
-            cache: "no-store"
-        });
-        
-        if(!res.ok)throw new Error(`HTTP error! status:${res.status}`);
-
-        const data=await res.json();
-        cache={
-            lang:currentLang,
-            data:data
-        }
-        return data;
-    }
-    catch(err){
-        console.error("Could not fetch projects!",err);
-        return [];
-    }
-}
-
-getProjects();
-
