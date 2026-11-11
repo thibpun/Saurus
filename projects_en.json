@@ -1,0 +1,1649 @@
+[
+  {
+    "id": 1,
+    "title": "Residential building in Aranđelovac",
+    "thumbnail": "proj1.jpg",
+    "thumbnailDescription": "The building consists of two masses: the primary one with pronounced horizontality and the secondary one with pronounced verticals.",
+    "year": [
+      "2007"
+    ],
+    "type": [
+      "Residential"
+    ],
+    "phase": [
+      "Main"
+    ],
+    "contest": [
+      "Built"
+    ],
+    "expand": false,
+    "imagesFolderName": "/src/assets/projects/stambena-zgrada-u-aranđelovcu-1/",
+    "mobileImagesFolderName": "/src/assets/projects/stambena-zgrada-u-aranđelovcu-1 - mobile/",
+    "client": "",
+    "location": "",
+    "description": "",
+    "gross": "",
+    "status": "",
+    "descriptionLong": ""
+  },
+  {
+    "id": 2,
+    "title": "Residential building in Aranđelovac",
+    "thumbnail": "proj2.jpg",
+    "thumbnailDescription": "Since this is an extension of an initiated building, the design is largely determined by the existing structure in terms of form and function.",
+    "year": [
+      "2007",
+      "2008"
+    ],
+    "type": [
+      "Residential"
+    ],
+    "phase": [
+      "Main"
+    ],
+    "contest": [
+      "Built"
+    ],
+    "expand": false,
+    "imagesFolderName": "/src/assets/projects/stambena-zgrada-u-aranđelovcu-2/",
+    "mobileImagesFolderName": "/src/assets/projects/stambena-zgrada-u-aranđelovcu-2 - mobile/",
+    "client": "",
+    "location": "",
+    "description": "",
+    "gross": "",
+    "status": "",
+    "descriptionLong": ""
+  },
+  {
+    "id": 3,
+    "title": "Termag Han Pijesak Hotel Gora reconstruction and extension",
+    "thumbnail": "proj3.jpg",
+    "thumbnailDescription": "The reconstructed hotel 'Gora' represents a city within a city and encompasses a conglomerate of functions including a spa center, shopping mall, recreation center (pool), and high-standard accommodation and dining.",
+    "year": [
+      "2008"
+    ],
+    "type": [
+      "Urbanism",
+      "Commercial"
+    ],
+    "phase": [
+      "Conceptual"
+    ],
+    "contest": [],
+    "expand": false,
+    "imagesFolderName": "/src/assets/projects/termag-han-pijesak-hotel-gora-rekonstrukcija-i-dogradnja/",
+    "mobileImagesFolderName": "/src/assets/projects/termag-han-pijesak-hotel-gora-rekonstrukcija-i-dogradnja - mobile/",
+    "client": "",
+    "location": "",
+    "description": "",
+    "gross": "",
+    "status": "",
+    "descriptionLong": ""
+  },
+  {
+    "id": 4,
+    "title": "House extension in Aranđelovac",
+    "thumbnail": "proj4.jpg",
+    "thumbnailDescription": "",
+    "year": [
+      "2008"
+    ],
+    "type": [
+      "Home"
+    ],
+    "phase": [
+      "Main"
+    ],
+    "contest": [
+      "Built"
+    ],
+    "expand": false,
+    "imagesFolderName": "/src/assets/projects/dogradnja-kuće-u-aranđelovcu/",
+    "mobileImagesFolderName": "/src/assets/projects/dogradnja-kuće-u-aranđelovcu - mobile/",
+    "client": "",
+    "location": "",
+    "description": "",
+    "gross": "",
+    "status": "",
+    "descriptionLong": ""
+  },
+  {
+    "id": 5,
+    "title": "House in Aranđelovac",
+    "thumbnail": "proj5.jpg",
+    "thumbnailDescription": "",
+    "year": [
+      "2008"
+    ],
+    "type": [
+      "Home"
+    ],
+    "phase": [
+      "Conceptual"
+    ],
+    "contest": [],
+    "expand": false,
+    "imagesFolderName": "/src/assets/projects/kuća-u-aranđelovcu-5/",
+    "mobileImagesFolderName": "/src/assets/projects/kuća-u-aranđelovcu-5 - mobile/",
+    "client": "",
+    "location": "",
+    "description": "",
+    "gross": "",
+    "status": "",
+    "descriptionLong": ""
+  },
+  {
+    "id": 6,
+    "title": "B Steel Mladenovac",
+    "thumbnail": "proj6.jpg",
+    "thumbnailDescription": "The project brief and given urban conditions left little room for architectural shaping of the building, which is generally a problem with this type of investment.",
+    "year": [
+      "2008"
+    ],
+    "type": [
+      "Residential"
+    ],
+    "phase": [
+      "Main"
+    ],
+    "contest": [
+      "Built"
+    ],
+    "expand": false,
+    "imagesFolderName": "/src/assets/projects/b-steel-mladenovac/",
+    "mobileImagesFolderName": "/src/assets/projects/b-steel-mladenovac - mobile/",
+    "client": "",
+    "location": "",
+    "description": "",
+    "gross": "",
+    "status": "",
+    "descriptionLong": ""
+  },
+  {
+    "id": 7,
+    "title": "Tri O Topola",
+    "thumbnail": "proj7.jpg",
+    "thumbnailDescription": "A special influence on the design of the building is a large tree that is not only preserved but also given importance and respect by setting the building back to form a small square in the shade of its canopy.",
+    "year": [
+      "2009"
+    ],
+    "type": [
+      "Urbanism",
+      "Residential",
+      "Commercial"
+    ],
+    "phase": [
+      "Main"
+    ],
+    "contest": [
+      "Built"
+    ],
+    "expand": false,
+    "imagesFolderName": "/src/assets/projects/tri-o-topola/",
+    "mobileImagesFolderName": "/src/assets/projects/tri-o-topola - mobile/",
+    "client": "",
+    "location": "",
+    "description": "",
+    "gross": "",
+    "status": "",
+    "descriptionLong": ""
+  },
+  {
+    "id": 8,
+    "title": "Tri O Kragujevac Department store printing house reconstruction",
+    "thumbnail": "proj8.jpg",
+    "thumbnailDescription": "The old printing house 'Nikola Nikolić' is being adapted in the first phase into the Tri O department store. The second and third phases include hostel facilities and residential-commercial spaces.",
+    "year": [
+      "2009"
+    ],
+    "type": [
+      "Commercial"
+    ],
+    "phase": [
+      "Main"
+    ],
+    "contest": [
+      "Built"
+    ],
+    "expand": false,
+    "imagesFolderName": "/src/assets/projects/tri-o-kragujevac-robna-kuća-rekonstrukcija-štamparije/",
+    "mobileImagesFolderName": "/src/assets/projects/tri-o-kragujevac-robna-kuća-rekonstrukcija-štamparije - mobile/",
+    "client": "",
+    "location": "",
+    "description": "",
+    "gross": "",
+    "status": "",
+    "descriptionLong": ""
+  },
+  {
+    "id": 9,
+    "title": "Residential building in Aranđelovac",
+    "thumbnail": "proj9.jpg",
+    "thumbnailDescription": "The location is characterized by its proximity to the central and tourist zone of Aranđelovac - Bukovička Banja. The slightly elevated position on a hill next to a sports field makes the location optimally sunlit and ventilated, with a view of the city and Bukulja.",
+    "year": [
+      "2009"
+    ],
+    "type": [
+      "Residential"
+    ],
+    "phase": [
+      "Main"
+    ],
+    "contest": [
+      "Built"
+    ],
+    "expand": false,
+    "imagesFolderName": "/src/assets/projects/stambena-zgrada-u-aranđelovcu-9/",
+    "mobileImagesFolderName": "/src/assets/projects/stambena-zgrada-u-aranđelovcu-9 - mobile/",
+    "client": "",
+    "location": "",
+    "description": "",
+    "gross": "",
+    "status": "",
+    "descriptionLong": ""
+  },
+  {
+    "id": 10,
+    "title": "Stanković Bukulja Aranđelovac settlement",
+    "thumbnail": "proj10.jpg",
+    "thumbnailDescription": "The complex is located a five-minute walk from the center, yet on the very edge of the city, in the green belt below Bukulja, just above the beautiful park of Bukovička Banja.",
+    "year": [
+      "2009"
+    ],
+    "type": [
+      "Urbanism",
+      "Residential",
+      "Commercial"
+    ],
+    "phase": [
+      "Conceptual"
+    ],
+    "contest": [],
+    "expand": false,
+    "imagesFolderName": "/src/assets/projects/stanković-bukulja-aranđelovac-naselje/",
+    "mobileImagesFolderName": "/src/assets/projects/stanković-bukulja-aranđelovac-naselje - mobile/",
+    "client": "",
+    "location": "",
+    "description": "",
+    "gross": "",
+    "status": "",
+    "descriptionLong": ""
+  },
+  {
+    "id": 11,
+    "title": "Manes Aranđelovac",
+    "thumbnail": "proj11.jpg",
+    "thumbnailDescription": "The location is characterized by its proximity to the central and tourist zone of Aranđelovac - Bukovička Banja. The slightly elevated position on a hill next to the new church makes the location optimally sunlit and ventilated, with a view of the city and Bukulja.",
+    "year": [
+      "2009"
+    ],
+    "type": [
+      "Residential"
+    ],
+    "phase": [
+      "Main"
+    ],
+    "contest": [],
+    "expand": false,
+    "imagesFolderName": "/src/assets/projects/manes-aranđelovac/",
+    "mobileImagesFolderName": "/src/assets/projects/manes-aranđelovac - mobile/",
+    "client": "",
+    "location": "",
+    "description": "",
+    "gross": "",
+    "status": "",
+    "descriptionLong": ""
+  },
+  {
+    "id": 12,
+    "title": "House in Aranđelovac",
+    "thumbnail": "proj12.jpg",
+    "thumbnailDescription": "",
+    "year": [
+      "2008"
+    ],
+    "type": [
+      "Home"
+    ],
+    "phase": [
+      "Main"
+    ],
+    "contest": [
+      "Built"
+    ],
+    "expand": false,
+    "imagesFolderName": "/src/assets/projects/kuća-u-aranđelovcu-12/",
+    "mobileImagesFolderName": "/src/assets/projects/kuća-u-aranđelovcu-12 - mobile/",
+    "client": "",
+    "location": "",
+    "description": "",
+    "gross": "",
+    "status": "",
+    "descriptionLong": ""
+  },
+  {
+    "id": 13,
+    "title": "City of Belgrade, Makenzijeva square",
+    "thumbnail": "proj13.jpg",
+    "thumbnailDescription": "As part of the BINA manifestation, a competition for young architects was organized to define the new visual identity of Makenzijeva Street and the design of the open area bordered by Kneginje Zorke, Makenzijeve, and Molerove streets.",
+    "year": [
+      "2009"
+    ],
+    "type": [
+      "Urbanism",
+      "Public"
+    ],
+    "phase": [
+      "Conceptual"
+    ],
+    "contest": [
+      "Competition"
+    ],
+    "expand": false,
+    "imagesFolderName": "/src/assets/projects/grad-beograd,-makenzijeva-trg/",
+    "mobileImagesFolderName": "/src/assets/projects/grad-beograd,-makenzijeva-trg - mobile/",
+    "client": "",
+    "location": "",
+    "description": "",
+    "gross": "",
+    "status": "",
+    "descriptionLong": ""
+  },
+  {
+    "id": 14,
+    "title": "Senjak Market, 3rd prize",
+    "thumbnail": "proj14.jpg",
+    "thumbnailDescription": "Architectural Studio Saurus won the THIRD ENHANCED PRIZE for the competition design of the Senjak market building with an underground garage and public areas in 2010. The president of the competition jury was Vasilije Milunović, a full professor at the Faculty of Architecture.",
+    "year": [
+      "2010"
+    ],
+    "type": [
+      "Urbanism",
+      "Commercial",
+      "Public"
+    ],
+    "phase": [
+      "Conceptual"
+    ],
+    "contest": [
+      "Competition",
+      "Awarded"
+    ],
+    "expand": true,
+    "imagesFolderName": "/src/assets/projects/pijaca-senjak,-3.-nagrada/",
+    "mobileImagesFolderName": "/src/assets/projects/pijaca-senjak,-3.-nagrada - mobile/",
+    "client": "Municipality of Savski venac and DAB",
+    "location": "Senjak, Belgrade",
+    "description": "",
+    "gross": "7280 m2 under the building",
+    "status": "",
+    "descriptionLong": "Architectural studio Saurus won the third enhanced prize at the Senjak market competition. The second prize was not awarded.\nTHE CITY MUNICIPALITY OF SAVSKI VENAC, Belgrade in cooperation with the ASSOCIATION OF ARCHITECTS OF BELGRADE announced a general public anonymous survey urban-architectural competition for the design of the \"Senjak\" market.\nThe jury will evaluate the competition entries according to the following framework criteria:<br>- Compliance with the conditions of the brief and the competition program;<br>- The design concept appropriate to the importance of the location;<br>- The functionality of the market design;<br>- Contemporary tendencies in the design of city spaces and a modern traffic solution;<br>- The relationship of the proposed design to the surroundings.<br>- Rationality and economy of the offered solution.\nCompetition Jury:<br>Prof. Vasilije Milunović, B.Sc. Arch., President and members:<br>Ljubica Popović, B.Sc. Econ., M.Sc. Žaklina Gligorijević, B.Sc. Arch., Dragan Ćorović, B.Sc. Elec. Eng., Nina Mitranić, B.Sc. Arch., Slobodan Ristić, B.Sc. Arch., Aleksandar Nedeljković, B.Sc. Arch.\nThe complexity of the problem was inspiring in sculpting the hard-to-reach unity of many influences, producing a rich, multi-layered, and well-founded conceptual design with a lot of potential for further development."
+  },
+  {
+    "id": 15,
+    "title": "Municipality of Pančevo",
+    "thumbnail": "proj15.jpg",
+    "thumbnailDescription": "The location is characterized by its proximity to the central and tourist zone of Aranđelovac - Bukovička Banja. The slightly elevated position on a hill next to a sports field makes the location optimally sunlit and ventilated, with a view of the city and Bukulja.",
+    "year": [
+      "2010"
+    ],
+    "type": [],
+    "phase": [
+      "Interior"
+    ],
+    "contest": [
+      "Competition"
+    ],
+    "expand": false,
+    "imagesFolderName": "/src/assets/projects/opština-pančevo/",
+    "mobileImagesFolderName": "/src/assets/projects/opština-pančevo - mobile/",
+    "client": "",
+    "location": "",
+    "description": "",
+    "gross": "",
+    "status": "",
+    "descriptionLong": ""
+  },
+  {
+    "id": 16,
+    "title": "Square in Beočin, Novi Sad, 1st prize",
+    "thumbnail": "proj16.jpg",
+    "thumbnailDescription": "Architectural Studio Saurus won the FIRST PRIZE for the competition design of the square in Beočin. The jury members were the president of the jury Bogdan Cvejić, 'Lafarge' architect from Paris Leopold Lombard, and professor at the Faculty of Architecture in Belgrade Zoran Lazović.",
+    "year": [
+      "2009",
+      "2010"
+    ],
+    "type": [
+      "Urbanism",
+      "Public"
+    ],
+    "phase": [
+      "Main"
+    ],
+    "contest": [
+      "Competition",
+      "Awarded",
+      "Built"
+    ],
+    "expand": true,
+    "imagesFolderName": "/src/assets/projects/trg-u-beočinu,-novi-sad,-1.-nagrada/",
+    "mobileImagesFolderName": "/src/assets/projects/trg-u-beočinu,-novi-sad,-1.-nagrada - mobile/",
+    "client": "Lafarge BFC d.o.o.",
+    "location": "Beočin, Serbia",
+    "description": "",
+    "gross": "Around 3000 m2",
+    "status": "The square has been realized",
+    "descriptionLong": "Architectural studio Saurus won the competition. Excerpt from the Beočin municipality website www.beocin.rs:\nThe company Lafarge BFC d.o.o. announced a competition for the conceptual design of a square in Beočin, which will be built in cooperation with the municipality of Beočin. Based on the announced competition, a total of 48 entries were received. The international jury unanimously decided that the first prize for the conceptual design for the construction of the square in Beočin should go to the documentation under the code \"Lepeza\" (Fan). It is a joint work created by the married couple Tomić, Jelena and Srđan from Aranđelovac.\nGuided by the criteria that the idea should primarily be feasible, then that the square should be functional, i.e., serve the purpose of gathering citizens, and that it should fit well into the existing environment, the jury unanimously decided that the winning work should be the authorial work of the young married couple from Aranđelovac.\nThe jury members were the president of the jury Bogdan Cvejić, \"Lafarge's\" architect from Paris Leopold Lombard, professor of the Faculty of Architecture in Belgrade Zoran Lazović, professor of the Faculty of Architecture in Novi Sad Milica Kostreš and president of the Association of Architects of Novi Sad N.K.\nBased on the selected conceptual design, the project for the building permit, consulting, design supervision over the execution of the square."
+  },
+  {
+    "id": 17,
+    "title": "Bukovička Banja Park Aranđelovac Talpara",
+    "thumbnail": "proj17.jpg",
+    "thumbnailDescription": "",
+    "year": [
+      "2010"
+    ],
+    "type": [
+      "Commercial",
+      "Public"
+    ],
+    "phase": [
+      "Conceptual"
+    ],
+    "contest": [],
+    "expand": false,
+    "imagesFolderName": "/src/assets/projects/park-bukovička-banja-aranđelovac-talpara/",
+    "mobileImagesFolderName": "/src/assets/projects/park-bukovička-banja-aranđelovac-talpara - mobile/",
+    "client": "",
+    "location": "",
+    "description": "",
+    "gross": "",
+    "status": "",
+    "descriptionLong": ""
+  },
+  {
+    "id": 18,
+    "title": "Japanese fountain 3rd prize",
+    "thumbnail": "proj18.jpg",
+    "thumbnailDescription": "Architectural Studio Saurus won the THIRD PRIZE for the competition design on the theme of a Japanese fountain in Kalemegdan, organized by GSP Belgrade in 2010. The president of the competition jury was Branislav Mitrović, a full professor at the Faculty of Architecture.",
+    "year": [
+      "2010"
+    ],
+    "type": [
+      "Public"
+    ],
+    "phase": [
+      "Conceptual"
+    ],
+    "contest": [
+      "Competition",
+      "Awarded"
+    ],
+    "expand": true,
+    "imagesFolderName": "/src/assets/projects/japanska-česma-3.-nagrada/",
+    "mobileImagesFolderName": "/src/assets/projects/japanska-česma-3.-nagrada - mobile/",
+    "client": "GSP Belgrade",
+    "location": "Kalemegdan, Belgrade",
+    "description": "",
+    "gross": "",
+    "status": "",
+    "descriptionLong": "Architectural studio Saurus won the third prize in the competition. The idea was too demanding for the investor considering the deadlines for realization.\nWe dedicate this fountain on Kalemegdan to the Japanese people as a sign of gratitude for the help they provided us in difficult times. Japan is a country both spiritually and spatially distant. In a time when physical distances are erased via the \"world wide web\", we tried to get closer in this global virtual world and give our gift to every Japanese person. They will see it on Google Maps, Google Earth, internet applications that allow easy viewing of the entire surface of the planet in the form of satellite images via the internet. At the confluence of two rivers, in an old fortress full of historical layers, they will see it as one of the basic characters from the Japanese script that denotes the essential ingredient of nature - water.\nIf for any reason they wander from afar among these walls, they will be surprised to hear how people in Belgrade clumsily but unusually often repeat, in fact, every time they drink water, a sound familiar to them, the sonic part of the same concept - Mizu!\nNowhere on the fountain, in the mass media, are instructions for use highlighted. Citizens gradually conquer the urban secret that is transmitted orally, like city gossip. We predict that this immaterial aspect of discovery in the collective consciousness of the city, constantly renewing itself through new generations, will last longer than the material itself, which is another bow to Japanese philosophy.\nOn the location, we corrected an error in space by which the space defined by four trees is treated as an independent whole. The potential of this isolated island was unlocked and released to spill over the entire plateau at the level. In the ground floor treatment, this is reflected in one height quota and a sea of granite cubes on which concentric circles of greenery float. Thus, we activated the entire square in the function of the fountain with peripherally arranged seating positions for rest and observation.\nCompetition Jury:<br>Branislav Mitrović, B.Sc. Arch., full professor at the Faculty of Architecture and members: Darijan Mihajlović, member of the city council, Tetsuya Tsubota, first secretary of the Embassy of Japan in Serbia, Marina Andrić, art historian and Ksenija Kostić, B.Sc. Arch. GSP Belgrade."
+  },
+  {
+    "id": 19,
+    "title": "HE on the Drina Višegrad",
+    "thumbnail": "proj19.jpg",
+    "thumbnailDescription": "The conceptual design of the HE on the Drina administration building should follow the guidelines of the Vienna Memorandum on 'World Heritage and Contemporary Architecture - Managing the Historic Urban Landscape' from May 2005.",
+    "year": [
+      "2010"
+    ],
+    "type": [
+      "Commercial"
+    ],
+    "phase": [
+      "Conceptual"
+    ],
+    "contest": [
+      "Competition"
+    ],
+    "expand": false,
+    "imagesFolderName": "/src/assets/projects/he-na-drini-višegrad/",
+    "mobileImagesFolderName": "/src/assets/projects/he-na-drini-višegrad - mobile/",
+    "client": "",
+    "location": "",
+    "description": "",
+    "gross": "",
+    "status": "",
+    "descriptionLong": ""
+  },
+  {
+    "id": 20,
+    "title": "Ethnicraft Gir Paris exhibition stand",
+    "thumbnail": "proj20.jpg",
+    "thumbnailDescription": "",
+    "year": [
+      "2010"
+    ],
+    "type": [
+      "Commercial"
+    ],
+    "phase": [
+      "Conceptual"
+    ],
+    "contest": [],
+    "expand": false,
+    "imagesFolderName": "/src/assets/projects/ethnicraft-gir-pariz-izložbeni-štand/",
+    "mobileImagesFolderName": "/src/assets/projects/ethnicraft-gir-pariz-izložbeni-štand - mobile/",
+    "client": "",
+    "location": "",
+    "description": "",
+    "gross": "",
+    "status": "",
+    "descriptionLong": ""
+  },
+  {
+    "id": 21,
+    "title": "Winery",
+    "thumbnail": "proj21.jpg",
+    "thumbnailDescription": "",
+    "year": [
+      "2011"
+    ],
+    "type": [
+      "Commercial",
+      "Home"
+    ],
+    "phase": [
+      "Main"
+    ],
+    "contest": [
+      "Built"
+    ],
+    "expand": false,
+    "imagesFolderName": "/src/assets/projects/vinarija/",
+    "mobileImagesFolderName": "/src/assets/projects/vinarija - mobile/",
+    "client": "",
+    "location": "",
+    "description": "",
+    "gross": "",
+    "status": "",
+    "descriptionLong": ""
+  },
+  {
+    "id": 22,
+    "title": "Residential building Aranđelovac",
+    "thumbnail": "proj22.jpg",
+    "thumbnailDescription": "Maximized use of the exceptional potential of the location in the immediate vicinity of the park in Bukovička Banja. Nineteen apartments ranging from 30m2 to 75m2.",
+    "year": [
+      "2011"
+    ],
+    "type": [
+      "Residential"
+    ],
+    "phase": [
+      "Main"
+    ],
+    "contest": [
+      "Built"
+    ],
+    "expand": false,
+    "imagesFolderName": "/src/assets/projects/stambena-zgrada-aranđelovac/",
+    "mobileImagesFolderName": "/src/assets/projects/stambena-zgrada-aranđelovac - mobile/",
+    "client": "",
+    "location": "",
+    "description": "",
+    "gross": "",
+    "status": "",
+    "descriptionLong": ""
+  },
+  {
+    "id": 23,
+    "title": "Bukovička Banja Park Aranđelovac Kiosk",
+    "thumbnail": "proj23.jpg",
+    "thumbnailDescription": "Although its appearance is reminiscent of a traditional early 20th-century model, it is completely modernized. Collapsible from identical prefabricated parts, it transforms and adapts to the seasons.",
+    "year": [
+      "2011"
+    ],
+    "type": [
+      "Commercial",
+      "Public"
+    ],
+    "phase": [
+      "Main"
+    ],
+    "contest": [],
+    "expand": false,
+    "imagesFolderName": "/src/assets/projects/park-bukovička-banja-aranđelovac-kiosk/",
+    "mobileImagesFolderName": "/src/assets/projects/park-bukovička-banja-aranđelovac-kiosk - mobile/",
+    "client": "",
+    "location": "",
+    "description": "",
+    "gross": "",
+    "status": "",
+    "descriptionLong": ""
+  },
+  {
+    "id": 24,
+    "title": "Municipality of Batočina city square",
+    "thumbnail": "proj24.jpg",
+    "thumbnailDescription": "The idea of Architectural Studio Saurus was to stitch the damaged urban fabric with the strict and harmonious geometry of the square, making the scar of this intervention invisible to future generations.",
+    "year": [
+      "2010",
+      "2011"
+    ],
+    "type": [
+      "Urbanism",
+      "Commercial",
+      "Public"
+    ],
+    "phase": [
+      "Main"
+    ],
+    "contest": [
+      "Built"
+    ],
+    "expand": false,
+    "imagesFolderName": "/src/assets/projects/opština-batočina-gradski-trg/",
+    "mobileImagesFolderName": "/src/assets/projects/opština-batočina-gradski-trg - mobile/",
+    "client": "",
+    "location": "",
+    "description": "",
+    "gross": "",
+    "status": "",
+    "descriptionLong": ""
+  },
+  {
+    "id": 25,
+    "title": "House in Vinča",
+    "thumbnail": "proj25.jpg",
+    "thumbnailDescription": "",
+    "year": [
+      "2011"
+    ],
+    "type": [
+      "Urbanism",
+      "Home"
+    ],
+    "phase": [
+      "Main"
+    ],
+    "contest": [
+      "Built"
+    ],
+    "expand": false,
+    "imagesFolderName": "/src/assets/projects/kuća-u-vinči/",
+    "mobileImagesFolderName": "/src/assets/projects/kuća-u-vinči - mobile/",
+    "client": "",
+    "location": "",
+    "description": "",
+    "gross": "",
+    "status": "",
+    "descriptionLong": ""
+  },
+  {
+    "id": 26,
+    "title": "House in Aranđelovac",
+    "thumbnail": "proj26.jpg",
+    "thumbnailDescription": "",
+    "year": [
+      "2011"
+    ],
+    "type": [
+      "Home"
+    ],
+    "phase": [
+      "Main"
+    ],
+    "contest": [
+      "Built"
+    ],
+    "expand": false,
+    "imagesFolderName": "/src/assets/projects/kuća-u-aranđelovcu-26/",
+    "mobileImagesFolderName": "/src/assets/projects/kuća-u-aranđelovcu-26 - mobile/",
+    "client": "",
+    "location": "",
+    "description": "",
+    "gross": "",
+    "status": "",
+    "descriptionLong": ""
+  },
+  {
+    "id": 27,
+    "title": "City of Novi Sad Library",
+    "thumbnail": "proj27.jpg",
+    "thumbnailDescription": "",
+    "year": [
+      "2011"
+    ],
+    "type": [
+      "Public"
+    ],
+    "phase": [
+      "Conceptual"
+    ],
+    "contest": [
+      "Competition"
+    ],
+    "expand": false,
+    "imagesFolderName": "/src/assets/projects/grad-novi-sad-biblioteka/",
+    "mobileImagesFolderName": "/src/assets/projects/grad-novi-sad-biblioteka - mobile/",
+    "client": "",
+    "location": "",
+    "description": "",
+    "gross": "",
+    "status": "",
+    "descriptionLong": ""
+  },
+  {
+    "id": 28,
+    "title": "House in Aranđelovac",
+    "thumbnail": "proj28.jpg",
+    "thumbnailDescription": "",
+    "year": [
+      "2011"
+    ],
+    "type": [
+      "Home"
+    ],
+    "phase": [
+      "Interior"
+    ],
+    "contest": [
+      "Built"
+    ],
+    "expand": false,
+    "imagesFolderName": "/src/assets/projects/kuća-u-aranđelovcu-28/",
+    "mobileImagesFolderName": "/src/assets/projects/kuća-u-aranđelovcu-28 - mobile/",
+    "client": "",
+    "location": "",
+    "description": "",
+    "gross": "",
+    "status": "",
+    "descriptionLong": ""
+  },
+  {
+    "id": 29,
+    "title": "SRC Šumadija Aranđelovac",
+    "thumbnail": "proj29.jpg",
+    "thumbnailDescription": "The outdoor pool area of the SRC 'Šumadija' facility is designed as a modern tourist and recreational complex with mixed facilities for sports and recreation, catering, retail, and cultural-entertainment activities.",
+    "year": [
+      "2012"
+    ],
+    "type": [
+      "Urbanism",
+      "Commercial",
+      "Public"
+    ],
+    "phase": [
+      "Conceptual"
+    ],
+    "contest": [],
+    "expand": false,
+    "imagesFolderName": "/src/assets/projects/src-šumadija-aranđelovac/",
+    "mobileImagesFolderName": "/src/assets/projects/src-šumadija-aranđelovac - mobile/",
+    "client": "",
+    "location": "",
+    "description": "",
+    "gross": "",
+    "status": "",
+    "descriptionLong": ""
+  },
+  {
+    "id": 30,
+    "title": "City of Lazarevac Rasadnik settlement",
+    "thumbnail": "proj30.jpg",
+    "thumbnailDescription": "With the project, we extracted the maximum while fully satisfying the strictly defined conditions. However, the jury's opinion was (which has been common practice lately) that the given conditions were actually non-binding.",
+    "year": [
+      "2012"
+    ],
+    "type": [
+      "Residential",
+      "Urbanism"
+    ],
+    "phase": [
+      "Conceptual"
+    ],
+    "contest": [
+      "Competition"
+    ],
+    "expand": false,
+    "imagesFolderName": "/src/assets/projects/grad-lazarevac-naselje-rasadnik/",
+    "mobileImagesFolderName": "/src/assets/projects/grad-lazarevac-naselje-rasadnik - mobile/",
+    "client": "",
+    "location": "",
+    "description": "",
+    "gross": "",
+    "status": "",
+    "descriptionLong": ""
+  },
+  {
+    "id": 31,
+    "title": "House in Aranđelovac",
+    "thumbnail": "proj31.jpg",
+    "thumbnailDescription": "",
+    "year": [
+      "2013"
+    ],
+    "type": [
+      "Home"
+    ],
+    "phase": [
+      "Interior"
+    ],
+    "contest": [
+      "Built"
+    ],
+    "expand": false,
+    "imagesFolderName": "/src/assets/projects/kuća-u-aranđelovcu-31/",
+    "mobileImagesFolderName": "/src/assets/projects/kuća-u-aranđelovcu-31 - mobile/",
+    "client": "",
+    "location": "",
+    "description": "",
+    "gross": "",
+    "status": "",
+    "descriptionLong": ""
+  },
+  {
+    "id": 32,
+    "title": "House in Jajinci",
+    "thumbnail": "proj32.jpg",
+    "thumbnailDescription": "Conceptual design, building permit project, consulting, and design supervision for a family house in Belgrade. The shaping of the building is calm, modern, and subordinated to its residential function.",
+    "year": [
+      "2013",
+      "2014"
+    ],
+    "type": [
+      "Home"
+    ],
+    "phase": [
+      "Main"
+    ],
+    "contest": [
+      "Built"
+    ],
+    "expand": true,
+    "imagesFolderName": "/src/assets/projects/kuća-u-jajincima/",
+    "mobileImagesFolderName": "/src/assets/projects/kuća-u-jajincima - mobile/",
+    "client": "Alvasari doo",
+    "location": "Belgrade, Jajinci",
+    "description": "",
+    "gross": "445 m2",
+    "status": "Built",
+    "descriptionLong": "A house project in the zone of individual construction on the edge of the green zone. It is positioned on the northern side of the plot, oriented towards the southern intimate courtyard.<br>The building has a basement+GF+1+Attic. The slight height difference of the plot of 1.50m was used to form a semi-buried basement on the northern side which serves as a garage, boiler room, and firewood storage, with a warm connection - a staircase to the ground floor.<br>The ground floor of the building is at the elevation of the upper southern courtyard and is intended for a living room, while the night zone is on the 1st floor. The attic is a storage room.<br>The shaping of the building is calm, modern, and subordinated to its residential function. The form of the building consists of two basic cubes whose proportions and intersection create a stable composition."
+  },
+  {
+    "id": 33,
+    "title": "New Heaven house interior",
+    "thumbnail": "proj33.jpg",
+    "thumbnailDescription": "",
+    "year": [
+      "2014"
+    ],
+    "type": [
+      "Home"
+    ],
+    "phase": [
+      "Interior"
+    ],
+    "contest": [
+      "Built"
+    ],
+    "expand": false,
+    "imagesFolderName": "/src/assets/projects/new-heaven-enterijer-kuće/",
+    "mobileImagesFolderName": "/src/assets/projects/new-heaven-enterijer-kuće - mobile/",
+    "client": "",
+    "location": "",
+    "description": "",
+    "gross": "",
+    "status": "",
+    "descriptionLong": ""
+  },
+  {
+    "id": 34,
+    "title": "Vanilica Aranđelovac",
+    "thumbnail": "proj34.jpg",
+    "thumbnailDescription": "",
+    "year": [
+      "2015"
+    ],
+    "type": [
+      "Commercial"
+    ],
+    "phase": [
+      "Conceptual"
+    ],
+    "contest": [],
+    "expand": false,
+    "imagesFolderName": "/src/assets/projects/vanilica-aranđelovac/",
+    "mobileImagesFolderName": "/src/assets/projects/vanilica-aranđelovac - mobile/",
+    "client": "",
+    "location": "",
+    "description": "",
+    "gross": "",
+    "status": "",
+    "descriptionLong": ""
+  },
+  {
+    "id": 35,
+    "title": "Residential building in Aranđelovac",
+    "thumbnail": "proj35.jpg",
+    "thumbnailDescription": "",
+    "year": [
+      "2013",
+      "2014",
+      "2015"
+    ],
+    "type": [
+      "Residential"
+    ],
+    "phase": [
+      "Main"
+    ],
+    "contest": [
+      "Built"
+    ],
+    "expand": false,
+    "imagesFolderName": "/src/assets/projects/stambena-zgrada-u-aranđelovcu-35/",
+    "mobileImagesFolderName": "/src/assets/projects/stambena-zgrada-u-aranđelovcu-35 - mobile/",
+    "client": "",
+    "location": "",
+    "description": "",
+    "gross": "",
+    "status": "",
+    "descriptionLong": ""
+  },
+  {
+    "id": 36,
+    "title": "Residential building in Aranđelovac",
+    "thumbnail": "proj36.jpg",
+    "thumbnailDescription": "",
+    "year": [
+      "2015"
+    ],
+    "type": [
+      "Residential"
+    ],
+    "phase": [
+      "Conceptual"
+    ],
+    "contest": [],
+    "expand": false,
+    "imagesFolderName": "/src/assets/projects/stambeni-objekat-u-aranđelovcu/",
+    "mobileImagesFolderName": "/src/assets/projects/stambeni-objekat-u-aranđelovcu - mobile/",
+    "client": "",
+    "location": "",
+    "description": "",
+    "gross": "",
+    "status": "",
+    "descriptionLong": ""
+  },
+  {
+    "id": 37,
+    "title": "Apartment interior in Belgrade",
+    "thumbnail": "proj37.jpg",
+    "thumbnailDescription": "",
+    "year": [
+      "2016"
+    ],
+    "type": [
+      "Residential"
+    ],
+    "phase": [
+      "Interior"
+    ],
+    "contest": [
+      "Built"
+    ],
+    "expand": false,
+    "imagesFolderName": "/src/assets/projects/enterijer-stana-u-beogradu/",
+    "mobileImagesFolderName": "/src/assets/projects/enterijer-stana-u-beogradu - mobile/",
+    "client": "",
+    "location": "",
+    "description": "",
+    "gross": "",
+    "status": "",
+    "descriptionLong": ""
+  },
+  {
+    "id": 38,
+    "title": "House extension in Sremska Mitrovica",
+    "thumbnail": "proj38.jpg",
+    "thumbnailDescription": "",
+    "year": [
+      "2016"
+    ],
+    "type": [
+      "Home"
+    ],
+    "phase": [
+      "Conceptual"
+    ],
+    "contest": [],
+    "expand": false,
+    "imagesFolderName": "/src/assets/projects/dogradnja-kuće-u-sremskoj-mitrovici/",
+    "mobileImagesFolderName": "/src/assets/projects/dogradnja-kuće-u-sremskoj-mitrovici - mobile/",
+    "client": "",
+    "location": "",
+    "description": "",
+    "gross": "",
+    "status": "",
+    "descriptionLong": ""
+  },
+  {
+    "id": 39,
+    "title": "Almeks Hotel Tamiš Pančevo",
+    "thumbnail": "proj39.jpg",
+    "thumbnailDescription": "Architectural Studio Saurus. A city block in the immediate vicinity of the Tamiš River, the bridge, and the quay, right at the 'entrance' to Pančevo. The reconstruction of the hotel and the addition of a floor are proposed, as well as the addition of various facilities on the plot through six phases of construction.",
+    "year": [
+      "2016"
+    ],
+    "type": [
+      "Urbanism",
+      "Commercial",
+      "Public"
+    ],
+    "phase": [
+      "Conceptual"
+    ],
+    "contest": [
+      "Competition"
+    ],
+    "expand": true,
+    "imagesFolderName": "/src/assets/projects/almeks-hotel-tamiš-pančevo/",
+    "mobileImagesFolderName": "/src/assets/projects/almeks-hotel-tamiš-pančevo - mobile/",
+    "client": "Almex doo",
+    "location": "Pančevo",
+    "description": "",
+    "gross": "27508 m2",
+    "status": "Purchase",
+    "descriptionLong": "Context<br>The intervention area is located in the immediate vicinity of the Tamiš river, the bridge, and the quay, right at the \"entrance\" via the old road (main road BG - Vršac (Romania)) and in the immediate vicinity of the city center. The physical structure of the surrounding urban fabric is traditional block construction of predominantly individual ground floor+1 buildings.\nDescription of the Architectural solution with implementation dynamics<br>Architectural Studio Saurus. A city block in the immediate vicinity of the Tamiš river, the bridge, and the quay, right at the \"entrance\" to Pančevo. The reconstruction of the hotel and the addition of a floor are proposed, as well as the addition of various facilities on the plot through six phases of construction. Energy efficiency is improved through the energy rehabilitation of the hotel facade and its reconstruction.<br>The designed space can be divided into four sub-units by purpose - a hotel, a shopping center with a garage, a business unit, a residential-business unit, and a public space.<br>The total realized developed gross area is 27508 m2.<br>The total realized developed net area is 24385 m2.<br>Occupancy index (Iz) 50% (compared to the existing Iz 14%)\nIntegration<br>The problem in the urban fabric was created by the construction of an oversized freestanding object in a traditional block matrix of fragmented structure. The inversion of built-unbuilt is in complete contrast to the context.<br>The principle of integration was applied as a universal method for solving complex problems. The integration of Hotel Tamiš takes place on several levels:<br>- at the level of the built physical structure within the block (part of the belonging block) as well as the block itself (part of the belonging block) into the surrounding urban fabric - by peripheral construction.<br>- at the level of content - by integrating the hotel's content on the ground floor with the contents of the belonging block that will be built, as well as by introducing new contents that are attractive to a large number of visitors.<br>- by activating pedestrian flows, i.e., retaining existing pedestrian flows and forming new pedestrian flows, i.e., enabling a direct connection of the center with the river and other planned urban points by including it in the international tourist offer (accommodation of the city of Belgrade (practically at the same distance from the City Assembly of Belgrade as the hotel chains in New Belgrade) i.e., the main road Belgrade-Romania).\nActivation of the block's interior<br>Hotel Tamiš, with its free-standing brutally shaped corpus, occupies the central part of the block, leaving the regulation line free.<br>Physical structure - the structure of Hotel Tamiš, similar to a flower - develops in the existing grid over the entire surface of the plot's ground floor, forming solid-void (green) spaces. Peripheral construction could not be simply applied because it produces the problem of conflict between backyards and the hotel, i.e., a hotel inside the block. The solution was found in integration at the ground floor/parterre level - where it is common for the entire complex in its purpose and structure. The roofs of the ground floor wings of the hotel (restaurant) become green platforms - a new inner courtyard. Various pedestrian flows are allowed through the spaces of the complex, motivated by a carefully planned layout of different purposes and existing attractors (Tamiš, bus stops, Army House).\nEnergy efficiency and ecology<br>The applied materials and equipment need to meet the highest standards in this area - energy efficiency and savings, green energy production, and the use of technologically advanced solutions. Energy efficiency was achieved through the energy rehabilitation of the hotel's facade and its reconstruction. The planned objects fully respect these principles - by their shape, spatial organization, careful orientation, and technical solutions for heating (heat pumps and solar panels for heating hot water), lighting (LED lighting, high-class equipment), and rainwater reuse. Roof gardens are planned to reduce CO2 emissions and achieve a better microclimate of the block."
+  },
+  {
+    "id": 40,
+    "title": "Mirra Capital Belgrade",
+    "thumbnail": "proj40.jpg",
+    "thumbnailDescription": "",
+    "year": [
+      "2017"
+    ],
+    "type": [
+      "Commercial"
+    ],
+    "phase": [
+      "Interior"
+    ],
+    "contest": [],
+    "expand": false,
+    "imagesFolderName": "/src/assets/projects/mirra-capital-beograd/",
+    "mobileImagesFolderName": "/src/assets/projects/mirra-capital-beograd - mobile/",
+    "client": "",
+    "location": "",
+    "description": "",
+    "gross": "",
+    "status": "",
+    "descriptionLong": ""
+  },
+  {
+    "id": 41,
+    "title": "House in Sremska Mitrovica",
+    "thumbnail": "proj41.jpg",
+    "thumbnailDescription": "Architectural Studio Saurus. Conceptual design, building permit project, interior design, consulting, and design supervision for a family house in Sremska Mitrovica.",
+    "year": [
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "type": [
+      "Home"
+    ],
+    "phase": [
+      "Main"
+    ],
+    "contest": [
+      "Built"
+    ],
+    "expand": true,
+    "imagesFolderName": "/src/assets/projects/kuća-u-sremskoj-mitrovici/",
+    "mobileImagesFolderName": "/src/assets/projects/kuća-u-sremskoj-mitrovici - mobile/",
+    "client": "Private client",
+    "location": "Sremska Mitrovica",
+    "description": "",
+    "gross": "443 m2",
+    "status": "Built",
+    "descriptionLong": "The family building of GF (Ground Floor) floors, auxiliary buildings of GF and Basement+GF, and an outdoor pool are positioned on the regulation line towards the street and within the building lines.<br>A warm and comfortable home atmosphere is achieved with a traditional language and construction techniques in combination with modern technologies. The interior design is conceived in such a way that the inner and outer spaces together form an intimate whole separated from the public space.<br>The main building is set along the northern edge of the plot, oriented mostly to the south, leaving room for a courtyard in the southern part, while the auxiliary building perpendicular to it separates the garden in the western part of the plot set back from the street.<br>The ground floor design envisages dividing the plot into two levels to fit into the street profile which is at a slight slope. The building itself with its appurtenant plateau and pool finished with wooden decking is raised in relation to the rest of the yard."
+  },
+  {
+    "id": 42,
+    "title": "House interior in Jajinci",
+    "thumbnail": "proj42.jpg",
+    "thumbnailDescription": "",
+    "year": [
+      "2016",
+      "2017"
+    ],
+    "type": [
+      "Home"
+    ],
+    "phase": [
+      "Interior"
+    ],
+    "contest": [],
+    "expand": false,
+    "imagesFolderName": "/src/assets/projects/enterijer-kuće-u-jajincima/",
+    "mobileImagesFolderName": "/src/assets/projects/enterijer-kuće-u-jajincima - mobile/",
+    "client": "",
+    "location": "",
+    "description": "",
+    "gross": "",
+    "status": "",
+    "descriptionLong": ""
+  },
+  {
+    "id": 43,
+    "title": "House interior in Sremska Mitrovica",
+    "thumbnail": "proj43.jpg",
+    "thumbnailDescription": "Architectural Studio Saurus. Conceptual design, building permit project, interior design, consulting, and design supervision for a family house in Sremska Mitrovica.",
+    "year": [
+      "2016",
+      "2017"
+    ],
+    "type": [
+      "Home"
+    ],
+    "phase": [
+      "Interior"
+    ],
+    "contest": [
+      "Built"
+    ],
+    "expand": true,
+    "imagesFolderName": "/src/assets/projects/enterijer-kuće-u-sremskoj-mitrovici/",
+    "mobileImagesFolderName": "/src/assets/projects/enterijer-kuće-u-sremskoj-mitrovici - mobile/",
+    "client": "Private client",
+    "location": "Sremska Mitrovica",
+    "description": "",
+    "gross": "443 m2",
+    "status": "Built",
+    "descriptionLong": "The family building of GF (Ground Floor) floors, auxiliary buildings of GF and Basement+GF, and an outdoor pool are positioned on the regulation line towards the street and within the building lines.<br>A warm and comfortable home atmosphere is achieved with a traditional language and construction techniques in combination with modern technologies. The interior design is conceived in such a way that the inner and outer spaces together form an intimate whole separated from the public space.<br>The main building is set along the northern edge of the plot, oriented mostly to the south, leaving room for a courtyard in the southern part, while the auxiliary building perpendicular to it separates the garden in the western part of the plot set back from the street.<br>The ground floor design envisages dividing the plot into two levels to fit into the street profile which is at a slight slope. The building itself with its appurtenant plateau and pool finished with wooden decking is raised in relation to the rest of the yard."
+  },
+  {
+    "id": 44,
+    "title": "House in Aranđelovac",
+    "thumbnail": "proj44.jpg",
+    "thumbnailDescription": "",
+    "year": [
+      "2017"
+    ],
+    "type": [
+      "Home"
+    ],
+    "phase": [
+      "Main"
+    ],
+    "contest": [],
+    "expand": false,
+    "imagesFolderName": "/src/assets/projects/kuća-u-aranđelovcu-44/",
+    "mobileImagesFolderName": "/src/assets/projects/kuća-u-aranđelovcu-44 - mobile/",
+    "client": "",
+    "location": "",
+    "description": "",
+    "gross": "",
+    "status": "",
+    "descriptionLong": ""
+  },
+  {
+    "id": 45,
+    "title": "Caussade Semences Sremska Mitrovica",
+    "thumbnail": "proj45.jpg",
+    "thumbnailDescription": "",
+    "year": [
+      "2016",
+      "2017"
+    ],
+    "type": [
+      "Commercial"
+    ],
+    "phase": [
+      "Interior"
+    ],
+    "contest": [],
+    "expand": false,
+    "imagesFolderName": "/src/assets/projects/caussade-semences-sremska-mitrovica/",
+    "mobileImagesFolderName": "/src/assets/projects/caussade-semences-sremska-mitrovica - mobile/",
+    "client": "",
+    "location": "",
+    "description": "",
+    "gross": "",
+    "status": "",
+    "descriptionLong": ""
+  },
+  {
+    "id": 46,
+    "title": "Venice Architecture Biennale pavilion",
+    "thumbnail": "proj46.jpg",
+    "thumbnailDescription": "William Shakespeare says 'All the world's a stage'. The answer to the FREE SPACE theme is FREE STAGE. At the entrance to the pavilion, the passerby, just like in a public space, chooses the side and the role they will play, which is made known to them by a large sign.",
+    "year": [
+      "2017"
+    ],
+    "type": [
+      "Public"
+    ],
+    "phase": [
+      "Conceptual"
+    ],
+    "contest": [
+      "Competition"
+    ],
+    "expand": false,
+    "imagesFolderName": "/src/assets/projects/bijenale-arhitekture-venecija-paviljon/",
+    "mobileImagesFolderName": "/src/assets/projects/bijenale-arhitekture-venecija-paviljon - mobile/",
+    "client": "",
+    "location": "",
+    "description": "",
+    "gross": "",
+    "status": "",
+    "descriptionLong": ""
+  },
+  {
+    "id": 47,
+    "title": "Mirra Capital Belgrade Madridska 8",
+    "thumbnail": "proj47.jpg",
+    "thumbnailDescription": "Architectural Studio Saurus. Conceptual design, building permit project, interior design, consulting, and design supervision for a residential-commercial building with a gross area of 3470m2.",
+    "year": [
+      "2014",
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "type": [
+      "Residential",
+      "Commercial"
+    ],
+    "phase": [
+      "Main"
+    ],
+    "contest": [
+      "Built"
+    ],
+    "expand": true,
+    "imagesFolderName": "/src/assets/projects/mirra-capital-beograd-madridska-8/",
+    "mobileImagesFolderName": "/src/assets/projects/mirra-capital-beograd-madridska-8 - mobile/",
+    "client": "Mirra Capital doo",
+    "location": "Belgrade, Bulevar kralja Aleksandra / Madridska 8",
+    "description": "",
+    "gross": "3470 m2",
+    "status": "Built",
+    "descriptionLong": "Architectural Studio Saurus created the conceptual design, building permit project, interior design, consulting, and design supervision for a residential and commercial building on the corner of Bulevar kralja Aleksandra and Madridska Street with a gross area of 3470m2 with 40 apartments. The location has high potential in the planned further development of the city based on the Master Plan of Belgrade 2021. It is located at the entrance to the central zone of Belgrade, in the zone of the newly planned sub-center and in the middle of the stretch between the newly planned representative space Promenade Pašina česma on the site of the old tram turnaround across the park-square and the newly planned business center at the intersection of Bulevar kralja Aleksandra and Ustanička.<br>The building is positioned along the building lines towards Bulevar kralja Aleksandra (the building line coincides with the regulation line) and Madridska Street (the building line is 3m away from the regulation line), closing the block on the corner in an L shape and leaning with its gable walls at the height of the planned maximum heights of the neighbors, which differs significantly. The complexity of the height regulation problem is a consequence of the large elevation difference between the two streets and their different importance and profile.\nViewed from Bulevar kralja Aleksandra, the ground floor with commercial space is a separate entity - the base of the building, the framed 6 floors of the building with residential function are the body, and the set-back floor with a canopy forms the cornice of the building. Secondary plasticity is defined by a strict grid of horizontals and verticals that frame the windows and loggias, and a rhythmic intertwining of two types of materialization. However, the building is formally separated into two units horizontally, each fitting into the planned street profile. The lower part of the building with three residential floors is treated as an interpolation that starts the future row of buildings along Madridska Street. The connecting element is the protruding \"storefront\" of the commercial space that bends from the Boulevard and underlines the interpolation, framing and unifying the two facades. The part of the building below the 0.00 elevation, i.e., the commercial floor that underlines the entire building, from Madridska Street is treated as a \"service\", vehicular entrance, and garage on two levels, within which is inserted, until the realization of the Detailed Regulation Plan, the only possible pedestrian entrance to the building."
+  },
+  {
+    "id": 48,
+    "title": "Mirra Capital Belgrade Bulevar 414",
+    "thumbnail": "proj48.jpg",
+    "thumbnailDescription": "A rhythmic, moderate facade combining warm brick, white surfaces, and dark metal parts attempts to connect the dignity of one of Belgrade's main streets with the warmth and intimacy of a home.",
+    "year": [
+      "2017",
+      "2018"
+    ],
+    "type": [
+      "Urbanism",
+      "Residential",
+      "Commercial"
+    ],
+    "phase": [
+      "Conceptual"
+    ],
+    "contest": [],
+    "expand": true,
+    "imagesFolderName": "/src/assets/projects/mirra-capital-beograd-bulevar-414/",
+    "mobileImagesFolderName": "/src/assets/projects/mirra-capital-beograd-bulevar-414 - mobile/",
+    "client": "Mirra Capital doo",
+    "location": "Belgrade, Bulevar kralja Aleksandra 414",
+    "description": "",
+    "gross": "6350 m2",
+    "status": "In preparation",
+    "descriptionLong": "The location at the intersection of Bulevar kralja Aleksandra and Mite Ružića, i.e., Katarine Milovuk, closes the corner of a compact high-density block defined by the Detailed Regulation Plan.<br>Functionally, the maximum was extracted from the given conditions with the achieved commercial space on the ground floor. The residential-commercial building contains 50 high-quality apartments of optimal surface area and diverse structure, and the necessary number of parking spaces on three garage levels.<br>Given that it is among the first to start the realization of the plan for the further expansion of Bulevar kralja Aleksandra from Cvetko's market onwards, the building has no support in the existing context, but rather defines it itself.\nA rhythmic, moderate facade in a combination of warm brick, white surfaces, and dark metal parts with a specially articulated, but not exaggerated corner, attempts to connect the dignity and public character of one of Belgrade's main streets with the warmth and intimacy of a home.\nBuilding on previous brick examples, but in a fresh way, using the possibility of choosing modern brick products for a more subtle combination of contrasting materials, with the quality of energy efficiency that far exceeds former standards."
+  },
+  {
+    "id": 49,
+    "title": "Family house on a hill in Belgrade",
+    "thumbnail": "proj49.jpg",
+    "thumbnailDescription": "Little Fortress. The house optimally blends with the terrain on several cascading levels along which the interior spaces open up to the sun and the view like a spiral flower and extend onto open terraces.",
+    "year": [
+      "2017",
+      "2018"
+    ],
+    "type": [
+      "Home"
+    ],
+    "phase": [
+      "Conceptual"
+    ],
+    "contest": [],
+    "expand": true,
+    "imagesFolderName": "/src/assets/projects/porodična-kuća-na-brdu-u-beogradu/",
+    "mobileImagesFolderName": "/src/assets/projects/porodična-kuća-na-brdu-u-beogradu - mobile/",
+    "client": "Private client",
+    "location": "Kumodraž, Belgrade",
+    "description": "",
+    "gross": "195m2",
+    "status": "Conceptual design",
+    "descriptionLong": "A family house for a family of four on a demanding steep terrain is positioned halfway up the slope to open a view over the neighbors. The house optimally blends with the terrain on several cascading levels along which the inner spaces open up to the sun and the view like a spiral flower and extend to open terraces. The entire complex with a pool is bounded by retaining stone walls and fences, forming a compact whole reminiscent of a small family fortress. \"Well, they'll have a harder time tearing down this little fortress...\""
+  },
+  {
+    "id": 50,
+    "title": "Šumadinka house in Banja Aranđelovac",
+    "thumbnail": "proj50.jpg",
+    "thumbnailDescription": "Šumadinka, a house in Banja Aranđelovac, is a timeless response to the traditional context of good hosts and the green, hilly Šumadija idyll. The house is optimally positioned on a gently sloping terrain.",
+    "year": [
+      "2017",
+      "2018"
+    ],
+    "type": [
+      "Home"
+    ],
+    "phase": [
+      "Conceptual",
+      "Main"
+    ],
+    "contest": [],
+    "expand": true,
+    "imagesFolderName": "/src/assets/projects/šumadinka-kuća-u-banji-aranđelovac/",
+    "mobileImagesFolderName": "/src/assets/projects/šumadinka-kuća-u-banji-aranđelovac - mobile/",
+    "client": "Private client",
+    "location": "Banja Aranđelovac",
+    "description": "",
+    "gross": "266m2",
+    "status": "Building permit obtained",
+    "descriptionLong": "Šumadinka, a house in Banja Aranđelovac, is a timeless response to the traditional context of good hosts and the green, hilly Šumadija idyll. The house is optimally positioned on a gently sloping terrain. The main problem at the location was the conflict between the need to open living rooms to the view down the hill, and the need to open to the sun up the hill. The project enabled both by dividing the house into a sleeping and a living wing, which is freely oriented on three sides. Natural materials were used - clay, wood, and stone. Energy efficiency and indoor comfort were achieved by using modernized traditional brick blocks with high thermal insulation properties that allow the house to \"breathe\" with minimal costs of maintaining thermal comfort."
+  },
+  {
+    "id": 51,
+    "title": "Interior of a family house in Belgrade",
+    "thumbnail": "proj51.jpg",
+    "thumbnailDescription": "Order is introduced from the inside into the inherited unarticulated framework. A trendy cool space is intentionally avoided. Instead – a warm and tactile atmosphere of a home.",
+    "year": [
+      "2017",
+      "2018"
+    ],
+    "type": [
+      "Home"
+    ],
+    "phase": [
+      "Conceptual",
+      "Interior"
+    ],
+    "contest": [],
+    "expand": true,
+    "imagesFolderName": "/src/assets/projects/enterijer-porodične-kuće-u-beogradu/",
+    "mobileImagesFolderName": "/src/assets/projects/enterijer-porodične-kuće-u-beogradu - mobile/",
+    "client": "Private client",
+    "location": "Belgrade",
+    "description": "",
+    "gross": "200m2",
+    "status": "In preparation",
+    "descriptionLong": "Interior of a family house in Belgrade. A better description would be the Architecture of the inner space. Order is introduced from the inside into the inherited unarticulated framework. A project of five facades and lighting that supports the shape. A trendy cool space is intentionally avoided. Instead – a warm and tactile atmosphere of a home."
+  },
+  {
+    "id": 52,
+    "title": "Interior of the Šumadinka house in Banja Aranđelovac",
+    "thumbnail": "proj52.jpg",
+    "thumbnailDescription": "Architecture of the inner space. A project of five facades and lighting that supports the shape. A high arched window that catches the sun behind the hill and pulls it deep into the space.",
+    "year": [
+      "2018",
+      "2019"
+    ],
+    "type": [
+      "Home"
+    ],
+    "phase": [
+      "Conceptual",
+      "Interior"
+    ],
+    "contest": [],
+    "expand": true,
+    "imagesFolderName": "/src/assets/projects/enterijer-kuće-šumadinka-u-banji-aranđelovac/",
+    "mobileImagesFolderName": "/src/assets/projects/enterijer-kuće-šumadinka-u-banji-aranđelovac - mobile/",
+    "client": "Private client",
+    "location": "Banja Aranđelovac",
+    "description": "",
+    "gross": "200m2",
+    "status": "In preparation",
+    "descriptionLong": "Interior of the Šumadinka house in Banja Aranđelovac. Architecture of the inner space. A project of five facades and lighting that supports the shape. A high arched window that catches the sun behind the hill and pulls it deep into the space."
+  },
+  {
+    "id": 53,
+    "title": "Competition Savski square Belgrade",
+    "thumbnail": "proj53.jpg",
+    "thumbnailDescription": "It is precisely from the love between a father and son that Serbia began to grow like an oak, initially as the Nemanjić family tree, to further continue with branches reaching through the centuries. Savski square is organized as an Oak growing from the center.",
+    "year": [
+      "2018",
+      "2019"
+    ],
+    "type": [
+      "Urbanism",
+      "Public"
+    ],
+    "phase": [],
+    "contest": [
+      "Competition"
+    ],
+    "expand": true,
+    "imagesFolderName": "/src/assets/projects/konkurs-savski-trg-beograd/",
+    "mobileImagesFolderName": "/src/assets/projects/konkurs-savski-trg-beograd - mobile/",
+    "client": "City of Belgrade",
+    "location": "Belgrade",
+    "description": "",
+    "gross": "27000 m2",
+    "status": "Not awarded",
+    "descriptionLong": "By the scheduled deadline, a total of 25 competition entries were submitted.<br>The jury worked in the following composition:<br>President of the Jury: Prof. Janez Koželj, architect, representative of the Association of Architects of Serbia<br>Vice President of the Jury: Milutin Folić, architect, Chief Urbanist of the City of Belgrade and members:<br>Osama Al Hassan, landscape architect, representative of the Client<br>Jovan Mitrović, architect, representative of the Association of Architects of Serbia<br>Dr. Milena Kordić, architect, representative of the Association of Architects of Serbia<br>The jury made the following decisions:<br>• First prize \"Fenwick Iribarren Architects\", Madrid, Spain<br>• Second prize \"Medprostor\" d.o.o., Ljubljana, Slovenia<br>• Third prize: \"SWA Group (SWA)\", California, USA, associates: \"CEP\" - Center for Urban Development Planning, Belgrade<br>• Purchase 1: \"Arhitektura ARSA\", Novi Pazar, Republic of Serbia (Damir Rastoder, Admir Bibić, Emrah Bronja, Armin Redžepagić)<br>• Purchase 2: InSite, a division of KEO International Consultants\", Abu Dhabi, UAE<br>• Purchase 3, 4 and 5 were not awarded.\nSavski square - Hrastko<br>Stefan Nemanja is in the focus of the square, in front of the entrance to the National Museum of the History of Serbia, as a guardian of the gate, a portal to the future. Nemanja was a ruler, a man of the sword, a name derived from \"neman\" (monster). He named one of his sons Rastko, after growth, or oak (hrast), the sacred Serbian tree. Rastko became St. Sava, the spiritual leader of the Serbian people. It is precisely from the love between a father and son that Serbia began to grow like an oak, initially as the Nemanjić family tree, to further continue with branches reaching through the centuries. Savski square is organized as an Oak that grows from the center, forming organic fractal cells in its crown. Each cell is one open room, an island for different activities, which change from time to time. They can be related to the Museum of the History of Serbia, like the mentioned theme of the Nemanjić family tree, or some other branch chosen from the rich and long Serbian history, or something completely different from the domain of popular art, shopping, entertainment..."
+  },
+  {
+    "id": 54,
+    "title": "House settlement in Malawi, Africa",
+    "thumbnail": "proj54.jpg",
+    "thumbnailDescription": "A house settlement in the capital of Malawi in Central Africa. The small neighborhood community consists of nine standard market-oriented houses and one owner's villa. Fenced and controlled access, shared maintenance, and installations.",
+    "year": [
+      "2018",
+      "2019"
+    ],
+    "type": [
+      "Urbanism",
+      "Home"
+    ],
+    "phase": [
+      "Main"
+    ],
+    "contest": [],
+    "expand": true,
+    "imagesFolderName": "/src/assets/projects/naselje-kuća-u-malaviju-afrika/",
+    "mobileImagesFolderName": "/src/assets/projects/naselje-kuća-u-malaviju-afrika - mobile/",
+    "client": "Private client",
+    "location": "Malawi, Africa",
+    "description": "",
+    "gross": "9x220m2",
+    "status": "Under construction",
+    "descriptionLong": "The location is very favorable, on an elevation above the city with a beautiful view of the surrounding mountain landscape, and good traffic connections. A special problem is fitting into the triangular shape of the plot and the sloping terrain, with the required high population density and the separation of the owner's villa as a distinct, physically and visually isolated entity. The cultural context of this settlement is not Africa itself, but the global market. A temperature that ranges from +15 to +35 does not require a special thermal envelope, which allows for freer facade design."
+  },
+  {
+    "id": 55,
+    "title": "Villa with a pool in Malawi, Africa",
+    "thumbnail": "proj55.jpg",
+    "thumbnailDescription": "A villa with a pool in the capital of Malawi in Central Africa. The slope of the terrain is used to separate the villa from the other houses in the settlement, thereby allowing southern orientation of the living zone with large glass surfaces overlooking the surrounding mountains.",
+    "year": [
+      "2018",
+      "2019"
+    ],
+    "type": [
+      "Urbanism",
+      "Home"
+    ],
+    "phase": [
+      "Main"
+    ],
+    "contest": [],
+    "expand": true,
+    "imagesFolderName": "/src/assets/projects/vila-sa-bazenom-u-malaviju-afrika/",
+    "mobileImagesFolderName": "/src/assets/projects/vila-sa-bazenom-u-malaviju-afrika - mobile/",
+    "client": "Private client",
+    "location": "Malawi, Africa",
+    "description": "",
+    "gross": "567m2",
+    "status": "Under construction",
+    "descriptionLong": "The location is very favorable, on an elevation above the city with a beautiful view of the surrounding mountain landscape, and good traffic connections. A special problem is fitting into the triangular shape of the plot and the sloping terrain, with the required high population density and the separation of the owner's villa as a distinct, physically and visually isolated entity from the rest of the houses in the complex. The slope of the terrain was used to separate the villa from the other houses in the settlement, enabling the southern orientation of the living zone with large glass surfaces. The temperature, which ranges from +15 to +35, does not require a special thermal envelope, which allows for freer facade design."
+  },
+  {
+    "id": 56,
+    "title": "Traditional villa on a hill",
+    "thumbnail": "proj56.jpg",
+    "thumbnailDescription": "In a traditional way, organically grown from the green waves of Šumadija, following the relief with its roof, this villa modestly peeks from behind the hill.",
+    "year": [
+      "2019"
+    ],
+    "type": [
+      "Home"
+    ],
+    "phase": [
+      "Conceptual"
+    ],
+    "contest": [],
+    "expand": false,
+    "imagesFolderName": "/src/assets/projects/vila-na-brdu-tradicionalna/",
+    "mobileImagesFolderName": "/src/assets/projects/vila-na-brdu-tradicionalna - mobile/",
+    "client": "",
+    "location": "",
+    "description": "",
+    "gross": "",
+    "status": "",
+    "descriptionLong": ""
+  },
+  {
+    "id": 57,
+    "title": "Modern villa on a hill",
+    "thumbnail": "proj57.jpg",
+    "thumbnailDescription": "Like a ship among the green waves of Šumadija, the villa is carefully located, defying the natural environment with its minimalist design and white color, stimulating it with contrast.",
+    "year": [
+      "2019"
+    ],
+    "type": [
+      "Home"
+    ],
+    "phase": [
+      "Conceptual"
+    ],
+    "contest": [],
+    "expand": false,
+    "imagesFolderName": "/src/assets/projects/vila-na-brdu-moderna/",
+    "mobileImagesFolderName": "/src/assets/projects/vila-na-brdu-moderna - mobile/",
+    "client": "",
+    "location": "",
+    "description": "",
+    "gross": "",
+    "status": "",
+    "descriptionLong": ""
+  },
+  {
+    "id": 58,
+    "title": "Packom commercial complex Belgrade",
+    "thumbnail": "proj58.jpg",
+    "thumbnailDescription": "Packom commercial complex Belgrade. Landscaping. Facade. Interior. A combination of brick and dark aluminum joinery with large glass surfaces on the facade was used, a rhythm also carried out on the ground floor with tactile clinker paving featuring islands of greenery.",
+    "year": [
+      "2019"
+    ],
+    "type": [
+      "Urbanism",
+      "Commercial"
+    ],
+    "phase": [
+      "Conceptual"
+    ],
+    "contest": [
+      "Built"
+    ],
+    "expand": true,
+    "imagesFolderName": "/src/assets/projects/poslovni-kompleks-packom-beograd/",
+    "mobileImagesFolderName": "/src/assets/projects/poslovni-kompleks-packom-beograd - mobile/",
+    "client": "Packom doo",
+    "location": "Belgrade",
+    "description": "",
+    "gross": "9x220m2",
+    "status": "Realized",
+    "descriptionLong": "Packom commercial complex Belgrade. Landscaping. Facade. Interior. These are a series of ad-hoc solutions ranging from conceptual to main projects in the domain of plot landscaping, architectural treatment of the building that builds upon the existing structure, and the interior of the commercial space with very short deadlines for realization. A combination of brick and dark aluminum joinery with large glass surfaces was used on the facade, a rhythm also applied to the ground floor with tactile clinker paving with islands of greenery that do not interfere with the functionality of the production process while simultaneously defining regular observable open spaces, with a specially emphasized square in front of the building entrance."
+  },
+  {
+    "id": 59,
+    "title": "Packom commercial interior Belgrade",
+    "thumbnail": "proj59.jpg",
+    "thumbnailDescription": "Packom commercial complex Belgrade. Landscaping. Facade. Interior. Open space commercial area with glass partitions for physical and acoustic, but not visual, isolation. A contrast of tactile rustic brick, untreated raw concrete structure, warm wood, and smooth marble with gold and dark metal accents.",
+    "year": [
+      "2019"
+    ],
+    "type": [
+      "Commercial"
+    ],
+    "phase": [
+      "Conceptual",
+      "Interior"
+    ],
+    "contest": [
+      "Built"
+    ],
+    "expand": true,
+    "imagesFolderName": "/src/assets/projects/poslovni-enterijer-packom-beograd/",
+    "mobileImagesFolderName": "/src/assets/projects/poslovni-enterijer-packom-beograd - mobile/",
+    "client": "Packom doo",
+    "location": "Belgrade",
+    "description": "",
+    "gross": "9x220m2",
+    "status": "Realized",
+    "descriptionLong": "Packom commercial complex Belgrade. Landscaping. Facade. Interior. Open space commercial area with glass partitions for physical and acoustic, but not visual isolation. A contrast of tactile rustic brick, untreated raw concrete structure, warm wood, and smooth marble with gold and dark metal accents. Steel Case furniture with minimalist white alongside refreshing pistachio green tones. The geometry of a windmill around a central column generates dynamic and static fields on the floor and ceiling, following the functions of movement and sitting, defining special parts within the common whole. The inner roof terrace functions as an atrium, bringing in additional light and opening the space in the center of events..."
+  },
+  {
+    "id": 60,
+    "title": "Adaptation into a multi-family residential-commercial urban villa",
+    "thumbnail": "proj60.jpg",
+    "thumbnailDescription": "A difficult task of converting an inherited structure into a high-standard multi-family residential-commercial building that fits the typology of an 'urban villa'. Four apartments of different sizes and structures and two shops on the ground floor.",
+    "year": [
+      "2019"
+    ],
+    "type": [
+      "Residential",
+      "Commercial"
+    ],
+    "phase": [
+      "Main"
+    ],
+    "contest": [],
+    "expand": false,
+    "imagesFolderName": "/src/assets/projects/adaptacija-u-višeporodičnu-stambeno-poslovnu-urbanu-vilu/",
+    "mobileImagesFolderName": "/src/assets/projects/adaptacija-u-višeporodičnu-stambeno-poslovnu-urbanu-vilu - mobile/",
+    "client": "",
+    "location": "",
+    "description": "",
+    "gross": "",
+    "status": "",
+    "descriptionLong": ""
+  },
+  {
+    "id": 61,
+    "title": "Adaptation into a Hotel in Belgrade",
+    "thumbnail": "proj61.jpg",
+    "thumbnailDescription": "Main project for the adaptation of an existing building in the gray phase into a hotel with 76 beds in 32 rooms and a restaurant.",
+    "year": [
+      "2019"
+    ],
+    "type": [],
+    "phase": [
+      "Main"
+    ],
+    "contest": [],
+    "expand": true,
+    "imagesFolderName": "/src/assets/projects/adaptacija-u-hotel-u-beogradu/",
+    "mobileImagesFolderName": "/src/assets/projects/adaptacija-u-hotel-u-beogradu - mobile/",
+    "client": "Elegance doo",
+    "location": "Belgrade",
+    "description": "",
+    "gross": "2250m2",
+    "status": "In preparation",
+    "descriptionLong": "Main project for the adaptation of an existing building in the gray phase into a hotel with 76 beds in 32 rooms and a restaurant. With very limited funds, along with predefined proportions and arrangements of openings and the roof, a harmonious whole was formed by dividing the facades into a base in stone, a body in light plaster, and a floor - cornice by using shallow plasticity and fine shades in the final finish. A hotel equipped with a modern installation system is planned, which is synchronized by the project both mutually and with the inherited concrete structure."
+  }
+]
