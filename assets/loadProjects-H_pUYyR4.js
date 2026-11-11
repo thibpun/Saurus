@@ -1,4 +1,4 @@
-import{t as e}from"./nav-CkvKuC5e.js";import{t}from"./sanityClient-DgA2SV1W.js";var n={type:{Poslovni:`Commercial`,Urbanizam:`Urbanism`,Stambeni:`Residential`,Kuća:`Home`,Javni:`Public`},phase:{Idejni:`Conceptual`,Glavni:`Main`,Enterijer:`Interior`},contest:{Konkurs:`Competition`,Nagrađen:`Awarded`,Izveden:`Built`}};function r(e,t){return t===`en`?{...e,type:(e.type||[]).map(e=>n.type[e]||e),phase:(e.phase||[]).map(e=>n.phase[e]||e),contest:(e.contest||[]).map(e=>n.contest[e]||e)}:e}async function i(e=`sr`){return(await t.fetch(`*[_type == "project" && hide!=true] | order(sortOrder asc) {
+import"./nav-CkvKuC5e.js";import{t as e}from"./sanityClient-DgA2SV1W.js";var t={type:{Poslovni:`Commercial`,Urbanizam:`Urbanism`,Stambeni:`Residential`,Kuća:`Home`,Javni:`Public`},phase:{Idejni:`Conceptual`,Glavni:`Main`,Enterijer:`Interior`},contest:{Konkurs:`Competition`,Nagrađen:`Awarded`,Izveden:`Built`}};function n(e,n){return n===`en`?{...e,type:(e.type||[]).map(e=>t.type[e]||e),phase:(e.phase||[]).map(e=>t.phase[e]||e),contest:(e.contest||[]).map(e=>t.contest[e]||e)}:e}async function r(t=`sr`){return(await e.fetch(`*[_type == "project" && hide!=true] | order(sortOrder asc) {
         _id,
         "title": select(
             $language == "en" => titleEn,
@@ -17,7 +17,7 @@ import{t as e}from"./nav-CkvKuC5e.js";import{t}from"./sanityClient-DgA2SV1W.js";
         "phase": coalesce(phase, []),
         "contest": coalesce(contest, []),
         expand
-    }`,{language:e})).map(t=>r(t,e))}async function a(e,n=`sr`){return t.fetch(`*[_id == $id]{
+    }`,{language:t})).map(e=>n(e,t))}async function i(t,n=`sr`){return e.fetch(`*[_id == $id]{
         "images":coalesce(images[]{
             alt,
             "url": asset->url
@@ -26,7 +26,7 @@ import{t as e}from"./nav-CkvKuC5e.js";import{t}from"./sanityClient-DgA2SV1W.js";
             alt,
             "url": asset->url
           })
-      }`,{id:e,language:n})}async function o(e,n=`sr`){return t.fetch(`*[slug.current == $slug]{
+      }`,{id:t,language:n})}async function a(t,n=`sr`){return e.fetch(`*[slug.current == $slug]{
        "title": select(
            $language == "en" => titleEn,
            title
@@ -70,4 +70,4 @@ import{t as e}from"./nav-CkvKuC5e.js";import{t}from"./sanityClient-DgA2SV1W.js";
             alt,
             "url": asset->url
         })       
-     }`,{slug:e,language:n})}var s={lang:null,data:null};async function c(){let t=e.language||`sr`,n=t===`en`?`projects_en.json`:`projects.json`;if(s.data&&s.lang===t)return s.data;try{let e=`?v=${Date.now()}`,r=await fetch(`/Saurus/${n}${e}`,{cache:`no-store`});if(!r.ok)throw Error(`HTTP error! status:${r.status}`);let i=await r.json();return s={lang:t,data:i},i}catch(e){return console.error(`Could not fetch projects!`,e),[]}}c();export{c as i,a as n,i as r,o as t};
+     }`,{slug:t,language:n})}export{i as n,r,a as t};
