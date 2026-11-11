@@ -3,56 +3,12 @@ import i18next from "i18next";
 const resources = {
   sr: {
     translation: {
-      home: {
-        featuredProjects: "Istaknuti projekti",
-        galleryLabel: "Galerija arhitektonskih projekata",
-      
-        slide1: {
-          category: "urbanizam — Mesto, Godina",
-          title: "Naziv projekta 1",
-          imageAlt: "Moderna minimalistička vila",
-          description1:
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum in tempora veritatis autem error delectus sequi rerum, sint quaerat ut molestias facilis id, fuga dolor exercitationem fugit dolore, ducimus aperiam?",
-          description2:
-            "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem quos nostrum, maiores dolore labore velit dolorem laborum error sapiente hic?"
-        },
-      
-        slide2: {
-          category: "stambeni — mesto, godina",
-          title: "Naziv projekta 2",
-          imageAlt: "Futuristička višespratnica",
-          description1:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eum nobis ducimus sint illo! A, nulla odit ea, quasi expedita at veniam et, corrupti aliquam ab laborum sed asperiores rerum.",
-          description2:
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi exercitationem dolorum necessitatibus sit laboriosam facilis harum libero, sunt ipsum nobis?"
-        },
-      
-        slide3: {
-          category: "enterijer — mesto, godina",
-          title: "Naziv projekta 3",
-          imageAlt: "Projekat enterijera",
-          description1:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eum nobis ducimus sint illo! A, nulla odit ea, quasi expedita at veniam et, corrupti aliquam ab laborum sed asperiores rerum.",
-          description2:
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi exercitationem dolorum necessitatibus sit laboriosam facilis harum libero, sunt ipsum nobis?"
-        },
-      
-        slide4: {
-          category: "poslovni — mesto, godina",
-          title: "Naziv projekta 4",
-          imageAlt: "Projekat poslovnog objekta",
-          description1:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eum nobis ducimus sint illo! A, nulla odit ea, quasi expedita at veniam et, corrupti aliquam ab laborum sed asperiores rerum.",
-          description2:
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi exercitationem dolorum necessitatibus sit laboriosam facilis harum libero, sunt ipsum nobis?"
-        },
-      
-        previousSlide: "Prethodni slajd",
-        nextSlide: "Sledeći slajd"
-      },
       meta: {
-        title:
-          "Arhitektonski studio Saurus - Analize lokacija, projekti za legalizaciju",
+        home:"Arhitektonski studio Saurus - Za unapređenje prostora za život običnih ljudi",
+        studio:"Arhitektonski studio Saurus - Analize lokacija, projekti za legalizaciju",
+        projekti:"Arhitektonski projekti studija Saurus od enterijera do trgova",
+        vesti:"Arhitektonski studio Saurus - Projektantski nadzor, blog i vesti",
+        404: "Stranica ne postoji - Arhitektonski studio SAURUS"
       },
 
       navigation: {
@@ -174,63 +130,21 @@ const resources = {
 
       newsPage: {
         title: "Vesti",
-        
+      },
+      404: {
+        text: "Stranica ne postoji.",
       },
     },
   },
 
   en: {
     translation: {
-      home: {
-        featuredProjects: "Featured Projects",
-        galleryLabel: "Architecture Projects Gallery",
-      
-        slide1: {
-          category: "urban planning — Place, Year",
-          title: "Project Name 1",
-          imageAlt: "Modern minimalist villa",
-          description1:
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum in tempora veritatis autem error delectus sequi rerum, sint quaerat ut molestias facilis id, fuga dolor exercitationem fugit dolore, ducimus aperiam?",
-          description2:
-            "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem quos nostrum, maiores dolore labore velit dolorem laborum error sapiente hic?"
-        },
-      
-        slide2: {
-          category: "residential — place, year",
-          title: "Project Name 2",
-          imageAlt: "Futuristic high-rise building",
-          description1:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eum nobis ducimus sint illo! A, nulla odit ea, quasi expedita at veniam et, corrupti aliquam ab laborum sed asperiores rerum.",
-          description2:
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi exercitationem dolorum necessitatibus sit laboriosam facilis harum libero, sunt ipsum nobis?"
-        },
-      
-        slide3: {
-          category: "interior — place, year",
-          title: "Project Name 3",
-          imageAlt: "Interior architecture project",
-          description1:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eum nobis ducimus sint illo! A, nulla odit ea, quasi expedita at veniam et, corrupti aliquam ab laborum sed asperiores rerum.",
-          description2:
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi exercitationem dolorum necessitatibus sit laboriosam facilis harum libero, sunt ipsum nobis?"
-        },
-      
-        slide4: {
-          category: "commercial — place, year",
-          title: "Project Name 4",
-          imageAlt: "Commercial architecture project",
-          description1:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eum nobis ducimus sint illo! A, nulla odit ea, quasi expedita at veniam et, corrupti aliquam ab laborum sed asperiores rerum.",
-          description2:
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi exercitationem dolorum necessitatibus sit laboriosam facilis harum libero, sunt ipsum nobis?"
-        },
-      
-        previousSlide: "Previous Slide",
-        nextSlide: "Next Slide"
-      },
       meta: {
-        title:
-          "Saurus Architectural Studio - Site Analysis, Building Legalization Projects",
+        home: "Architectural Studio Saurus - Improving living spaces for everyday people",
+        studio: "Architectural Studio Saurus - Site analysis and legalization design",
+        projekti: "Architectural projects by Studio Saurus - From interior design to public squares",
+        vesti: "Architectural Studio Saurus - Construction supervision, blog, and news",
+        404: "Page not found - Arhitektonski studio SAURUS"
       },
 
       navigation: {
@@ -352,7 +266,9 @@ const resources = {
 
       newsPage: {
         title: "News",
-        
+      },
+      404: {
+        text: "Oops! That page can’t be found.",
       },
     },
   },
@@ -404,7 +320,7 @@ function updatePageLanguage() {
   });
 
   // Update the page title
-  document.title = i18next.t("meta.title");
+  // document.title = i18next.t("meta.title");
 
   // Show the language we can switch TO
   const languageToggle = document.querySelector("#language-toggle");

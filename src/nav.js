@@ -68,7 +68,7 @@ function initNotHome(){
         }
     }
     links.forEach(link=>{
-        if(link.textContent.toLowerCase()===currentPage.toLowerCase())link.style.color="black";
+        if(link.textContent.toLowerCase()===currentPage.toLowerCase() &&location.pathname.split("/").at(-1)==="")link.style.color="black";
         else{
             link.addEventListener("mouseenter",(e)=>{
                 link.style.color="black";

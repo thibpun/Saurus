@@ -903,3 +903,28 @@ body.no-scroll {
   font-weight: 300;
   line-height: 27px;
 }
+/* 404 */
+#missing-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40rem;
+  max-width: 80%;
+  font-family: "Pontano Sans", sans-serif;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#missing-container p {
+  font-size: 17px;
+}
+#missing-container span {
+  font-size: 200px;
+  color: rgba(0, 0, 0, 0.05);
+}
+@media (max-width: 65rem) {
+  #missing-container span {
+    font-size: 100px;
+  }
+}
