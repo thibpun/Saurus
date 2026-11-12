@@ -3,7 +3,6 @@ const carousel=carouselContainer.querySelector('div');
 const projectsContainer = document.getElementById('projects-container');
 const body=document.querySelector("body");
 const closeBtn=document.querySelector("#close-popout iconify-icon");
-// import getProjects from "./loadProjects";
 
 import { fetchProjectImages } from "./loadProjects";
 

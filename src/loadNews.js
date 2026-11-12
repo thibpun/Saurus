@@ -1,6 +1,11 @@
 import { sanityClient } from "./sanityClient.js";
 
 export async function fetchNewsPreview(language = "sr") {
+
+    const cacheKey = `newsPreview_${language}`;
+    const cachedData = sessionStorage.getItem(cacheKey);
+    if (cachedData) return JSON.parse(cachedData);
+
     const query = `*[_type == "news" && hide!=true] | order(sortOrder asc) {
         "title": select(
             $language == "en" => titleEn,
@@ -9,7 +14,10 @@ export async function fetchNewsPreview(language = "sr") {
 
         "slug": slug.current,
 
-        "thumbnail": thumbnail.asset->url,
+        "thumbnail":coalesce(thumbnail{
+            alt,
+            "url": asset->url
+        }),
         "description": select(
             $language == "en" => descriptionEn,
             description
@@ -17,9 +25,19 @@ export async function fetchNewsPreview(language = "sr") {
         date,
         "relatedProject": relatedProject-> slug.current
     }`;
-    return await sanityClient.fetch(query, { language });
+    const data = await sanityClient.fetch(query, { language });
+    try{
+        sessionStorage.setItem(cacheKey, JSON.stringify(data));
+    }
+    catch{}
+    return data;
 }
 export async function fetchNewsArticle(slug, language = "sr") {
+    const cacheKey = `newsArticle_${slug}_${language}`;
+    
+    const cachedData = sessionStorage.getItem(cacheKey);
+    if (cachedData) return JSON.parse(cachedData);
+
     const query = `*[_type == "news" && slug.current == $slug] | order(sortOrder asc) {
         "title": select(
             $language == "en" => titleEn,
@@ -33,5 +51,10 @@ export async function fetchNewsArticle(slug, language = "sr") {
             articleContent
         ),
     }`;
-    return await sanityClient.fetch(query, {slug, language });
+    const data = await sanityClient.fetch(query, {slug, language });
+    try{
+        sessionStorage.setItem(cacheKey, JSON.stringify(data));
+    }
+    catch{}
+    return data;
 }

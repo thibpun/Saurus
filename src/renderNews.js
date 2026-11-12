@@ -30,7 +30,7 @@ export default function renderNews(news){
   </div>
   <div class="article-content">
   <a href="${createLink(article)}">
-  <img src="${article.thumbnail}" alt="">
+  <img src="${article.thumbnail.url}" alt="${article.thumbnail.alt}">
   <h2>${article.title}</h2>
   </a>
   <p class="article-text">${article.description}</p>

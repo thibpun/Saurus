@@ -9,7 +9,8 @@ export default defineConfig(({ command }) => ({
   appType: 'mpa',
 
   plugins: [dev404()],
-  base: command === 'build' ? '/Saurus/' : '/',
+  // base: command === 'build' ? '/Saurus/' : '/',
+  base: '/',
   server: {
     watch: {
         usePolling: true

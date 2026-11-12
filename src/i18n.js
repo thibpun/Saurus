@@ -48,7 +48,7 @@ const resources = {
       },
 
       about: {
-        heading: "O studiju",
+        title: "O studiju",
 
         paragraph1:
           "Osnovan 2007. godine, Saurus je arhitektonski studio za unapređenje prostora za život običnih ljudi sa težnjom da se uključi što širi krug uticaja bez izuzetaka i time postigne maksimalan broj rešenih problema ugrađenih u harmoničnu celinu. Arhitekturu ne shvatamo kao modni trend. Svako rešenje zasnivamo na kontekstu i na klasičnim, neprolaznim vrednostima, utemeljenim na prirodi stvari.",
@@ -184,7 +184,7 @@ const resources = {
       },
 
       about: {
-        heading: "About the Studio",
+        title: "About the Studio",
 
         paragraph1:
           "Founded in 2007, Saurus is an architectural studio dedicated to improving the spaces in which everyday people live. We seek to take as broad a range of influences into account as possible, with the aim of resolving as many practical problems as possible within a harmonious whole. We do not see architecture as a fashion trend. Every solution is based on its context and on classical, timeless values grounded in the nature of things.",

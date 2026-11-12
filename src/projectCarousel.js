@@ -54,14 +54,14 @@ else{
           } 
     },{passive:true});
 }
-export default function createCarousel(imagesLinks,mobileLinks){
+export default function createCarousel(desktopImages,mobileImages){
     let innerHtml='';
     let rectangles='';
-    for(let i=0;i<imagesLinks.length;i++){
+    for(let i=0;i<desktopImages.length;i++){
         if(i==0){
             innerHtml+=`<picture data-active>
-            <source media="(min-width: 65rem)" srcset="${imagesLinks[i].url}">
-            <img src="${mobileLinks[i].url}" alt="${mobileLinks[i].alt}" fetchpriority="high">
+            <source media="(min-width: 65rem)" srcset="${desktopImages[i].url}">
+            <img src="${mobileImages[i].url}" alt="${mobileImages[i].alt}" fetchpriority="high">
             </picture>`;
             rectangles+=`<button type="button" class="rectangular-marker" data-active aria-label="show image ${i+1}"></button>`;
         }
@@ -69,15 +69,15 @@ export default function createCarousel(imagesLinks,mobileLinks){
         {
             try{
                 innerHtml+=`<picture>
-                <source media="(min-width: 65rem)" srcset="${imagesLinks[i].url}">
-                <img src="${mobileLinks[i].url}" alt="${mobileLinks[i].alt}">
+                <source media="(min-width: 65rem)" srcset="${desktopImages[i].url}">
+                <img src="${mobileImages[i].url}" alt="${mobileImages[i].alt}">
                 </picture>`;
                 rectangles+=`<button type="button" class="rectangular-marker" aria-label="show image ${i+1}"></button>`;
             }
             catch{
                 innerHtml+=`<picture>
-                <source media="(min-width: 65rem)" srcset="${imagesLinks[i].url}">
-                <img src="${imagesLinks[i].url}" alt="${imagesLinks[i].alt}">
+                <source media="(min-width: 65rem)" srcset="${desktopImages[i].url}">
+                <img src="${desktopImages[i].url}" alt="${desktopImages[i].alt}">
                 </picture>`;
                 rectangles+=`<button type="button" class="rectangular-marker" aria-label="show image ${i+1}"></button>`;       
             }

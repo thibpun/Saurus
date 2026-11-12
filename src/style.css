@@ -379,7 +379,7 @@ body.no-scroll {
   }
 }
 
-/* PROJECTS */
+/* Projekti */
 #projects-container {
   width: 95%;
   display: flex;
@@ -411,6 +411,9 @@ body.no-scroll {
 }
 .project:hover img {
   filter: brightness(40%);
+}
+.is-hidden {
+  display: none;
 }
 .card-content {
   position: relative;
@@ -904,6 +907,12 @@ body.no-scroll {
   line-height: 27px;
 }
 /* 404 */
+#main-box {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+}
 #missing-container {
   display: flex;
   flex-direction: column;
@@ -911,10 +920,12 @@ body.no-scroll {
   width: 40rem;
   max-width: 80%;
   font-family: "Pontano Sans", sans-serif;
-  position: absolute;
+  margin: 0 auto;
+  padding: 15rem 0;
+  /* position: absolute;
   top: 30%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
 }
 #missing-container p {
   font-size: 17px;

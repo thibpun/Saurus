@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   
 
   if (!projectSlug) {
-    document.body.innerHTML = `<h1>${doesntExistError}</h1>`;
+    showMissingError();
     return;
   }
   
@@ -36,7 +36,6 @@ i18next.on('languageChanged', async () => {
 
 async function insertProject(){
   const project = (await fetchProjectExpaned(projectSlug,i18next.language))[0];
-
   if (project){
     createCarousel(project.images,project.mobileImages);
     document.querySelector('title').textContent = project.title;
@@ -52,5 +51,23 @@ async function insertProject(){
     );
     document.getElementById('project-description').innerHTML = DOMPurify.sanitize(contentHTML);
   }
-  else document.body.innerHTML = `<h1>${doesntExistError}</h1>`;
+  else showMissingError();
+}
+
+function showMissingError(){
+  const mainContainer = document.querySelector('main')
+  const footer=document.querySelector('footer');
+  footer?.remove();
+  mainContainer.removeAttribute("id");
+  mainContainer.id="main-box";
+  mainContainer.innerHTML = `
+  <section id="missing-container">
+  <p data-i18n="404.text">Oops! That page can't be found.</p>
+  <span>404</span>
+</section>
+<footer class="link-container">
+  <a href="https://www.facebook.com/StudioSaurus/" aria-label="Facebook"><iconify-icon icon="ri:facebook-fill" class="link-icon"></iconify-icon></a>
+  <a href="https://www.instagram.com/studio_saurus/" aria-label="Instagram"><iconify-icon icon="ri:instagram-line" class="link-icon"></iconify-icon></a>
+  <a href="https://www.linkedin.com/company/studio-saurus/" aria-label="LinkedIn"><iconify-icon icon="ri:linkedin-fill" class="link-icon"></iconify-icon></a>
+</footer>`;
 }

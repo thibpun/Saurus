@@ -39,7 +39,6 @@ i18next.on('languageChanged', async () => {
 });
 async function insertArticle(){
   const article = (await fetchNewsArticle(articleSlug,i18next.language))[0];
-  console.log(article);
   if (article){
     articleContainer.querySelector('img').src=article.bannerImage;
     articleContainer.querySelector('h1').textContent = article.title;
