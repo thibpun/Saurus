@@ -1,4 +1,4 @@
-import{t as e}from"./nav-C6JxV5Xw.js";import{n as t}from"./loadNews-Bg2sZGWW.js";var n=document.getElementById(`news-container`);async function r(){o(await t(e.language))}r(),e.on(`languageChanged`,async()=>{o(await t(e.language))});var i=[`JAN`,`FEB`,`MAR`,`APR`,`MAY`,`JUN`,`JUL`,`AUG`,`SEP`,`OCT`,`NOV`,`DEC`];function a(e){return i[parseInt(e.split(`-`)[1],10)-1]}function o(e){n.innerHTML=e.toReversed().map(e=>`<div class="article">
+import{t as e}from"./nav-b7tX028B.js";import{n as t}from"./loadNews-DxwvKy_1.js";var n=document.getElementById(`news-container`);async function r(){o(await t(e.language))}r(),e.on(`languageChanged`,async()=>{o(await t(e.language))});var i=[`JAN`,`FEB`,`MAR`,`APR`,`MAY`,`JUN`,`JUL`,`AUG`,`SEP`,`OCT`,`NOV`,`DEC`];function a(e){return i[parseInt(e.split(`-`)[1],10)-1]}function o(e){n.innerHTML=e.toReversed().map(e=>`<div class="article">
   <div class="article-date">
   <time>${e.date.split(`-`)[2]}</time>
   <time>${a(e.date)} ${e.date.split(`-`)[0]}</time>
