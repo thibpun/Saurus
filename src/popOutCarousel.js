@@ -3,7 +3,6 @@ const carousel=carouselContainer.querySelector('div');
 const projectsContainer = document.getElementById('projects-container');
 const body=document.querySelector("body");
 const closeBtn=document.querySelector("#close-popout iconify-icon");
-
 import { fetchProjectImages } from "./loadProjects";
 
 let images;
@@ -23,10 +22,20 @@ function init() {
     }
   });
   closeBtn.addEventListener("click",()=>{
-    carouselContainer.style.display="none";
-    body.classList.toggle("no-scroll");
-    carousel.innerHTML='';
+    if (history.state && history.state.modalOpen) history.back();
+    else{
+        carouselContainer.style.display = 'none';
+        body.classList.toggle("no-scroll");
+        carousel.innerHTML='';
+    } 
   })
+  window.addEventListener('popstate', ()=> {
+    if (carouselContainer.style.display === 'flex'){
+        carouselContainer.style.display='none';
+        body.classList.toggle("no-scroll");
+        carousel.innerHTML='';
+    } 
+});
   if(!isMobile.matches){
     
     carousel.addEventListener('mousemove',(event)=>{
@@ -121,6 +130,7 @@ async function renderCarousel(desiredID){
     images=carousel.querySelectorAll('picture');
     markers=markerContainer.querySelectorAll('button');
     createButtonEvents(markerContainer);
+    history.pushState({ modalOpen: true }, '', window.location.href);
 }
 function createButtonEvents(markerContainer){
     markerContainer.addEventListener("click",(e)=>{
@@ -143,4 +153,3 @@ function changeImage(newIndex, activeImage){
 }
 
 init();
-

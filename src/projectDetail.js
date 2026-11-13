@@ -36,6 +36,7 @@ i18next.on('languageChanged', async () => {
 
 async function insertProject(){
   const project = (await fetchProjectExpaned(projectSlug,i18next.language))[0];
+  console.log(project);
   if (project){
     createCarousel(project.images,project.mobileImages);
     document.querySelector('title').textContent = project.title;
