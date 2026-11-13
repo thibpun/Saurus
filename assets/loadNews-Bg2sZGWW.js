@@ -1,4 +1,4 @@
-import{t as e}from"./sanityClient-zoRskoEF.js";async function t(t=`sr`){let n=`newsPreview_${t}`,r=sessionStorage.getItem(n);if(r)return JSON.parse(r);let i=await e.fetch(`*[_type == "news" && hide!=true] | order(sortOrder asc) {
+import{t as e}from"./sanityClient-DgA2SV1W.js";async function t(t=`sr`){let n=`newsPreview_${t}`,r=sessionStorage.getItem(n);if(r)return JSON.parse(r);let i=await e.fetch(`*[_type == "news" && hide!=true] | order(sortOrder asc) {
         "title": select(
             $language == "en" => titleEn,
             title
