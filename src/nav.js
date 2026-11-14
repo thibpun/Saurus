@@ -23,7 +23,7 @@ navToggle.addEventListener('click',()=>{
     }
 })
 if(navbar.classList.contains("home"))initHome();
-else if(!isMobile.matches) initNotHome();
+else initNotHome();
     
     
 function initHome(){
@@ -69,14 +69,24 @@ function initNotHome(){
         }
     }
     links.forEach(link=>{
-        if(link.textContent.toLowerCase()===currentPage.toLowerCase() &&location.pathname.split("/").at(-1)==="")link.style.color="black";
-        else{
+        if(isMobile.matches){
             link.addEventListener("mouseenter",(e)=>{
-                link.style.color="black";
-            })
-            link.addEventListener("mouseleave",(e)=>{
                 link.style.color="rgb(105, 105, 105)";
             })
+            link.addEventListener("mouseleave",(e)=>{
+                link.style.color="black";
+            })
+        }
+        else{
+            if(link.textContent.toLowerCase()===currentPage.toLowerCase() &&location.pathname.split("/").at(-1)==="")link.style.color="black";
+            else{
+                link.addEventListener("mouseenter",(e)=>{
+                    link.style.color="black";
+                })
+                link.addEventListener("mouseleave",(e)=>{
+                    link.style.color="rgb(105, 105, 105)";
+                })
+            }
         }
     })
 }
