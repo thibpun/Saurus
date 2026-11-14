@@ -138,6 +138,7 @@ strong {
 }
 .mobile-nav-toggle {
   display: none;
+  cursor: pointer;
 }
 .navbar {
   z-index: 9999;

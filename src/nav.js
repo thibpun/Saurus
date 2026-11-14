@@ -4,6 +4,7 @@ const navToggle=document.querySelector('.mobile-nav-toggle');
 const navbar=document.querySelector('.navbar');
 const links=Array.from(navMenu.querySelectorAll("a"));
 import i18next from "./i18n.js";
+const isMobile = window.matchMedia("(max-width: 65rem)");
 
 navToggle.addEventListener('click',()=>{
     const visibility=navMenu.getAttribute("data-visible");
@@ -22,7 +23,7 @@ navToggle.addEventListener('click',()=>{
     }
 })
 if(navbar.classList.contains("home"))initHome();
-else initNotHome();
+else if(!isMobile.matches) initNotHome();
     
     
 function initHome(){
